@@ -1,0 +1,50 @@
+[
+  {
+    "league": "Serie A",
+    "date": "29 ago · 11:30",
+    "team1": { "name": "Inter", "abbr": "INT", "color": "#5B8DEF" },
+    "team2": { "name": "Nápoli", "abbr": "NAP", "color": "#3DBE7C" },
+    "pick": "Ambos equipos anotan",
+    "confidence": 2
+  },
+  {
+    "league": "Bundesliga",
+    "date": "29 ago · 12:30",
+    "team1": { "name": "Bayern", "abbr": "BAY", "color": "#E4574B" },
+    "team2": { "name": "Leverkusen", "abbr": "LEV", "color": "#8B96A3" },
+    "pick": "Bayern gana",
+    "confidence": 3
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "29 ago · 15:00",
+    "team1": { "name": "Alianza Lima", "abbr": "ALI", "color": "#5B5FE8" },
+    "team2": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
+    "pick": "Empate y ambos anotan",
+    "confidence": 1
+  },
+  {
+    "league": "Premier League",
+    "date": "29 ago · 16:00",
+    "team1": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
+    "team2": { "name": "Chelsea", "abbr": "CHE", "color": "#3DBE7C" },
+    "pick": "Empate",
+    "confidence": 2
+  },
+  {
+    "league": "Liga Prof. Argentina",
+    "date": "29 ago · 17:00",
+    "team1": { "name": "River Plate", "abbr": "RIV", "color": "#5B8DEF" },
+    "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#E8A93C" },
+    "pick": "Menos de 2.5 goles",
+    "confidence": 2
+  },
+  {
+    "league": "LaLiga",
+    "date": "30 ago · 10:00",
+    "team1": { "name": "Real Madrid", "abbr": "RMA", "color": "#5B5FE8" },
+    "team2": { "name": "Málaga", "abbr": "MAL", "color": "#8B96A3" },
+    "pick": "Real Madrid o empate, ambos anotan",
+    "confidence": 3
+  }
+]
