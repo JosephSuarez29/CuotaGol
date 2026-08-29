@@ -1,9 +1,9 @@
 [
   {
-    "league": "Serie A",
-    "date": "29 ago · 11:30",
-    "team1": { "name": "Inter", "abbr": "INT", "color": "#5B8DEF" },
-    "team2": { "name": "Nápoli", "abbr": "NAP", "color": "#3DBE7C" },
+    "league": "Liga 1 Perú",
+    "date": "29 ago · 15:30",
+    "team1": { "name": "UTC", "abbr": "UTC", "color": "#5B8DEF" },
+    "team2": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
     "pick": "Ambos equipos anotan",
     "confidence": 2
   },
