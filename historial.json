@@ -1,83 +1,13 @@
-/*
-  PLANTILLA DE HISTORIAL — actualmente comentada a propósito.
-  Mientras este archivo sea un comentario, la web no puede leerlo como datos,
-  así que la sección "Historial" simplemente no muestra nada en el sitio.
-  Tú sigues viendo la estructura completa aquí, en el código, como referencia.
-
-  Cómo activarlo cuando tengas resultados reales:
-  1) Borra la línea "/*" de arriba de este bloque y la línea "*/" del final
-     (las que abren y cierran este comentario). Ojo: solo esas dos líneas.
-  2) Debajo queda el arreglo [ ... ] con partidos de ejemplo.
-     Reemplázalos por tus partidos reales.
-  3) Cada partido necesita: league, date, team1, team2, pick, y result
-     ("acierto" o "fallo", nada más — son los dos únicos valores válidos).
-  4) Guarda el commit en GitHub. El sitio calcula el % de acierto solo.
 
 [
   {
     "league": "LaLiga",
-    "date": "24 ago",
+    "date": "30 ago",
     "team1": "Real Madrid",
-    "team2": "Betis",
-    "pick": "Real Madrid gana",
-    "result": "acierto"
-  },
-  {
-    "league": "Premier League",
-    "date": "24 ago",
-    "team1": "Man City",
-    "team2": "Brighton",
-    "pick": "Más de 2.5 goles",
-    "result": "acierto"
-  },
-  {
-    "league": "Serie A",
-    "date": "23 ago",
-    "team1": "Juventus",
-    "team2": "Roma",
-    "pick": "Empate",
-    "result": "fallo"
-  },
-  {
-    "league": "Liga 1 Perú",
-    "date": "23 ago",
-    "team1": "Sporting Cristal",
-    "team2": "Melgar",
-    "pick": "Ambos equipos anotan",
-    "result": "acierto"
-  },
-  {
-    "league": "Bundesliga",
-    "date": "22 ago",
-    "team1": "Dortmund",
-    "team2": "Leipzig",
-    "pick": "Dortmund gana",
-    "result": "fallo"
-  },
-  {
-    "league": "LaLiga",
-    "date": "22 ago",
-    "team1": "Atlético Madrid",
-    "team2": "Girona",
-    "pick": "Atlético gana y +1.5 goles",
-    "result": "acierto"
-  },
-  {
-    "league": "Liga Prof. Argentina",
-    "date": "21 ago",
-    "team1": "River Plate",
-    "team2": "Racing",
-    "pick": "Menos de 2.5 goles",
-    "result": "acierto"
-  },
-  {
-    "league": "Premier League",
-    "date": "21 ago",
-    "team1": "Liverpool",
-    "team2": "Newcastle",
-    "pick": "Liverpool gana",
+    "team2": "Malaga",
+    "pick": "Gana Real Madrid +1.5 goles del Real Madrid",
     "result": "acierto"
   }
 ]
-*/
+
 
