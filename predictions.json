@@ -1,62 +1,42 @@
 [
   {
-    "id": "inter-napoli-290826",
-    "league": "Serie A",
-    "date": "29 ago · 11:30",
-    "team1": { "name": "Inter", "abbr": "INT", "color": "#5B8DEF" },
-    "team2": { "name": "Nápoli", "abbr": "NAP", "color": "#3DBE7C" },
-    "pick": "Ambos equipos anotan",
-    "confidence": 2,
-    "analysis": "Inter llega con la mejor defensa del arranque de temporada, pero de visita ha sufrido para mantener la portería en cero en sus últimas salidas. Nápoli, por su parte, ha marcado en cada partido como local esta temporada y presiona alto desde el inicio. La combinación de un Inter que ataca con confianza y un Nápoli que rara vez se queda sin anotar en casa hace que ambos marquen sea la lectura más razonable del partido."
-  },
-  {
-    "id": "bayern-leverkusen-290826",
-    "league": "Bundesliga",
-    "date": "29 ago · 12:30",
-    "team1": { "name": "Bayern", "abbr": "BAY", "color": "#E4574B" },
-    "team2": { "name": "Leverkusen", "abbr": "LEV", "color": "#8B96A3" },
-    "pick": "Bayern gana",
+    "id": "flamengo-botafogo-300826",
+    "league": "Brasileirão",
+    "date": "30 ago · 14:00 (Perú)",
+    "team1": { "name": "Flamengo", "abbr": "FLA", "color": "#E4574B" },
+    "team2": { "name": "Botafogo", "abbr": "BOT", "color": "#232E39" },
+    "pick": "Gana Flamengo",
     "confidence": 3,
-    "analysis": "Bayern no pierde en casa frente a Leverkusen desde hace varias temporadas y llega con su ataque titular disponible al completo. Leverkusen viene de rotar jugadores clave por competencia europea entre semana, lo que suele notarse en el ritmo del equipo. Salvo sorpresa, el partido debería seguir el guion habitual: dominio de balón e intensidad de Bayern desde el arranque."
-  },
-  {
-    "id": "alianza-universitario-290826",
-    "league": "Liga 1 Perú",
-    "date": "29 ago · 15:00",
-    "team1": { "name": "Alianza Lima", "abbr": "ALI", "color": "#5B5FE8" },
-    "team2": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
-    "pick": "Empate y ambos anotan",
-    "confidence": 1,
-    "analysis": "Un clásico es un clásico: la tabla y la forma reciente pesan menos de lo normal en este tipo de partidos. Ambos equipos llegan necesitados de puntos y sin margen para arriesgar de más, lo que suele traducirse en un partido trabado donde el primer gol condiciona todo. Por historial reciente entre ambos y el contexto de presión, un empate con goles de los dos lados es el escenario más equilibrado."
-  },
-  {
-    "id": "arsenal-chelsea-290826",
-    "league": "Premier League",
-    "date": "29 ago · 16:00",
-    "team1": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
-    "team2": { "name": "Chelsea", "abbr": "CHE", "color": "#3DBE7C" },
-    "pick": "Empate",
-    "confidence": 2,
-    "analysis": "Los últimos enfrentamientos directos entre Arsenal y Chelsea han sido parejos, con pocas diferencias en posesión y ocasiones claras. Ninguno de los dos llega en un momento dominante de forma, y ambos tienen bajas sensibles en el mediocampo. En partidos así, donde no hay una superioridad clara, el empate suele ser el resultado más frecuente históricamente."
-  },
-  {
-    "id": "river-boca-290826",
-    "league": "Liga Prof. Argentina",
-    "date": "29 ago · 17:00",
-    "team1": { "name": "River Plate", "abbr": "RIV", "color": "#5B8DEF" },
-    "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#E8A93C" },
-    "pick": "Menos de 2.5 goles",
-    "confidence": 2,
-    "analysis": "El superclásico suele ser más táctico que goleador: en los últimos enfrentamientos directos ha predominado el partido cerrado, con equipos que priorizan no perder antes que golear. Ambos entrenadores suelen plantear el partido con precaución en este cruce puntual, así que un total bajo de goles encaja con el patrón histórico reciente."
+    "analysis": "Flamengo llega obligado: viene de perder 2-1 con Cruzeiro y vio a Palmeiras estirar la ventaja en la punta, así que el clásico con Botafogo es casi un partido de 'no fallar'. Tiene el ataque más efectivo del campeonato (45 goles en 23 partidos) y la segunda defensa menos vencida, aunque llega con bajas sensibles: Bruno Henrique suspendido, y Alex Sandro, Vitão y De la Cruz lesionados. Botafogo, en cambio, es 11° con 30 puntos y atraviesa un tramo irregular bajo el mando interino de Rodrigo Bellão. El historial reciente también favorece claramente al Mengão, que ya lo goleó 3-0 en el partido de ida de este mismo campeonato."
   },
   {
     "id": "real-madrid-malaga-300826",
     "league": "LaLiga",
-    "date": "30 ago · 10:00",
+    "date": "30 ago · 10:00 (Perú)",
     "team1": { "name": "Real Madrid", "abbr": "RMA", "color": "#5B5FE8" },
     "team2": { "name": "Málaga", "abbr": "MAL", "color": "#8B96A3" },
-    "pick": "Real Madrid o empate, ambos anotan",
+    "pick": "Gana Real Madrid +1.5 goles del Real Madrid",
+    "confidence": 2,
+    "analysis": "Real Madrid es amplísimo favorito de local ante un Málaga que recién vuelve a Primera tras años fuera de la categoría, con una diferencia de plantilla notoria. El triunfo merengue en sí no es lo arriesgado de este pick: lo que le baja la confianza es exigir que la diferencia sea de 2 goles o más (+1.5), que depende de que Real Madrid no se relaje con el resultado ya encaminado, algo que ha pasado antes ante rivales de menor nivel. Es un pick razonable, pero con más riesgo del que parece a primera vista."
+  },
+  {
+    "id": "colocolo-audax-300826",
+    "league": "Liga de Primera (Chile)",
+    "date": "30 ago · 17:30 hora Chile (~19:30 Perú aprox., verifica el huso horario)",
+    "team1": { "name": "Colo Colo", "abbr": "COL", "color": "#2A2E35" },
+    "team2": { "name": "Audax Italiano", "abbr": "AUD", "color": "#3DBE7C" },
+    "pick": "Gana Colo Colo",
     "confidence": 3,
-    "analysis": "Real Madrid es amplio favorito en casa, pero su defensa ha concedido goles en varios partidos recientes incluso ganando cómodo. Málaga no suele cerrarse del todo de visita y busca aprovechar espacios a la contra. Por eso el pick cubre el escenario más probable (victoria local) sin descartar que el rival también encuentre el camino al gol."
+    "analysis": "Colo Colo llega como líder en solitario e invicto en la segunda rueda, tras vencer 2-1 a la Universidad de Chile en el Superclásico y golear 3-0 a Unión Española en Copa Chile a mitad de semana. Audax Italiano, en cambio, está en zona baja de la tabla (13°) y necesita puntos con urgencia para alejarse del descenso. En la primera rueda ya se enfrentaron con triunfo albo por 1-0, y el mercado de apuestas también refleja esa diferencia marcada a favor del local. Jugando en el Monumental y con el impulso anímico del Superclásico, Colo Colo parte como favorito claro."
+  },
+  {
+    "id": "sportboys-cristal-300826",
+    "league": "Liga 1 Perú",
+    "date": "30 ago · 15:30 (Perú)",
+    "team1": { "name": "Sport Boys", "abbr": "SB", "color": "#E85B9E" },
+    "team2": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
+    "pick": "+4.5 tarjetas",
+    "confidence": 2,
+    "analysis": "Sport Boys (4°, 11 puntos) llega motivado tras golear 5-1 a Cienciano, mientras que Sporting Cristal (6°, 10 puntos) busca reencontrarse tras caer 3-1 ante Alianza Atlético, aunque llega con la confianza de haber goleado 4-1 en la Copa de la Liga entre semana. El condimento extra: Cristal ganó los últimos cinco enfrentamientos directos entre ambos, así que Boys va a salir con todo para cortar esa racha, jugando además solo con hinchada local en el Miguel Grau. Esa combinación de necesidad, revancha y ambiente caliente suele traducirse en un partido más cortado de lo normal, con más faltas y tarjetas que el promedio. Aun así, la cantidad exacta de tarjetas es difícil de proyectar con precisión, por eso la confianza no es más alta."
   }
 ]
