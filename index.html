@@ -319,6 +319,61 @@
     background:var(--bg-alt);
   }
 
+  /* ---------- Historial ---------- */
+  .historial{
+    background:var(--bg-alt);
+    border-top:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+  }
+  .historial-summary{
+    display:flex; align-items:center; gap:14px;
+    margin:18px 0 32px;
+    padding:16px 20px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    flex-wrap:wrap;
+  }
+  .historial-badge{
+    font-family:var(--display); font-size:28px; color:var(--pitch);
+    background:var(--pitch-soft);
+    border:1px solid rgba(53,168,104,0.35);
+    border-radius:10px;
+    padding:6px 16px;
+  }
+  .historial-summary p{ color:var(--text-muted); font-size:14px; }
+  .historial-summary strong{ color:var(--text); }
+
+  .hist-list{ display:flex; flex-direction:column; gap:10px; }
+  .hist-row{
+    display:grid;
+    grid-template-columns:90px 1fr 1fr 90px;
+    gap:14px;
+    align-items:center;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 16px;
+    font-size:13px;
+  }
+  .hist-date{ font-family:var(--mono); color:var(--text-muted); font-size:12px; }
+  .hist-league{ color:var(--text-muted); font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:2px; }
+  .hist-match{ font-weight:600; }
+  .hist-pick{ color:var(--text-muted); }
+  .hist-result{
+    justify-self:end;
+    font-family:var(--body); font-weight:700; font-size:11px;
+    padding:5px 10px; border-radius:20px;
+    text-align:center;
+  }
+  .hist-result.acierto{ background:var(--pitch-soft); color:#5CE39C; border:1px solid rgba(53,168,104,0.4); }
+  .hist-result.fallo{ background:rgba(228,87,75,0.12); color:#F2897E; border:1px solid rgba(228,87,75,0.4); }
+
+  @media (max-width:600px){
+    .hist-row{ grid-template-columns:1fr; gap:6px; }
+    .hist-result{ justify-self:start; }
+  }
+
   /* ---------- How it works ---------- */
   .how{
     background:var(--bg-alt);
@@ -384,7 +439,7 @@
     <div class="logo">Cuota<span>Gol</span></div>
     <nav class="nav-links">
       <a href="#pronosticos">Pronósticos</a>
-      <a href="#ligas">Ligas</a>
+      <a href="#historial">Historial</a>
       <a href="#como-trabajo">Cómo trabajo</a>
       <a href="#sobre-mi">Sobre mí</a>
     </nav>
@@ -434,11 +489,11 @@
 </section>
 
 <section class="stats">
-  <!-- Nota: reemplaza estos números por tus estadísticas reales cuando tengas historial -->
+  <!-- Estos números se calculan solos desde historial.json, no hace falta editarlos a mano -->
   <div class="wrap stats-grid">
-    <div class="stat"><b>—</b><span>Aciertos este mes</span></div>
-    <div class="stat"><b>—</b><span>Pronósticos publicados</span></div>
-    <div class="stat"><b>—</b><span>Ligas cubiertas</span></div>
+    <div class="stat"><b id="statAccuracy">—</b><span>% de acierto histórico</span></div>
+    <div class="stat"><b id="statTotal">—</b><span>Pronósticos evaluados</span></div>
+    <div class="stat"><b id="statLeagues">—</b><span>Ligas cubiertas</span></div>
     <div class="stat"><b>Diario</b><span>Frecuencia de análisis</span></div>
   </div>
 </section>
@@ -457,6 +512,20 @@
 
     <div class="grid" id="cardGrid">
       <!-- Las tarjetas se generan automáticamente desde predictions.json -->
+    </div>
+  </div>
+</section>
+
+<section class="historial" id="historial">
+  <div class="wrap section">
+    <span class="eyebrow">Transparencia</span>
+    <h2>Historial de pronósticos</h2>
+    <div class="historial-summary" id="historialSummary">
+      <span class="historial-badge" id="historialBadgeText">—%</span>
+      <p>Aciertos sobre el total evaluado. <strong>Se publican todos los resultados</strong>, aciertos y fallos, sin editar el historial.</p>
+    </div>
+    <div class="hist-list" id="histList">
+      <!-- Se genera automáticamente desde historial.json -->
     </div>
   </div>
 </section>

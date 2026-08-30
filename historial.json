@@ -1,0 +1,66 @@
+[
+  {
+    "league": "LaLiga",
+    "date": "24 ago",
+    "team1": "Real Madrid",
+    "team2": "Betis",
+    "pick": "Real Madrid gana",
+    "result": "acierto"
+  },
+  {
+    "league": "Premier League",
+    "date": "24 ago",
+    "team1": "Man City",
+    "team2": "Brighton",
+    "pick": "Más de 2.5 goles",
+    "result": "acierto"
+  },
+  {
+    "league": "Serie A",
+    "date": "23 ago",
+    "team1": "Juventus",
+    "team2": "Roma",
+    "pick": "Empate",
+    "result": "fallo"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "23 ago",
+    "team1": "Sporting Cristal",
+    "team2": "Melgar",
+    "pick": "Ambos equipos anotan",
+    "result": "acierto"
+  },
+  {
+    "league": "Bundesliga",
+    "date": "22 ago",
+    "team1": "Dortmund",
+    "team2": "Leipzig",
+    "pick": "Dortmund gana",
+    "result": "fallo"
+  },
+  {
+    "league": "LaLiga",
+    "date": "22 ago",
+    "team1": "Atlético Madrid",
+    "team2": "Girona",
+    "pick": "Atlético gana y +1.5 goles",
+    "result": "acierto"
+  },
+  {
+    "league": "Liga Prof. Argentina",
+    "date": "21 ago",
+    "team1": "River Plate",
+    "team2": "Racing",
+    "pick": "Menos de 2.5 goles",
+    "result": "acierto"
+  },
+  {
+    "league": "Premier League",
+    "date": "21 ago",
+    "team1": "Liverpool",
+    "team2": "Newcastle",
+    "pick": "Liverpool gana",
+    "result": "acierto"
+  }
+]

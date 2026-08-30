@@ -85,14 +85,67 @@ function renderCards(predictions) {
   }
 }
 
+/* ---------- Historial ---------- */
+
+function histRowHTML(h) {
+  const resultLabel = h.result === 'acierto' ? '✓ Acierto' : '✗ Falló';
+  return `
+    <div class="hist-row">
+      <span class="hist-date">${h.date}</span>
+      <div>
+        <div class="hist-league">${h.league}</div>
+        <div class="hist-match">${h.team1} vs ${h.team2}</div>
+      </div>
+      <span class="hist-pick">${h.pick}</span>
+      <span class="hist-result ${h.result}">${resultLabel}</span>
+    </div>
+  `;
+}
+
+function renderHistorial(historial) {
+  const list = document.getElementById('histList');
+  if (!list) return;
+  // más reciente primero; se asume que el archivo ya viene ordenado, pero por si acaso no se reordena para no asumir formato de fecha
+  list.innerHTML = historial.map(histRowHTML).join('');
+
+  const total = historial.length;
+  const aciertos = historial.filter(h => h.result === 'acierto').length;
+  const pct = total > 0 ? Math.round((aciertos / total) * 100) : 0;
+
+  const badge = document.getElementById('historialBadgeText');
+  if (badge) badge.textContent = `${pct}%`;
+
+  const statAccuracy = document.getElementById('statAccuracy');
+  const statTotal = document.getElementById('statTotal');
+  if (statAccuracy) statAccuracy.textContent = `${pct}%`;
+  if (statTotal) statTotal.textContent = total;
+}
+
+/* ---------- Carga de datos ---------- */
+
 fetch('predictions.json')
   .then(res => res.json())
   .then(predictions => {
     renderCards(predictions);
     renderFilters(predictions);
+
+    const statLeagues = document.getElementById('statLeagues');
+    if (statLeagues) {
+      const leagues = new Set(predictions.map(p => p.league));
+      statLeagues.textContent = leagues.size;
+    }
   })
   .catch(err => {
     console.error('No se pudo cargar predictions.json', err);
     document.getElementById('cardGrid').innerHTML =
       '<p style="color:var(--text-muted)">No se pudieron cargar los pronósticos.</p>';
+  });
+
+fetch('historial.json')
+  .then(res => res.json())
+  .then(historial => renderHistorial(historial))
+  .catch(err => {
+    console.error('No se pudo cargar historial.json', err);
+    const list = document.getElementById('histList');
+    if (list) list.innerHTML = '<p style="color:var(--text-muted)">Aún no hay historial disponible.</p>';
   });
