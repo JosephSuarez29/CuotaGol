@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://josephsuarez29.github.io/CuotaGol/sitemap.xml

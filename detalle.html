@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="pageTitle">Análisis del partido — CuotaGol</title>
+<meta name="description" id="pageDescription" content="Análisis y pronóstico de fútbol elaborado por CuotaGol.">
+<link rel="canonical" id="pageCanonical" href="https://josephsuarez29.github.io/CuotaGol/detalle.html">
+<meta property="og:type" content="article">
+<meta property="og:title" id="ogTitle" content="Análisis del partido — CuotaGol">
+<meta property="og:description" id="ogDescription" content="Análisis y pronóstico de fútbol elaborado por CuotaGol.">
+<meta name="robots" content="index, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
@@ -164,8 +170,17 @@
       }
 
       document.getElementById('content').style.display = 'block';
-      document.getElementById('pageTitle').textContent =
-        `${match.team1.name} vs ${match.team2.name} — Pronóstico | CuotaGol`;
+
+      const pageTitle = `${match.team1.name} vs ${match.team2.name} — Pronóstico | CuotaGol`;
+      const pageDesc = `Pronóstico y análisis de ${match.team1.name} vs ${match.team2.name} (${match.league}): ${match.pick}.`;
+      const pageUrl = `https://josephsuarez29.github.io/CuotaGol/detalle.html?id=${match.id}`;
+
+      document.getElementById('pageTitle').textContent = pageTitle;
+      document.getElementById('pageDescription').setAttribute('content', pageDesc);
+      document.getElementById('pageCanonical').setAttribute('href', pageUrl);
+      document.getElementById('ogTitle').setAttribute('content', pageTitle);
+      document.getElementById('ogDescription').setAttribute('content', pageDesc);
+
       document.getElementById('matchMeta').textContent = `${match.league} · ${match.date}`;
       document.getElementById('matchTitle').textContent = `${match.team1.name} vs ${match.team2.name}`;
 
