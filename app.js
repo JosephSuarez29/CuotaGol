@@ -6,6 +6,7 @@
 */
 
 const AD_SLOT_EVERY = 3; // inserta un espacio publicitario cada N tarjetas
+const SHOW_AD_SLOTS = false; // cámbialo a true cuando tengas anuncios/afiliados reales que mostrar
 
 function confidenceDots(level) {
   let dots = '';
@@ -62,7 +63,7 @@ function renderCards(predictions) {
   let html = '';
   predictions.forEach((p, i) => {
     html += cardHTML(p);
-    if ((i + 1) % AD_SLOT_EVERY === 0 && i !== predictions.length - 1) {
+    if (SHOW_AD_SLOTS && (i + 1) % AD_SLOT_EVERY === 0 && i !== predictions.length - 1) {
       html += adSlotHTML();
     }
   });
