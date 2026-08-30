@@ -1,3 +1,18 @@
+/*
+  PLANTILLA DE HISTORIAL — actualmente comentada a propósito.
+  Mientras este archivo sea un comentario, la web no puede leerlo como datos,
+  así que la sección "Historial" simplemente no muestra nada en el sitio.
+  Tú sigues viendo la estructura completa aquí, en el código, como referencia.
+
+  Cómo activarlo cuando tengas resultados reales:
+  1) Borra la línea "/*" de arriba de este bloque y la línea "*/" del final
+     (las que abren y cierran este comentario). Ojo: solo esas dos líneas.
+  2) Debajo queda el arreglo [ ... ] con partidos de ejemplo.
+     Reemplázalos por tus partidos reales.
+  3) Cada partido necesita: league, date, team1, team2, pick, y result
+     ("acierto" o "fallo", nada más — son los dos únicos valores válidos).
+  4) Guarda el commit en GitHub. El sitio calcula el % de acierto solo.
+
 [
   {
     "league": "LaLiga",
@@ -64,3 +79,5 @@
     "result": "acierto"
   }
 ]
+*/
+
