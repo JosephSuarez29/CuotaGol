@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">Análisis del partido — CuotaGol</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0A0E12;
+    --bg-alt: #0D1319;
+    --surface: #131A22;
+    --border: #232E39;
+    --text: #F3F1EA;
+    --text-muted: #8B96A3;
+    --amber: #E8A93C;
+    --pitch: #35A868;
+    --pitch-soft: rgba(53,168,104,0.12);
+    --radius: 14px;
+    --display: 'Oswald', sans-serif;
+    --body: 'Inter', sans-serif;
+    --mono: 'JetBrains Mono', monospace;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ background:var(--bg); color:var(--text); font-family:var(--body); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  a{ color:inherit; text-decoration:none; }
+  :focus-visible{ outline:2px solid var(--amber); outline-offset:3px; border-radius:4px; }
+  h1,h2{ font-family:var(--display); font-weight:600; }
+
+  .wrap{ max-width:760px; margin:0 auto; padding:0 24px; }
+
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(10,14,18,0.85);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border);
+  }
+  .nav{ display:flex; align-items:center; justify-content:space-between; height:72px; max-width:1180px; margin:0 auto; padding:0 24px; }
+  .logo{ font-family:var(--display); font-size:22px; font-weight:700; }
+  .logo span{ color:var(--amber); }
+  .back-link{ font-size:14px; color:var(--text-muted); font-weight:500; }
+  .back-link:hover{ color:var(--text); }
+
+  main{ padding:56px 0 80px; }
+
+  .eyebrow{ font-family:var(--mono); font-size:12px; letter-spacing:0.1em; text-transform:uppercase; color:var(--amber); }
+
+  .match-head{ margin:16px 0 28px; }
+  .match-head h1{ font-size:clamp(26px, 4vw, 38px); margin-top:10px; }
+
+  .teams-row{
+    display:flex; align-items:center; justify-content:center; gap:28px;
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+    padding:28px 20px; margin:24px 0;
+  }
+  .team{ display:flex; flex-direction:column; align-items:center; gap:10px; width:120px; }
+  .badge{ width:64px; height:64px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-family:var(--display); font-weight:700; font-size:18px; color:#0A0E12; }
+  .team span{ font-size:14px; font-weight:600; text-align:center; }
+  .vs{ font-family:var(--mono); color:var(--text-muted); font-size:15px; }
+
+  .pick-box{
+    background:var(--pitch-soft); border:1px solid rgba(53,168,104,0.35);
+    border-radius:var(--radius); padding:18px 20px; margin-bottom:32px;
+  }
+  .pick-box span{ display:block; font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-muted); margin-bottom:6px; }
+  .pick-box strong{ font-size:18px; color:#B9F0D2; }
+
+  .confidence-row{ display:flex; align-items:center; gap:10px; margin-bottom:32px; font-family:var(--mono); font-size:12px; color:var(--text-muted); }
+  .conf-dots{ display:flex; gap:5px; }
+  .conf-dots i{ width:7px; height:7px; border-radius:50%; background:var(--border); display:block; }
+  .conf-dots i.on{ background:var(--amber); }
+
+  .analysis h2{ font-size:18px; margin-bottom:14px; }
+  .analysis p{ color:#D8D4C9; font-size:15px; }
+
+  .disclaimer-box{
+    margin-top:40px; padding:16px 18px; border:1px solid var(--border); border-radius:10px;
+    font-size:12px; color:var(--text-muted); line-height:1.7;
+  }
+
+  .not-found{ text-align:center; padding:80px 0; color:var(--text-muted); }
+  .not-found a{ color:var(--amber); font-weight:600; }
+
+  #content{ display:none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Cuota<span>Gol</span></div>
+    <a href="index.html#pronosticos" class="back-link">← Volver a pronósticos</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div id="content">
+      <div class="match-head">
+        <span class="eyebrow" id="matchMeta">LIGA · FECHA</span>
+        <h1 id="matchTitle">Equipo A vs Equipo B</h1>
+      </div>
+
+      <div class="teams-row">
+        <div class="team">
+          <div class="badge" id="badge1"></div>
+          <span id="teamName1"></span>
+        </div>
+        <span class="vs">VS</span>
+        <div class="team">
+          <div class="badge" id="badge2"></div>
+          <span id="teamName2"></span>
+        </div>
+      </div>
+
+      <div class="pick-box">
+        <span>Pronóstico</span>
+        <strong id="pickText"></strong>
+      </div>
+
+      <div class="confidence-row">
+        Confianza
+        <span class="conf-dots" id="confDots"></span>
+      </div>
+
+      <div class="analysis">
+        <h2>Análisis</h2>
+        <p id="analysisText"></p>
+      </div>
+
+      <div class="disclaimer-box">
+        <strong style="color:var(--text)">Juega con responsabilidad.</strong> Este pronóstico es una opinión basada en análisis propio, no una garantía de resultado. Contenido dirigido a mayores de 18 años.
+      </div>
+    </div>
+
+    <div class="not-found" id="notFound">
+      <p>No encontramos este pronóstico (puede que ya haya pasado al historial).</p>
+      <p style="margin-top:10px"><a href="index.html#pronosticos">Ver pronósticos activos →</a></p>
+    </div>
+
+  </div>
+</main>
+
+<script>
+  function confidenceDots(level) {
+    let dots = '';
+    for (let i = 1; i <= 4; i++) dots += `<i class="${i <= level ? 'on' : ''}"></i>`;
+    return dots;
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+
+  fetch('predictions.json')
+    .then(res => res.json())
+    .then(predictions => {
+      const match = predictions.find(p => p.id === id);
+
+      if (!match) {
+        document.getElementById('notFound').style.display = 'block';
+        return;
+      }
+
+      document.getElementById('content').style.display = 'block';
+      document.getElementById('pageTitle').textContent =
+        `${match.team1.name} vs ${match.team2.name} — Pronóstico | CuotaGol`;
+      document.getElementById('matchMeta').textContent = `${match.league} · ${match.date}`;
+      document.getElementById('matchTitle').textContent = `${match.team1.name} vs ${match.team2.name}`;
+
+      document.getElementById('badge1').style.background = match.team1.color;
+      document.getElementById('badge1').textContent = match.team1.abbr;
+      document.getElementById('teamName1').textContent = match.team1.name;
+
+      document.getElementById('badge2').style.background = match.team2.color;
+      document.getElementById('badge2').textContent = match.team2.abbr;
+      document.getElementById('teamName2').textContent = match.team2.name;
+
+      document.getElementById('pickText').textContent = match.pick;
+      document.getElementById('confDots').innerHTML = confidenceDots(match.confidence);
+      document.getElementById('analysisText').textContent =
+        match.analysis || 'Análisis en camino — vuelve pronto.';
+    })
+    .catch(() => {
+      document.getElementById('notFound').style.display = 'block';
+    });
+</script>
+
+</body>
+</html>

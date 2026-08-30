@@ -1,50 +1,62 @@
 [
   {
-    "league": "Liga 1 Perú",
-    "date": "29 ago · 15:30",
-    "team1": { "name": "UTC", "abbr": "UTC", "color": "#5B8DEF" },
-    "team2": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
+    "id": "inter-napoli-290826",
+    "league": "Serie A",
+    "date": "29 ago · 11:30",
+    "team1": { "name": "Inter", "abbr": "INT", "color": "#5B8DEF" },
+    "team2": { "name": "Nápoli", "abbr": "NAP", "color": "#3DBE7C" },
     "pick": "Ambos equipos anotan",
-    "confidence": 2
+    "confidence": 2,
+    "analysis": "Inter llega con la mejor defensa del arranque de temporada, pero de visita ha sufrido para mantener la portería en cero en sus últimas salidas. Nápoli, por su parte, ha marcado en cada partido como local esta temporada y presiona alto desde el inicio. La combinación de un Inter que ataca con confianza y un Nápoli que rara vez se queda sin anotar en casa hace que ambos marquen sea la lectura más razonable del partido."
   },
   {
+    "id": "bayern-leverkusen-290826",
     "league": "Bundesliga",
     "date": "29 ago · 12:30",
     "team1": { "name": "Bayern", "abbr": "BAY", "color": "#E4574B" },
     "team2": { "name": "Leverkusen", "abbr": "LEV", "color": "#8B96A3" },
     "pick": "Bayern gana",
-    "confidence": 3
+    "confidence": 3,
+    "analysis": "Bayern no pierde en casa frente a Leverkusen desde hace varias temporadas y llega con su ataque titular disponible al completo. Leverkusen viene de rotar jugadores clave por competencia europea entre semana, lo que suele notarse en el ritmo del equipo. Salvo sorpresa, el partido debería seguir el guion habitual: dominio de balón e intensidad de Bayern desde el arranque."
   },
   {
+    "id": "alianza-universitario-290826",
     "league": "Liga 1 Perú",
     "date": "29 ago · 15:00",
     "team1": { "name": "Alianza Lima", "abbr": "ALI", "color": "#5B5FE8" },
     "team2": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
     "pick": "Empate y ambos anotan",
-    "confidence": 1
+    "confidence": 1,
+    "analysis": "Un clásico es un clásico: la tabla y la forma reciente pesan menos de lo normal en este tipo de partidos. Ambos equipos llegan necesitados de puntos y sin margen para arriesgar de más, lo que suele traducirse en un partido trabado donde el primer gol condiciona todo. Por historial reciente entre ambos y el contexto de presión, un empate con goles de los dos lados es el escenario más equilibrado."
   },
   {
+    "id": "arsenal-chelsea-290826",
     "league": "Premier League",
     "date": "29 ago · 16:00",
     "team1": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
     "team2": { "name": "Chelsea", "abbr": "CHE", "color": "#3DBE7C" },
     "pick": "Empate",
-    "confidence": 2
+    "confidence": 2,
+    "analysis": "Los últimos enfrentamientos directos entre Arsenal y Chelsea han sido parejos, con pocas diferencias en posesión y ocasiones claras. Ninguno de los dos llega en un momento dominante de forma, y ambos tienen bajas sensibles en el mediocampo. En partidos así, donde no hay una superioridad clara, el empate suele ser el resultado más frecuente históricamente."
   },
   {
+    "id": "river-boca-290826",
     "league": "Liga Prof. Argentina",
     "date": "29 ago · 17:00",
     "team1": { "name": "River Plate", "abbr": "RIV", "color": "#5B8DEF" },
     "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#E8A93C" },
     "pick": "Menos de 2.5 goles",
-    "confidence": 2
+    "confidence": 2,
+    "analysis": "El superclásico suele ser más táctico que goleador: en los últimos enfrentamientos directos ha predominado el partido cerrado, con equipos que priorizan no perder antes que golear. Ambos entrenadores suelen plantear el partido con precaución en este cruce puntual, así que un total bajo de goles encaja con el patrón histórico reciente."
   },
   {
+    "id": "real-madrid-malaga-300826",
     "league": "LaLiga",
     "date": "30 ago · 10:00",
     "team1": { "name": "Real Madrid", "abbr": "RMA", "color": "#5B5FE8" },
     "team2": { "name": "Málaga", "abbr": "MAL", "color": "#8B96A3" },
     "pick": "Real Madrid o empate, ambos anotan",
-    "confidence": 3
+    "confidence": 3,
+    "analysis": "Real Madrid es amplio favorito en casa, pero su defensa ha concedido goles en varios partidos recientes incluso ganando cómodo. Málaga no suele cerrarse del todo de visita y busca aprovechar espacios a la contra. Por eso el pick cubre el escenario más probable (victoria local) sin descartar que el rival también encuentre el camino al gol."
   }
 ]

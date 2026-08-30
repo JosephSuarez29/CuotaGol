@@ -27,7 +27,7 @@ function cardHTML(p) {
       <div class="card-pick-label">Pronóstico</div>
       <div class="card-pick">${p.pick}</div>
       <div class="card-foot">
-        <a href="#" class="card-link">Ver análisis →</a>
+        <a href="detalle.html?id=${p.id}" class="card-link">Ver análisis →</a>
         <span class="ticket-conf" style="margin:0"><span class="conf-dots">${confidenceDots(p.confidence)}</span></span>
       </div>
     </div>
