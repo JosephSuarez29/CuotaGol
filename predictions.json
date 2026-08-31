@@ -1,32 +1,32 @@
 [
   {
-    "id": "flamengo-botafogo-300826",
-    "league": "Brasileirão",
-    "date": "30 ago · 14:00 (Perú)",
-    "team1": { "name": "Flamengo", "abbr": "FLA", "color": "#E4574B" },
-    "team2": { "name": "Botafogo", "abbr": "BOT", "color": "#232E39" },
-    "pick": "Gana Flamengo",
-    "confidence": 3,
-    "analysis": "Flamengo llega obligado: viene de perder 2-1 con Cruzeiro y vio a Palmeiras estirar la ventaja en la punta, así que el clásico con Botafogo es casi un partido de 'no fallar'. Tiene el ataque más efectivo del campeonato (45 goles en 23 partidos) y la segunda defensa menos vencida, aunque llega con bajas sensibles: Bruno Henrique suspendido, y Alex Sandro, Vitão y De la Cruz lesionados. Botafogo, en cambio, es 11° con 30 puntos y atraviesa un tramo irregular bajo el mando interino de Rodrigo Bellão. El historial reciente también favorece claramente al Mengão, que ya lo goleó 3-0 en el partido de ida de este mismo campeonato."
-  },
-  {
-    "id": "colocolo-audax-300826",
-    "league": "Liga de Primera (Chile)",
-    "date": "30 ago · 17:30 hora Chile (~19:30 Perú aprox., verifica el huso horario)",
-    "team1": { "name": "Colo Colo", "abbr": "COL", "color": "#2A2E35" },
-    "team2": { "name": "Audax Italiano", "abbr": "AUD", "color": "#3DBE7C" },
-    "pick": "Gana Colo Colo",
-    "confidence": 3,
-    "analysis": "Colo Colo llega como líder en solitario e invicto en la segunda rueda, tras vencer 2-1 a la Universidad de Chile en el Superclásico y golear 3-0 a Unión Española en Copa Chile a mitad de semana. Audax Italiano, en cambio, está en zona baja de la tabla (13°) y necesita puntos con urgencia para alejarse del descenso. En la primera rueda ya se enfrentaron con triunfo albo por 1-0, y el mercado de apuestas también refleja esa diferencia marcada a favor del local. Jugando en el Monumental y con el impulso anímico del Superclásico, Colo Colo parte como favorito claro."
-  },
-  {
-    "id": "sportboys-cristal-300826",
-    "league": "Liga 1 Perú",
-    "date": "30 ago · 15:30 (Perú)",
-    "team1": { "name": "Sport Boys", "abbr": "SB", "color": "#E85B9E" },
-    "team2": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
-    "pick": "+4.5 tarjetas",
+    "id": "barcelona-rayo-310826",
+    "league": "LaLiga",
+    "date": "31 ago · 14:30 (Perú)",
+    "team1": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
+    "team2": { "name": "Rayo Vallecano", "abbr": "RAY", "color": "#E4574B" },
+    "pick": "Gana Barcelona +1.5 goles del Barcelona",
     "confidence": 2,
-    "analysis": "Sport Boys (4°, 11 puntos) llega motivado tras golear 5-1 a Cienciano, mientras que Sporting Cristal (6°, 10 puntos) busca reencontrarse tras caer 3-1 ante Alianza Atlético, aunque llega con la confianza de haber goleado 4-1 en la Copa de la Liga entre semana. El condimento extra: Cristal ganó los últimos cinco enfrentamientos directos entre ambos, así que Boys va a salir con todo para cortar esa racha, jugando además solo con hinchada local en el Miguel Grau. Esa combinación de necesidad, revancha y ambiente caliente suele traducirse en un partido más cortado de lo normal, con más faltas y tarjetas que el promedio. Aun así, la cantidad exacta de tarjetas es difícil de proyectar con precisión, por eso la confianza no es más alta."
+    "analysis": "Barcelona cierra la jornada 3 como local y de amplio favorito ante un Rayo que suele plantear partidos incómodos, cerrados y con pocos espacios, más pensado en no encajar que en atacar. Ahí está el riesgo real del pick: el triunfo culé no está en duda, pero exigir una diferencia de 2 goles o más depende de que el Barcelona rompa un bloque bajo que históricamente le ha costado perforar con margen amplio. Es un pick con más filo del que parece a simple vista."
+  },
+  {
+    "id": "astonvilla-arsenal-310826",
+    "league": "Premier League",
+    "date": "31 ago · 14:00 (Perú)",
+    "team1": { "name": "Aston Villa", "abbr": "AVL", "color": "#8B1E3F" },
+    "team2": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
+    "pick": "+2.5 tarjetas amarillas",
+    "confidence": 2,
+    "analysis": "El contexto tiene todos los ingredientes para un partido tenso: Aston Villa llega golpeado tras caer 4-0 en su debut, con una reconstrucción de plantilla considerable y la duda de Joao Gomes tras ver roja en la fecha 1, mientras que Ezri Konsa vuelve a Villa Park pero ahora vistiendo la camiseta rival. Arsenal, campeón vigente, llega con la presión de no relajarse ante un adversario necesitado que suele jugar Villa Park como una trinchera. Los enfrentamientos recientes entre ambos ya han sido físicos e intensos, y esa combinación de urgencia + rivalidad directa suele traducirse en más cortes de juego y tarjetas que el promedio."
+  },
+  {
+    "id": "benfica-estoril-310826",
+    "league": "Primeira Liga",
+    "date": "31 ago · 12:45 (Perú)",
+    "team1": { "name": "Benfica", "abbr": "SLB", "color": "#E4574B" },
+    "team2": { "name": "Estoril", "abbr": "EST", "color": "#8B96A3" },
+    "pick": "Gana Benfica y Benfica anota 2+ goles",
+    "confidence": 3,
+    "analysis": "Benfica llega como uno de los animadores del título y con un local extenso sin perder en el Da Luz, además de historial reciente muy favorable ante Estoril (ya lo goleó 3-1 en el enfrentamiento anterior de esta misma temporada). Estoril no suele ser un rival que incomode a los grandes fuera de casa, por lo que tanto la victoria como que Benfica llegue a los 2 goles son escenarios consistentes con el patrón que vienen mostrando ambos equipos."
   }
 ]
