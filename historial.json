@@ -1,5 +1,29 @@
 [
   {
+    "league": "Brasileirão",
+    "date": "30 ago",
+    "team1": "Flamengo",
+    "team2": "Botafogo",
+    "pick": "Gana Flamengo",
+    "result": "acierto"
+  },
+  {
+    "league": "Liga de Primera (Chile)",
+    "date": "30 ago",
+    "team1": "Colo Colo",
+    "team2": "Audax Italiano",
+    "pick": "Gana Colo Colo",
+    "result": "acierto"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "30 ago",
+    "team1": "Sport Boys",
+    "team2": "Sporting Cristal",
+    "pick": "+4.5 tarjetas (se registraron 6)",
+    "result": "acierto"
+  },
+  {
     "league": "LaLiga",
     "date": "30 ago",
     "team1": "Real Madrid",
