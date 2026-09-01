@@ -1,5 +1,29 @@
 [
   {
+    "league": "LaLiga",
+    "date": "31 ago",
+    "team1": "Barcelona",
+    "team2": "Rayo Vallecano",
+    "pick": "Gana Barcelona +1.5 goles del Barcelona",
+    "result": "acierto"
+  },
+  {
+    "league": "Premier League",
+    "date": "31 ago",
+    "team1": "Aston Villa",
+    "team2": "Arsenal",
+    "pick": "+2.5 tarjetas amarillas",
+    "result": "acierto"
+  },
+  {
+    "league": "Primeira Liga",
+    "date": "31 ago",
+    "team1": "Benfica",
+    "team2": "Estoril",
+    "pick": "Gana Benfica y +1.5 goles de Benfica",
+    "result": "acierto"
+  },
+  {
     "league": "Brasileirão",
     "date": "30 ago",
     "team1": "Flamengo",
