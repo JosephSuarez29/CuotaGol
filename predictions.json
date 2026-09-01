@@ -1,32 +1,72 @@
 [
   {
-    "id": "barcelona-rayo-310826",
-    "league": "LaLiga",
-    "date": "31 ago · 14:30 (Perú)",
-    "team1": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
-    "team2": { "name": "Rayo Vallecano", "abbr": "RAY", "color": "#E4574B" },
-    "pick": "Gana Barcelona +1.5 goles del Barcelona",
-    "confidence": 2,
-    "analysis": "Barcelona cierra la jornada 3 como local y de amplio favorito ante un Rayo que suele plantear partidos incómodos, cerrados y con pocos espacios, más pensado en no encajar que en atacar. Ahí está el riesgo real del pick: el triunfo culé no está en duda, pero exigir una diferencia de 2 goles o más depende de que el Barcelona rompa un bloque bajo que históricamente le ha costado perforar con margen amplio. Es un pick con más filo del que parece a simple vista."
-  },
-  {
-    "id": "astonvilla-arsenal-310826",
-    "league": "Premier League",
-    "date": "31 ago · 14:00 (Perú)",
-    "team1": { "name": "Aston Villa", "abbr": "AVL", "color": "#8B1E3F" },
-    "team2": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
-    "pick": "+2.5 tarjetas amarillas",
-    "confidence": 2,
-    "analysis": "El contexto tiene todos los ingredientes para un partido tenso: Aston Villa llega golpeado tras caer 4-0 en su debut, con una reconstrucción de plantilla considerable y la duda de Joao Gomes tras ver roja en la fecha 1, mientras que Ezri Konsa vuelve a Villa Park pero ahora vistiendo la camiseta rival. Arsenal, campeón vigente, llega con la presión de no relajarse ante un adversario necesitado que suele jugar Villa Park como una trinchera. Los enfrentamientos recientes entre ambos ya han sido físicos e intensos, y esa combinación de urgencia + rivalidad directa suele traducirse en más cortes de juego y tarjetas que el promedio."
-  },
-  {
-    "id": "benfica-estoril-310826",
-    "league": "Primeira Liga",
-    "date": "31 ago · 12:45 (Perú)",
-    "team1": { "name": "Benfica", "abbr": "SLB", "color": "#E4574B" },
-    "team2": { "name": "Estoril", "abbr": "EST", "color": "#8B96A3" },
-    "pick": "Gana Benfica y Benfica anota 2+ goles",
+    "id": "flamengo-mirassol-020926",
+    "league": "Brasileirão",
+    "date": "2 sept · 17:30 (Perú)",
+    "team1": { "name": "Flamengo", "abbr": "FLA", "color": "#E4574B" },
+    "team2": { "name": "Mirassol", "abbr": "MIR", "color": "#6FA83D" },
+    "pick": "Gana Flamengo y +1.5 goles de Flamengo",
     "confidence": 3,
-    "analysis": "Benfica llega como uno de los animadores del título y con un local extenso sin perder en el Da Luz, además de historial reciente muy favorable ante Estoril (ya lo goleó 3-1 en el enfrentamiento anterior de esta misma temporada). Estoril no suele ser un rival que incomode a los grandes fuera de casa, por lo que tanto la victoria como que Benfica llegue a los 2 goles son escenarios consistentes con el patrón que vienen mostrando ambos equipos."
+    "analysis": "Es un partido atrasado (quedó pendiente de fecha anterior) que Flamengo juega en el Maracanã apenas tres días después de recibir a Botafogo, con la ventaja de haber quedado libre de la Copa do Brasil tras la eliminación. En su casa, el Mengão viene siendo sólido esta temporada (7 victorias en 10 presentaciones como local en el Brasileirão), mientras que Mirassol pelea en la mitad de tabla sin la contundencia ofensiva de los grandes. La diferencia de plantilla y el poderío en ataque de Flamengo hacen que superar los 1.5 goles propios sea un escenario razonable más que arriesgado."
+  },
+  {
+    "id": "velez-boca-020926",
+    "league": "Copa Argentina (Octavos)",
+    "date": "2 sept · 19:15 (Perú)",
+    "team1": { "name": "Vélez Sarsfield", "abbr": "VEL", "color": "#5B8DEF" },
+    "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
+    "pick": "Ambos equipos reciben 2 o más tarjetas",
+    "confidence": 2,
+    "analysis": "Se juegan el pase a cuartos a partido único en cancha neutral (Córdoba), sin revancha si algo sale mal — el tipo de presión que suele traducirse en un partido más cortado y con más faltas de lo normal. El antecedente más reciente entre ambos en el mismo escenario (semifinal 2024) fue un partido intenso y de ida y vuelta que terminó 4-3, prueba de que estos cruces no suelen ser tranquilos. Con la eliminación en juego para los dos, es esperable que ambos equipos acumulen tarjetas por encima del promedio de un partido de liga."
+  },
+  {
+    "id": "betis-realmadrid-040926",
+    "league": "LaLiga",
+    "date": "4 sept · 14:00 (Perú)",
+    "team1": { "name": "Real Betis", "abbr": "BET", "color": "#3DBE7C" },
+    "team2": { "name": "Real Madrid", "abbr": "RMA", "color": "#5B5FE8" },
+    "pick": "+1.5 goles del partido y ambos equipos reciben tarjeta",
+    "confidence": 2,
+    "analysis": "La Cartuja recibe uno de los primeros grandes partidos de la temporada bética, con Betis afrontando un curso de triple competencia (LaLiga, Copa y el regreso a Champions) y motivado por medirse tan pronto a un rival de este calibre. Real Madrid llega como amplio favorito y con jerarquía ofensiva suficiente para que el partido supere los 1.5 goles sin mayor complicación. La parte de las tarjetas para ambos se apoya en el contexto: es un Betis que va a presionar alto e intentar incomodar en un partido de máxima exigencia, y ese tipo de partidos con intensidad desde el inicio suele dejar amonestados en los dos bandos."
+  },
+  {
+    "id": "ipswich-liverpool-040926",
+    "league": "Premier League",
+    "date": "4 sept · 14:00 (Perú)",
+    "team1": { "name": "Ipswich Town", "abbr": "ITFC", "color": "#4169C4" },
+    "team2": { "name": "Liverpool", "abbr": "LIV", "color": "#C8102E" },
+    "pick": "+2.5 goles del partido",
+    "confidence": 2,
+    "analysis": "Ipswich llega de ganar su debut en el retorno a la Premier (2-1 ante Sunderland), con confianza y jugando de local en Portman Road, un equipo que no se guarda nada aunque enfrente a un grande. Liverpool, por su parte, tiene el ataque para hacer daño a cualquier recién ascendido. La combinación de un local que sale a jugar de igual a igual sin especular y un Liverpool con jerarquía ofensiva suele producir partidos abiertos con goles de los dos lados, más que encuentros cerrados."
+  },
+  {
+    "id": "mancity-coventry-050926",
+    "league": "Premier League",
+    "date": "5 sept · 09:00 (Perú)",
+    "team1": { "name": "Manchester City", "abbr": "MCI", "color": "#5BC0E8" },
+    "team2": { "name": "Coventry City", "abbr": "COV", "color": "#8B96A3" },
+    "pick": "Gana Manchester City y +1.5 goles del City",
+    "confidence": 3,
+    "analysis": "City tuvo un mercado de bajas importante este verano y está en pleno proceso de reconstrucción, pero eso no cambia demasiado el panorama ante un recién ascendido como Coventry, que llega a un desafío mayúsculo en el Etihad. Históricamente los recién ascendidos sufren mucho de visita ante candidatos al título en las primeras jornadas, y el favoritismo de City en su casa es amplio incluso en año de transición. Superar el 1.5 de goles propios es coherente con la diferencia de nivel entre ambos planteles."
+  },
+  {
+    "id": "schalke-bayern-050926",
+    "league": "Bundesliga",
+    "date": "5 sept · 09:30 (Perú)",
+    "team1": { "name": "Schalke 04", "abbr": "S04", "color": "#2A4D8F" },
+    "team2": { "name": "Bayern Múnich", "abbr": "FCB", "color": "#E4574B" },
+    "pick": "Bayern Múnich anota +1.5 goles",
+    "confidence": 3,
+    "analysis": "Bayern llega de golear 5-1 al Stuttgart en su debut liguero y es, una vez más, el gran favorito al título, con un ataque que no ha dado señales de bajar el ritmo tras el cambio de temporada. Schalke, recién ascendido, va a intentar plantarse con orden, pero históricamente los debutantes en Bundesliga sufren especialmente ante los grandes en las primeras fechas. Con la diferencia de jerarquía ofensiva que hay entre ambos planteles, que Bayern llegue a los 2 goles es más una expectativa razonable que un pick arriesgado."
+  },
+  {
+    "id": "universitario-comerciantes-050926",
+    "league": "Liga 1 Perú",
+    "date": "5 sept · 20:30 (Perú)",
+    "team1": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
+    "team2": { "name": "Comerciantes Unidos", "abbr": "CU", "color": "#3DBE7C" },
+    "pick": "Gana Universitario y +1.5 goles de la U",
+    "confidence": 3,
+    "analysis": "Universitario juega en el Monumental tras su visita a Cajamarca, en un torneo Clausura donde necesita sumar de a tres para no perder terreno en la pelea por el tetracampeonato. Comerciantes Unidos no suele ser un rival que le complique el resultado a los grandes de local, y el historial reciente de la 'U' como anfitrión respalda un partido con superioridad clara. La localía, sumada a la necesidad de puntos, hace que tanto la victoria como superar el 1.5 de goles propios sean el escenario más probable."
   }
 ]
