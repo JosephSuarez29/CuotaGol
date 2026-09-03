@@ -1,5 +1,21 @@
 [
   {
+    "league": "Brasileirão",
+    "date": "2 sept",
+    "team1": "Flamengo",
+    "team2": "Mirassol",
+    "pick": "Gana Flamengo y +1.5 goles de Flamengo",
+    "result": "acierto"
+  },
+  {
+    "league": "Copa Argentina (Octavos)",
+    "date": "2 sept",
+    "team1":"Vélez Sarsfield",
+    "team2": "Boca Juniors",
+    "pick": "Ambos equipos reciben 2 o más tarjetas",
+    "result": "acierto"
+  },
+  {
     "league": "LaLiga",
     "date": "31 ago",
     "team1": "Barcelona",
