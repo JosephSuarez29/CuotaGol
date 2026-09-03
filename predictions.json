@@ -1,25 +1,5 @@
 [
   {
-    "id": "flamengo-mirassol-020926",
-    "league": "Brasileirão",
-    "date": "2 sept · 17:30 (Perú)",
-    "team1": { "name": "Flamengo", "abbr": "FLA", "color": "#E4574B" },
-    "team2": { "name": "Mirassol", "abbr": "MIR", "color": "#6FA83D" },
-    "pick": "Gana Flamengo y +1.5 goles de Flamengo",
-    "confidence": 3,
-    "analysis": "Es un partido atrasado (quedó pendiente de fecha anterior) que Flamengo juega en el Maracanã apenas tres días después de recibir a Botafogo, con la ventaja de haber quedado libre de la Copa do Brasil tras la eliminación. En su casa, el Mengão viene siendo sólido esta temporada (7 victorias en 10 presentaciones como local en el Brasileirão), mientras que Mirassol pelea en la mitad de tabla sin la contundencia ofensiva de los grandes. La diferencia de plantilla y el poderío en ataque de Flamengo hacen que superar los 1.5 goles propios sea un escenario razonable más que arriesgado."
-  },
-  {
-    "id": "velez-boca-020926",
-    "league": "Copa Argentina (Octavos)",
-    "date": "2 sept · 19:15 (Perú)",
-    "team1": { "name": "Vélez Sarsfield", "abbr": "VEL", "color": "#5B8DEF" },
-    "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
-    "pick": "Ambos equipos reciben 2 o más tarjetas",
-    "confidence": 2,
-    "analysis": "Se juegan el pase a cuartos a partido único en cancha neutral (Córdoba), sin revancha si algo sale mal — el tipo de presión que suele traducirse en un partido más cortado y con más faltas de lo normal. El antecedente más reciente entre ambos en el mismo escenario (semifinal 2024) fue un partido intenso y de ida y vuelta que terminó 4-3, prueba de que estos cruces no suelen ser tranquilos. Con la eliminación en juego para los dos, es esperable que ambos equipos acumulen tarjetas por encima del promedio de un partido de liga."
-  },
-  {
     "id": "betis-realmadrid-040926",
     "league": "LaLiga",
     "date": "4 sept · 14:00 (Perú)",
