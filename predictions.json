@@ -49,4 +49,35 @@
     "confidence": 3,
     "analysis": "Universitario juega en el Monumental tras su visita a Cajamarca, en un torneo Clausura donde necesita sumar de a tres para no perder terreno en la pelea por el tetracampeonato. Comerciantes Unidos no suele ser un rival que le complique el resultado a los grandes de local, y el historial reciente de la 'U' como anfitrión respalda un partido con superioridad clara. La localía, sumada a la necesidad de puntos, hace que tanto la victoria como superar el 1.5 de goles propios sean el escenario más probable."
   }
+
+  {
+  "id": "valencia-barcelona-060926",
+  "league": "LaLiga",
+  "date": "6 sept · 09:15 (Perú)",
+  "team1": { "name": "Valencia", "abbr": "VAL", "color": "#F5A623" },
+  "team2": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
+  "pick": "Gana Barcelona",
+  "confidence": 3,
+  "analysis": "Barcelona llega como claro favorito por planilla y por historial reciente (4 victorias en los últimos 5 cruces, con una diferencia de goles amplia a su favor), pero hay una razón real para no ponerle la confianza al máximo: en el enfrentamiento anterior, disputado en este mismo Mestalla en mayo, Valencia dio la sorpresa y ganó 3-1. Ese antecedente demuestra que el 'Che' sabe hacerle daño al Barça de local, así que aunque el favoritismo azulgrana es innegable, no es un partido para darlo por resuelto de entrada."
+  },
+  {
+  "id": "cristal-chankas-060926",
+  "league": "Liga 1 Perú",
+  "date": "6 sept · 11:00 (Perú)",
+  "team1": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
+  "team2": { "name": "Los Chankas", "abbr": "CHK", "color": "#E8A93C" },
+  "pick": "Gana Sporting Cristal",
+  "confidence": 3,
+  "analysis": "Cristal llega golpeado, con dos derrotas seguidas (1-0 ante Sport Boys y 3-1 ante Alianza Atlético) que lo alejaron de la pelea por el título, así que este partido es prácticamente de 'ganar o ganar' para no quedar más rezagado. Los Chankas, por su parte, atraviesa el mal momento opuesto: suma tres derrotas consecutivas en el Clausura y no gana hace más de un mes. El mercado de apuestas también refleja esa diferencia marcada a favor del local. El único matiz de cautela es que Los Chankas ya venció en este mismo estadio la temporada pasada, así que no hay que descartarlo del todo."
+  },
+  {
+  "id": "gimnasia-boca-060926",
+  "league": "Liga Profesional Argentina (Clausura)",
+  "date": "6 sept · 15:00 (Perú, a confirmar)",
+  "team1": { "name": "Gimnasia y Esgrima (Mza)", "abbr": "GEM", "color": "#5B8DEF" },
+  "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
+  "pick": "Menos de 3.5 goles en el partido",
+  "confidence": 2,
+  "analysis": "Boca llega como líder del campeonato con un andar sólido más que vistoso, un equipo que suele controlar sus partidos de visita sin necesidad de golear para ganar. Gimnasia de Mendoza, en la parte baja de la tabla, tampoco es un equipo de ataque desbordante que genere partidos abiertos. Esa combinación de un líder que prioriza no exponerse y un local con poca pegada ofensiva encaja más con un partido cerrado y de pocos goles que con uno de festival ofensivo."
+  }  
 ]
