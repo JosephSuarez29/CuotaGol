@@ -10,8 +10,15 @@
 <meta property="og:title" content="CuotaGol — Pronósticos de fútbol con criterio propio">
 <meta property="og:description" content="Análisis y pronósticos de fútbol de varias ligas, con historial real de aciertos y fallos.">
 <meta property="og:url" content="https://josephsuarez29.github.io/CuotaGol/">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://josephsuarez29.github.io/CuotaGol/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://josephsuarez29.github.io/CuotaGol/og-image.png">
 <meta name="robots" content="index, follow">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
@@ -233,7 +240,10 @@
   }
   .conf-dots{ display:flex; gap:4px; }
   .conf-dots i{ width:6px; height:6px; border-radius:50%; background:var(--border); display:block; }
-  .conf-dots i.on{ background:var(--amber); }
+  .conf-dots i.on{ background:var(--amber); } /* color por defecto, p. ej. el ticket destacado del hero */
+  .conf-dots.conf-high i.on{ background:var(--pitch); }   /* confianza 3-4: verde */
+  .conf-dots.conf-mid i.on{ background:var(--amber); }    /* confianza 2: ámbar */
+  .conf-dots.conf-low i.on{ background:var(--danger); }   /* confianza 1: rojizo, pick más arriesgado */
 
   /* ---------- Stats strip ---------- */
   .stats{
@@ -271,6 +281,24 @@
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:20px;
+  }
+
+  /* ---------- Skeleton de carga ---------- */
+  @keyframes skeleton-shimmer{
+    0%{ background-position:100% 50%; }
+    100%{ background-position:0 50%; }
+  }
+  .skeleton{
+    background:linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 37%, var(--surface) 63%);
+    background-size:400% 100%;
+    animation:skeleton-shimmer 1.4s ease infinite;
+    border:1px solid var(--border);
+  }
+  .skeleton-card{ height:230px; border-radius:var(--radius); }
+  .skeleton-row{ height:58px; border-radius:10px; margin-bottom:10px; }
+
+  @media (prefers-reduced-motion: reduce){
+    .skeleton{ animation:none; }
   }
 
   .card{
@@ -475,31 +503,32 @@
       <h1>Pronósticos de fútbol que <em>no siguen a la manada.</em></h1>
       <p>Analizo forma, estadísticas y contexto de cada partido antes de dar un pick. Sin humo, sin promesas de "cuota segura": criterio, datos y seguimiento honesto de aciertos.</p>
       <div class="hero-cta">
-        <a href="#pronosticos" class="btn btn-primary">Ver pronósticos</a>
+        <a href="#pronosticos" class="btn btn-primary">Ver pronósticos de hoy</a>
         <a href="#como-trabajo" class="btn btn-ghost">Cómo trabajo los análisis</a>
       </div>
-    </div>    
+    </div>
+
     <div class="ticket">
       <div class="ticket-top">
-        <span>Premier League · Vier 4 SEPT 14:00</span>
+        <span>BRASILEIRÃO · MIÉ 2 SEPT 17:30</span>
         <span class="ticket-hot">DESTACADO</span>
       </div>
       <div class="ticket-teams">
         <div class="team">
-          <div class="badge" style="background:#4169C4">FLA</div>
-          <span>Ipswich Town</span>
+          <div class="badge" style="background:#E4574B">FLA</div>
+          <span>Flamengo</span>
         </div>
         <span class="vs">VS</span>
         <div class="team">
-          <div class="badge" style="background:#C8102E">MIR</div>
-          <span>Liverpool</span>
+          <div class="badge" style="background:#6FA83D">MIR</div>
+          <span>Mirassol</span>
         </div>
       </div>
       <div class="ticket-perf"></div>
-      <div class="ticket-pick">Pick: +2.5 goles del partido</div>
+      <div class="ticket-pick">Pick: Gana Flamengo y +1.5 goles de Flamengo</div>
       <div class="ticket-conf">
         Confianza
-        <span class="conf-dots"><i class="on"></i><i class="on"></i><i></i><i></i></span>
+        <span class="conf-dots conf-high"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
       </div>
     </div>
   </div>
@@ -519,6 +548,7 @@
   <div class="wrap">
     <div class="section-head">
       <div>
+        <span class="eyebrow">Hoy · 29-30 ago 2026</span>
         <h2>Pronósticos destacados</h2>
       </div>
       <div class="filters">
@@ -527,7 +557,13 @@
     </div>
 
     <div class="grid" id="cardGrid">
-      <!-- Las tarjetas se generan automáticamente desde predictions.json -->
+      <!-- Skeleton mientras carga predictions.json; app.js lo reemplaza automáticamente -->
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
+      <div class="skeleton skeleton-card"></div>
     </div>
   </div>
 </section>
@@ -546,7 +582,11 @@
       <p>Aciertos sobre el total evaluado. <strong>Se publican todos los resultados</strong>, aciertos y fallos, sin editar el historial.</p>
     </div>
     <div class="hist-list" id="histList">
-      <!-- Se genera automáticamente desde historial.json -->
+      <!-- Skeleton mientras carga historial.json; app.js lo reemplaza automáticamente -->
+      <div class="skeleton skeleton-row"></div>
+      <div class="skeleton skeleton-row"></div>
+      <div class="skeleton skeleton-row"></div>
+      <div class="skeleton skeleton-row"></div>
     </div>
     <button class="hist-toggle" id="histToggle" style="display:none"></button>
   </div>

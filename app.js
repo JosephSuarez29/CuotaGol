@@ -8,6 +8,13 @@
 const AD_SLOT_EVERY = 3; // inserta un espacio publicitario cada N tarjetas
 const SHOW_AD_SLOTS = false; // cámbialo a true cuando tengas anuncios/afiliados reales que mostrar
 
+// Colorea la confianza: 3-4 = alta (verde), 2 = media (ámbar), 1 = baja (rojizo)
+function confidenceClass(level) {
+  if (level >= 3) return 'conf-high';
+  if (level === 2) return 'conf-mid';
+  return 'conf-low';
+}
+
 function confidenceDots(level) {
   let dots = '';
   for (let i = 1; i <= 4; i++) {
@@ -29,7 +36,7 @@ function cardHTML(p) {
       <div class="card-pick">${p.pick}</div>
       <div class="card-foot">
         <a href="detalle.html?id=${p.id}" class="card-link">Ver análisis →</a>
-        <span class="ticket-conf" style="margin:0"><span class="conf-dots">${confidenceDots(p.confidence)}</span></span>
+        <span class="ticket-conf" style="margin:0"><span class="conf-dots ${confidenceClass(p.confidence)}">${confidenceDots(p.confidence)}</span></span>
       </div>
     </div>
   `;
