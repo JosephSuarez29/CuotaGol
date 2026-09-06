@@ -1,19 +1,43 @@
 [
   {
-    "league": "Brasileirão",
-    "date": "2 sept",
-    "team1": "Flamengo",
-    "team2": "Mirassol",
-    "pick": "Gana Flamengo y +1.5 goles de Flamengo",
-    "result": "acierto"
+    "league": "Premier League",
+    "date": "5 sept",
+    "team1": "Manchester City",
+    "team2": "Coventry City",
+    "pick": "Gana Manchester City y +1.5 goles del City",
+    "result": "fallo"
   },
   {
-    "league": "Copa Argentina (Octavos)",
-    "date": "2 sept",
-    "team1":"Vélez Sarsfield",
+    "league": "Bundesliga",
+    "date": "5 sept",
+    "team1": "Schalke 04",
+    "team2": "Bayern Múnich",
+    "pick": "Bayern Múnich anota +1.5 goles",
+    "result": "fallo"
+  },
+  {
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "6 sept",
+    "team1": "Gimnasia y Esgrima (Mza)",
     "team2": "Boca Juniors",
-    "pick": "Ambos equipos reciben 2 o más tarjetas",
-    "result": "acierto"
+    "pick": "Menos de 3.5 goles en el partido",
+    "result": "fallo"
+  },
+  {
+    "league": "LaLiga",
+    "date": "4 sept",
+    "team1": "Real Betis",
+    "team2": "Real Madrid",
+    "pick": "+1.5 goles del partido y ambos equipos reciben tarjeta",
+    "result": "fallo"
+  },
+  {
+    "league": "Premier League",
+    "date": "4 sept",
+    "team1": "Ipswich Town",
+    "team2": "Liverpool",
+    "pick": "+2.5 goles del partido",
+    "result": "fallo"
   },
   {
     "league": "LaLiga",
@@ -72,3 +96,5 @@
     "result": "acierto"
   }
 ]
+
+

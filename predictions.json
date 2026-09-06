@@ -1,45 +1,5 @@
 [
   {
-    "id": "betis-realmadrid-040926",
-    "league": "LaLiga",
-    "date": "4 sept · 14:00 (Perú)",
-    "team1": { "name": "Real Betis", "abbr": "BET", "color": "#3DBE7C" },
-    "team2": { "name": "Real Madrid", "abbr": "RMA", "color": "#5B5FE8" },
-    "pick": "+1.5 goles del partido y ambos equipos reciben tarjeta",
-    "confidence": 2,
-    "analysis": "La Cartuja recibe uno de los primeros grandes partidos de la temporada bética, con Betis afrontando un curso de triple competencia (LaLiga, Copa y el regreso a Champions) y motivado por medirse tan pronto a un rival de este calibre. Real Madrid llega como amplio favorito y con jerarquía ofensiva suficiente para que el partido supere los 1.5 goles sin mayor complicación. La parte de las tarjetas para ambos se apoya en el contexto: es un Betis que va a presionar alto e intentar incomodar en un partido de máxima exigencia, y ese tipo de partidos con intensidad desde el inicio suele dejar amonestados en los dos bandos."
-  },
-  {
-    "id": "ipswich-liverpool-040926",
-    "league": "Premier League",
-    "date": "4 sept · 14:00 (Perú)",
-    "team1": { "name": "Ipswich Town", "abbr": "ITFC", "color": "#4169C4" },
-    "team2": { "name": "Liverpool", "abbr": "LIV", "color": "#C8102E" },
-    "pick": "+2.5 goles del partido",
-    "confidence": 2,
-    "analysis": "Ipswich llega de ganar su debut en el retorno a la Premier (2-1 ante Sunderland), con confianza y jugando de local en Portman Road, un equipo que no se guarda nada aunque enfrente a un grande. Liverpool, por su parte, tiene el ataque para hacer daño a cualquier recién ascendido. La combinación de un local que sale a jugar de igual a igual sin especular y un Liverpool con jerarquía ofensiva suele producir partidos abiertos con goles de los dos lados, más que encuentros cerrados."
-  },
-  {
-    "id": "mancity-coventry-050926",
-    "league": "Premier League",
-    "date": "5 sept · 09:00 (Perú)",
-    "team1": { "name": "Manchester City", "abbr": "MCI", "color": "#5BC0E8" },
-    "team2": { "name": "Coventry City", "abbr": "COV", "color": "#8B96A3" },
-    "pick": "Gana Manchester City y +1.5 goles del City",
-    "confidence": 3,
-    "analysis": "City tuvo un mercado de bajas importante este verano y está en pleno proceso de reconstrucción, pero eso no cambia demasiado el panorama ante un recién ascendido como Coventry, que llega a un desafío mayúsculo en el Etihad. Históricamente los recién ascendidos sufren mucho de visita ante candidatos al título en las primeras jornadas, y el favoritismo de City en su casa es amplio incluso en año de transición. Superar el 1.5 de goles propios es coherente con la diferencia de nivel entre ambos planteles."
-  },
-  {
-    "id": "schalke-bayern-050926",
-    "league": "Bundesliga",
-    "date": "5 sept · 09:30 (Perú)",
-    "team1": { "name": "Schalke 04", "abbr": "S04", "color": "#2A4D8F" },
-    "team2": { "name": "Bayern Múnich", "abbr": "FCB", "color": "#E4574B" },
-    "pick": "Bayern Múnich anota +1.5 goles",
-    "confidence": 3,
-    "analysis": "Bayern llega de golear 5-1 al Stuttgart en su debut liguero y es, una vez más, el gran favorito al título, con un ataque que no ha dado señales de bajar el ritmo tras el cambio de temporada. Schalke, recién ascendido, va a intentar plantarse con orden, pero históricamente los debutantes en Bundesliga sufren especialmente ante los grandes en las primeras fechas. Con la diferencia de jerarquía ofensiva que hay entre ambos planteles, que Bayern llegue a los 2 goles es más una expectativa razonable que un pick arriesgado."
-  },
-  {
     "id": "universitario-comerciantes-050926",
     "league": "Liga 1 Perú",
     "date": "5 sept · 20:30 (Perú)",
@@ -50,33 +10,53 @@
     "analysis": "Universitario juega en el Monumental tras su visita a Cajamarca, en un torneo Clausura donde necesita sumar de a tres para no perder terreno en la pelea por el tetracampeonato. Comerciantes Unidos no suele ser un rival que le complique el resultado a los grandes de local, y el historial reciente de la 'U' como anfitrión respalda un partido con superioridad clara. La localía, sumada a la necesidad de puntos, hace que tanto la victoria como superar el 1.5 de goles propios sean el escenario más probable."
   },
   {
-  "id": "valencia-barcelona-060926",
-  "league": "LaLiga",
-  "date": "6 sept · 09:15 (Perú)",
-  "team1": { "name": "Valencia", "abbr": "VAL", "color": "#F5A623" },
-  "team2": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
-  "pick": "Gana Barcelona",
-  "confidence": 3,
-  "analysis": "Barcelona llega como claro favorito por planilla y por historial reciente (4 victorias en los últimos 5 cruces, con una diferencia de goles amplia a su favor), pero hay una razón real para no ponerle la confianza al máximo: en el enfrentamiento anterior, disputado en este mismo Mestalla en mayo, Valencia dio la sorpresa y ganó 3-1. Ese antecedente demuestra que el 'Che' sabe hacerle daño al Barça de local, así que aunque el favoritismo azulgrana es innegable, no es un partido para darlo por resuelto de entrada."
+    "id": "river-independiente-rivadavia-060926",
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "6 sept · 17:15 (Perú)",
+    "team1": { "name": "River Plate", "abbr": "RIV", "color": "#5B8DEF" },
+    "team2": { "name": "Independiente Rivadavia", "abbr": "IR", "color": "#3DBE7C" },
+    "pick": "Gana River Plate",
+    "confidence": 1,
+    "analysis": "Este es un pick de riesgo real, y la confianza baja lo refleja a propósito. River llega en pleno recambio: salió Eduardo Coudet y asumió Leonardo Ponzio como interino, apenas con un partido dirigido (triunfo ante Banfield). Del otro lado, Independiente Rivadavia es de los equipos más sólidos del campeonato, 2° en su zona con gran nivel, y River ni siquiera podrá contar con Maxi Salas, cedido a préstamo pero que pertenece justamente a River. El antecedente más reciente entre ambos terminó empatado 1-1 en Mendoza. Jugar de local en el Monumental pesa a favor, pero con un plantel todavía acomodándose a un nuevo entrenador y un rival en gran forma, no es un partido para tenerle demasiada confianza."
   },
   {
-  "id": "cristal-chankas-060926",
-  "league": "Liga 1 Perú",
-  "date": "6 sept · 11:00 (Perú)",
-  "team1": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
-  "team2": { "name": "Los Chankas", "abbr": "CHK", "color": "#E8A93C" },
-  "pick": "Gana Sporting Cristal",
-  "confidence": 3,
-  "analysis": "Cristal llega golpeado, con dos derrotas seguidas (1-0 ante Sport Boys y 3-1 ante Alianza Atlético) que lo alejaron de la pelea por el título, así que este partido es prácticamente de 'ganar o ganar' para no quedar más rezagado. Los Chankas, por su parte, atraviesa el mal momento opuesto: suma tres derrotas consecutivas en el Clausura y no gana hace más de un mes. El mercado de apuestas también refleja esa diferencia marcada a favor del local. El único matiz de cautela es que Los Chankas ya venció en este mismo estadio la temporada pasada, así que no hay que descartarlo del todo."
+    "id": "cusco-moquegua-050926",
+    "league": "Liga 1 Perú",
+    "date": "5 sept · 18:00 (Perú)",
+    "team1": { "name": "Cusco FC", "abbr": "CUS", "color": "#E4574B" },
+    "team2": { "name": "Deportivo Moquegua", "abbr": "MOQ", "color": "#8B96A3" },
+    "pick": "Gana Cusco FC",
+    "confidence": 3,
+    "analysis": "Cusco llega de vencer 2-1 a Cienciano y se afianza en la mitad alta de la tabla (6°, 27 puntos), jugando en su fortín del Inca Garcilaso de la Vega. Deportivo Moquegua, en cambio, atraviesa una campaña muy floja: es 14°, con apenas 18 puntos, y viene de caer goleado 1-4 ante Alianza Atlético. El historial reciente entre ambos también respalda al 'Dorado', que ganó el último cruce en el Apertura. La diferencia de momento y de tabla hace de este un favoritismo claro para el local."
   },
   {
-  "id": "gimnasia-boca-060926",
-  "league": "Liga Profesional Argentina (Clausura)",
-  "date": "6 sept · 15:00 (Perú, a confirmar)",
-  "team1": { "name": "Gimnasia y Esgrima (Mza)", "abbr": "GEM", "color": "#5B8DEF" },
-  "team2": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
-  "pick": "Menos de 3.5 goles en el partido",
-  "confidence": 2,
-  "analysis": "Boca llega como líder del campeonato con un andar sólido más que vistoso, un equipo que suele controlar sus partidos de visita sin necesidad de golear para ganar. Gimnasia de Mendoza, en la parte baja de la tabla, tampoco es un equipo de ataque desbordante que genere partidos abiertos. Esa combinación de un líder que prioriza no exponerse y un local con poca pegada ofensiva encaja más con un partido cerrado y de pocos goles que con uno de festival ofensivo."
+    "id": "arsenal-chelsea-060926",
+    "league": "Premier League",
+    "date": "6 sept · 10:30 (Perú)",
+    "team1": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
+    "team2": { "name": "Chelsea", "abbr": "CHE", "color": "#1B2A6B" },
+    "pick": "Ambos equipos reciben tarjeta y +3.5 tarjetas totales",
+    "confidence": 2,
+    "analysis": "El derbi londinense de la fecha 3 llega con ambos con puntaje perfecto (6 de 6), lo que ya de por sí eleva la intensidad: no es solo un clásico, es un choque directo por el liderato. Arsenal no ha recibido goles en el torneo y Chelsea llega con una defensa cuestionada, así que ambos van a jugar al límite: el local para no ceder terreno, el visitante para demostrar que compite de igual a igual. Ese tipo de partidos de alta exigencia entre rivales directos suele dejar tarjetas para los dos bandos y un número de amonestados por encima del promedio de una fecha cualquiera."
+  },
+  {
+    "id": "valencia-barcelona-060926",
+    "league": "LaLiga",
+    "date": "6 sept · 09:15 (Perú)",
+    "team1": { "name": "Valencia", "abbr": "VAL", "color": "#F5A623" },
+    "team2": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
+    "pick": "Gana Barcelona",
+    "confidence": 3,
+    "analysis": "Barcelona llega como claro favorito por planilla y por historial reciente (4 victorias en los últimos 5 cruces, con una diferencia de goles amplia a su favor), pero hay una razón real para no ponerle la confianza al máximo: en el enfrentamiento anterior, disputado en este mismo Mestalla en mayo, Valencia dio la sorpresa y ganó 3-1. Ese antecedente demuestra que el 'Che' sabe hacerle daño al Barça de local, así que aunque el favoritismo azulgrana es innegable, no es un partido para darlo por resuelto de entrada."
+  },
+  {
+    "id": "cristal-chankas-060926",
+    "league": "Liga 1 Perú",
+    "date": "6 sept · 11:00 (Perú)",
+    "team1": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
+    "team2": { "name": "Los Chankas", "abbr": "CHK", "color": "#E8A93C" },
+    "pick": "Gana Sporting Cristal",
+    "confidence": 3,
+    "analysis": "Cristal llega golpeado, con dos derrotas seguidas (1-0 ante Sport Boys y 3-1 ante Alianza Atlético) que lo alejaron de la pelea por el título, así que este partido es prácticamente de 'ganar o ganar' para no quedar más rezagado. Los Chankas, por su parte, atraviesa el mal momento opuesto: suma tres derrotas consecutivas en el Clausura y no gana hace más de un mes. El mercado de apuestas también refleja esa diferencia marcada a favor del local. El único matiz de cautela es que Los Chankas ya venció en este mismo estadio la temporada pasada, así que no hay que descartarlo del todo."
   }
 ]
