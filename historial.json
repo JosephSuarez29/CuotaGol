@@ -1,26 +1,10 @@
 [
   {
-    "league": "Liga 1 Perú",
-    "date": "5 sept",
-    "team1": "Universitario",
-    "team2": "Comerciantes Unidos",
-    "pick": "Gana Universitario y +1.5 goles de la U",
-    "result": "fallo"
-  },
-  {
     "league": "Liga Profesional Argentina (Clausura)",
     "date": "6 sept",
     "team1": "River Plate",
     "team2": "Independiente Rivadavia",
     "pick": "Gana River Plate",
-    "result": "acierto"
-  },
-  {
-    "league": "Liga 1 Perú",
-    "date": "5 sept",
-    "team1": "Cusco FC",
-    "team2": "Deportivo Moquegua",
-    "pick": "Gana Cusco FC",
     "result": "acierto"
   },
   {
@@ -48,6 +32,30 @@
     "result": "acierto"
   },
   {
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "6 sept",
+    "team1": "Gimnasia y Esgrima (Mza)",
+    "team2": "Boca Juniors",
+    "pick": "Menos de 3.5 goles en el partido",
+    "result": "fallo"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "5 sept",
+    "team1": "Universitario",
+    "team2": "Comerciantes Unidos",
+    "pick": "Gana Universitario y +1.5 goles de la U",
+    "result": "fallo"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "5 sept",
+    "team1": "Cusco FC",
+    "team2": "Deportivo Moquegua",
+    "pick": "Gana Cusco FC",
+    "result": "acierto"
+  },
+  {
     "league": "Premier League",
     "date": "5 sept",
     "team1": "Manchester City",
@@ -61,14 +69,6 @@
     "team1": "Schalke 04",
     "team2": "Bayern Múnich",
     "pick": "Bayern Múnich anota +1.5 goles",
-    "result": "fallo"
-  },
-  {
-    "league": "Liga Profesional Argentina (Clausura)",
-    "date": "6 sept",
-    "team1": "Gimnasia y Esgrima (Mza)",
-    "team2": "Boca Juniors",
-    "pick": "Menos de 3.5 goles en el partido",
     "result": "fallo"
   },
   {
@@ -144,5 +144,3 @@
     "result": "acierto"
   }
 ]
-
-
