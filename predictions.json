@@ -1,62 +1,62 @@
 [
   {
-    "id": "universitario-comerciantes-050926",
-    "league": "Liga 1 Perú",
-    "date": "5 sept · 20:30 (Perú)",
-    "team1": { "name": "Universitario", "abbr": "UNI", "color": "#E8A93C" },
-    "team2": { "name": "Comerciantes Unidos", "abbr": "CU", "color": "#3DBE7C" },
-    "pick": "Gana Universitario y +1.5 goles de la U",
+    "id": "boca-saopaulo-080926",
+    "league": "Copa Sudamericana (Cuartos, ida)",
+    "date": "8 sept · 19:30 (Perú)",
+    "team1": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
+    "team2": { "name": "São Paulo", "abbr": "SAO", "color": "#E4574B" },
+    "pick": "Ambos equipos reciben 2 o más tarjetas",
     "confidence": 3,
-    "analysis": "Universitario juega en el Monumental tras su visita a Cajamarca, en un torneo Clausura donde necesita sumar de a tres para no perder terreno en la pelea por el tetracampeonato. Comerciantes Unidos no suele ser un rival que le complique el resultado a los grandes de local, y el historial reciente de la 'U' como anfitrión respalda un partido con superioridad clara. La localía, sumada a la necesidad de puntos, hace que tanto la victoria como superar el 1.5 de goles propios sean el escenario más probable."
+    "analysis": "La Bombonera recibe un cruce de gigantes sudamericanos en cuartos de final, con el condimento extra de que Jonathan Calleri, exjugador de Boca, hoy juega en las filas de São Paulo. Boca llega de un andar irregular en el torneo local y necesita hacer valer su localía a como dé lugar, mientras que São Paulo llega en mejor ritmo físico tras clasificar directo a octavos. Un cruce de esta magnitud, a partido único de ida con la exigencia de no perder terreno para la vuelta, suele traer intensidad y roce desde el arranque — el tipo de partido donde las tarjetas para ambos lados son casi un clásico."
   },
   {
-    "id": "river-independiente-rivadavia-060926",
-    "league": "Liga Profesional Argentina (Clausura)",
-    "date": "6 sept · 17:15 (Perú)",
-    "team1": { "name": "River Plate", "abbr": "RIV", "color": "#5B8DEF" },
-    "team2": { "name": "Independiente Rivadavia", "abbr": "IR", "color": "#3DBE7C" },
-    "pick": "Gana River Plate",
-    "confidence": 1,
-    "analysis": "Este es un pick de riesgo real, y la confianza baja lo refleja a propósito. River llega en pleno recambio: salió Eduardo Coudet y asumió Leonardo Ponzio como interino, apenas con un partido dirigido (triunfo ante Banfield). Del otro lado, Independiente Rivadavia es de los equipos más sólidos del campeonato, 2° en su zona con gran nivel, y River ni siquiera podrá contar con Maxi Salas, cedido a préstamo pero que pertenece justamente a River. El antecedente más reciente entre ambos terminó empatado 1-1 en Mendoza. Jugar de local en el Monumental pesa a favor, pero con un plantel todavía acomodándose a un nuevo entrenador y un rival en gran forma, no es un partido para tenerle demasiada confianza."
-  },
-  {
-    "id": "cusco-moquegua-050926",
-    "league": "Liga 1 Perú",
-    "date": "5 sept · 18:00 (Perú)",
-    "team1": { "name": "Cusco FC", "abbr": "CUS", "color": "#E4574B" },
-    "team2": { "name": "Deportivo Moquegua", "abbr": "MOQ", "color": "#8B96A3" },
-    "pick": "Gana Cusco FC",
+    "id": "porto-mancity-080926",
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "8 sept · 14:00 (Perú)",
+    "team1": { "name": "Porto", "abbr": "POR", "color": "#5B8DEF" },
+    "team2": { "name": "Manchester City", "abbr": "MCI", "color": "#5BC0E8" },
+    "pick": "+2.5 goles del partido",
     "confidence": 3,
-    "analysis": "Cusco llega de vencer 2-1 a Cienciano y se afianza en la mitad alta de la tabla (6°, 27 puntos), jugando en su fortín del Inca Garcilaso de la Vega. Deportivo Moquegua, en cambio, atraviesa una campaña muy floja: es 14°, con apenas 18 puntos, y viene de caer goleado 1-4 ante Alianza Atlético. El historial reciente entre ambos también respalda al 'Dorado', que ganó el último cruce en el Apertura. La diferencia de momento y de tabla hace de este un favoritismo claro para el local."
+    "analysis": "Ambos llegan con arranque perfecto en sus ligas domésticas, lo que habla de dos ataques en gran forma antes del debut europeo. Porto es local con público a favor y viene anotando con facilidad en la Primeira Liga, mientras que City, aún en año de reconstrucción defensiva, sigue teniendo con qué generar peligro arriba. El debut en fase de liga suele traer nervios en las defensas y ganas de imponerse desde el vestuario en ambos bandos, un combo que históricamente favorece a los partidos con goles."
   },
   {
-    "id": "arsenal-chelsea-060926",
-    "league": "Premier League",
-    "date": "6 sept · 10:30 (Perú)",
-    "team1": { "name": "Arsenal", "abbr": "ARS", "color": "#E4574B" },
-    "team2": { "name": "Chelsea", "abbr": "CHE", "color": "#1B2A6B" },
-    "pick": "Ambos equipos reciben tarjeta y +3.5 tarjetas totales",
+    "id": "barcelona-feyenoord-090926",
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "9 sept · 11:45 (Perú)",
+    "team1": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
+    "team2": { "name": "Feyenoord", "abbr": "FEY", "color": "#E4574B" },
+    "pick": "+19.5 remates totales del Barcelona",
+    "confidence": 3,
+    "analysis": "En el Camp Nou y de local, Barcelona suele monopolizar la posesión y el volumen de disparo frente a rivales de menor jerarquía europea, algo que se acentúa en el debut de fase de liga cuando el equipo busca arrancar con contundencia. Feyenoord no es un equipo que suela plantarse a repliegue total, pero tampoco tiene el nivel individual para quitarle el balón a Barcelona por tramos largos. Este tipo de partidos como local ante un rival de perfil más bajo suelen dejar cifras de remates muy altas para el Barça, más relacionado al dominio del partido que al resultado en sí."
+  },
+  {
+    "id": "palmeiras-ldu-090926",
+    "league": "Copa Libertadores (Cuartos, ida)",
+    "date": "9 sept · 17:00 (Perú)",
+    "team1": { "name": "Palmeiras", "abbr": "PAL", "color": "#3DBE7C" },
+    "team2": { "name": "LDU Quito", "abbr": "LDU", "color": "#E8A93C" },
+    "pick": "+17.5 remates totales de Palmeiras",
     "confidence": 2,
-    "analysis": "El derbi londinense de la fecha 3 llega con ambos con puntaje perfecto (6 de 6), lo que ya de por sí eleva la intensidad: no es solo un clásico, es un choque directo por el liderato. Arsenal no ha recibido goles en el torneo y Chelsea llega con una defensa cuestionada, así que ambos van a jugar al límite: el local para no ceder terreno, el visitante para demostrar que compite de igual a igual. Ese tipo de partidos de alta exigencia entre rivales directos suele dejar tarjetas para los dos bandos y un número de amonestados por encima del promedio de una fecha cualquiera."
+    "analysis": "Palmeiras de local suele ser de los equipos con mayor volumen ofensivo de Sudamérica, e institucionalmente llega motivado tras el subcampeonato de la edición pasada. LDU Quito es un rival que sabe jugar los cruces de ida y vuelta con orden y no regala espacios fácilmente, lo que puede hacer que el equipo brasileño tenga que insistir mucho por fuera y de media distancia para encontrar espacios. La confianza es media porque, aunque el dominio de Palmeiras es esperable, un cierre táctico bien plantado de LDU podría bajar el volumen de tiros de lo habitual."
   },
   {
-    "id": "valencia-barcelona-060926",
-    "league": "LaLiga",
-    "date": "6 sept · 09:15 (Perú)",
-    "team1": { "name": "Valencia", "abbr": "VAL", "color": "#F5A623" },
-    "team2": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
-    "pick": "Gana Barcelona",
+    "id": "cienciano-torque-100926",
+    "league": "Copa Sudamericana (Cuartos, ida)",
+    "date": "10 sept · 19:30 (Perú)",
+    "team1": { "name": "Cienciano", "abbr": "CIE", "color": "#E4574B" },
+    "team2": { "name": "Montevideo City Torque", "abbr": "MCT", "color": "#5B8DEF" },
+    "pick": "Gana Cienciano",
     "confidence": 3,
-    "analysis": "Barcelona llega como claro favorito por planilla y por historial reciente (4 victorias en los últimos 5 cruces, con una diferencia de goles amplia a su favor), pero hay una razón real para no ponerle la confianza al máximo: en el enfrentamiento anterior, disputado en este mismo Mestalla en mayo, Valencia dio la sorpresa y ganó 3-1. Ese antecedente demuestra que el 'Che' sabe hacerle daño al Barça de local, así que aunque el favoritismo azulgrana es innegable, no es un partido para darlo por resuelto de entrada."
+    "analysis": "Cienciano llega a esta instancia después de 23 años, jugando en el Inca Garcilaso de la Vega a más de 3,300 metros de altura — un factor que históricamente golpea fuerte a los equipos que no están acostumbrados a la altura, y Montevideo City Torque nunca ha jugado ahí. El 'Papá' además llega en gran nivel ofensivo, viniendo de eliminar a Botafogo y de golear 5-2 en el torneo local. La combinación de localía, altura y buen momento hace de este un favoritismo razonable, aunque no absoluto tratándose de un cruce continental a eliminación."
   },
   {
-    "id": "cristal-chankas-060926",
-    "league": "Liga 1 Perú",
-    "date": "6 sept · 11:00 (Perú)",
-    "team1": { "name": "Sporting Cristal", "abbr": "SC", "color": "#5B8DEF" },
-    "team2": { "name": "Los Chankas", "abbr": "CHK", "color": "#E8A93C" },
-    "pick": "Gana Sporting Cristal",
-    "confidence": 3,
-    "analysis": "Cristal llega golpeado, con dos derrotas seguidas (1-0 ante Sport Boys y 3-1 ante Alianza Atlético) que lo alejaron de la pelea por el título, así que este partido es prácticamente de 'ganar o ganar' para no quedar más rezagado. Los Chankas, por su parte, atraviesa el mal momento opuesto: suma tres derrotas consecutivas en el Clausura y no gana hace más de un mes. El mercado de apuestas también refleja esa diferencia marcada a favor del local. El único matiz de cautela es que Los Chankas ya venció en este mismo estadio la temporada pasada, así que no hay que descartarlo del todo."
+    "id": "bayern-bodoglimt-100926",
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "10 sept · 14:00 (Perú)",
+    "team1": { "name": "Bayern Múnich", "abbr": "FCB", "color": "#E4574B" },
+    "team2": { "name": "Bodø/Glimt", "abbr": "BOD", "color": "#F5A623" },
+    "pick": "+4 atajadas del arquero Nikita Haikin",
+    "confidence": 4,
+    "analysis": "Bayern es de los ataques más letales de Europa y de local en el Allianz Arena suele generar una cantidad de ocasiones muy por encima del promedio continental, más aún debutando en Champions con ganas de arrancar bien. Bodø/Glimt, pese a ser la sorpresa de la edición pasada, va a jugar con bloque bajo y dejarle la iniciativa a Bayern, lo que en la práctica se traduce en que su arquero, Nikita Haikin, va a estar bajo asedio constante. Es de los picks con más confianza de la tanda: el volumen de disparo esperado de Bayern hace que superar las 4 atajadas sea prácticamente el escenario base, no la excepción."
   }
 ]

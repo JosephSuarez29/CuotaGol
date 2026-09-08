@@ -1,5 +1,53 @@
 [
   {
+    "league": "Liga 1 Perú",
+    "date": "5 sept",
+    "team1": "Universitario",
+    "team2": "Comerciantes Unidos",
+    "pick": "Gana Universitario y +1.5 goles de la U",
+    "result": "fallo"
+  },
+  {
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "6 sept",
+    "team1": "River Plate",
+    "team2": "Independiente Rivadavia",
+    "pick": "Gana River Plate",
+    "result": "acierto"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "5 sept",
+    "team1": "Cusco FC",
+    "team2": "Deportivo Moquegua",
+    "pick": "Gana Cusco FC",
+    "result": "acierto"
+  },
+  {
+    "league": "Premier League",
+    "date": "6 sept",
+    "team1": "Arsenal",
+    "team2": "Chelsea",
+    "pick": "Ambos equipos reciben tarjeta y +3.5 tarjetas totales",
+    "result": "acierto"
+  },
+  {
+    "league": "LaLiga",
+    "date": "6 sept",
+    "team1": "Valencia",
+    "team2": "Barcelona",
+    "pick": "Gana Barcelona",
+    "result": "acierto"
+  },
+  {
+    "league": "Liga 1 Perú",
+    "date": "6 sept",
+    "team1": "Sporting Cristal",
+    "team2": "Los Chankas",
+    "pick": "Gana Sporting Cristal",
+    "result": "acierto"
+  },
+  {
     "league": "Premier League",
     "date": "5 sept",
     "team1": "Manchester City",
