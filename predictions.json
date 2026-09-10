@@ -1,45 +1,5 @@
 [
   {
-    "id": "boca-saopaulo-080926",
-    "league": "Copa Sudamericana (Cuartos, ida)",
-    "date": "8 sept · 19:30 (Perú)",
-    "team1": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
-    "team2": { "name": "São Paulo", "abbr": "SAO", "color": "#E4574B" },
-    "pick": "Ambos equipos reciben 2 o más tarjetas",
-    "confidence": 3,
-    "analysis": "La Bombonera recibe un cruce de gigantes sudamericanos en cuartos de final, con el condimento extra de que Jonathan Calleri, exjugador de Boca, hoy juega en las filas de São Paulo. Boca llega de un andar irregular en el torneo local y necesita hacer valer su localía a como dé lugar, mientras que São Paulo llega en mejor ritmo físico tras clasificar directo a octavos. Un cruce de esta magnitud, a partido único de ida con la exigencia de no perder terreno para la vuelta, suele traer intensidad y roce desde el arranque — el tipo de partido donde las tarjetas para ambos lados son casi un clásico."
-  },
-  {
-    "id": "porto-mancity-080926",
-    "league": "UEFA Champions League (Jornada 1)",
-    "date": "8 sept · 14:00 (Perú)",
-    "team1": { "name": "Porto", "abbr": "POR", "color": "#5B8DEF" },
-    "team2": { "name": "Manchester City", "abbr": "MCI", "color": "#5BC0E8" },
-    "pick": "+2.5 goles del partido",
-    "confidence": 3,
-    "analysis": "Ambos llegan con arranque perfecto en sus ligas domésticas, lo que habla de dos ataques en gran forma antes del debut europeo. Porto es local con público a favor y viene anotando con facilidad en la Primeira Liga, mientras que City, aún en año de reconstrucción defensiva, sigue teniendo con qué generar peligro arriba. El debut en fase de liga suele traer nervios en las defensas y ganas de imponerse desde el vestuario en ambos bandos, un combo que históricamente favorece a los partidos con goles."
-  },
-  {
-    "id": "barcelona-feyenoord-090926",
-    "league": "UEFA Champions League (Jornada 1)",
-    "date": "9 sept · 11:45 (Perú)",
-    "team1": { "name": "Barcelona", "abbr": "BAR", "color": "#5B5FE8" },
-    "team2": { "name": "Feyenoord", "abbr": "FEY", "color": "#E4574B" },
-    "pick": "+19.5 remates totales del Barcelona",
-    "confidence": 3,
-    "analysis": "En el Camp Nou y de local, Barcelona suele monopolizar la posesión y el volumen de disparo frente a rivales de menor jerarquía europea, algo que se acentúa en el debut de fase de liga cuando el equipo busca arrancar con contundencia. Feyenoord no es un equipo que suela plantarse a repliegue total, pero tampoco tiene el nivel individual para quitarle el balón a Barcelona por tramos largos. Este tipo de partidos como local ante un rival de perfil más bajo suelen dejar cifras de remates muy altas para el Barça, más relacionado al dominio del partido que al resultado en sí."
-  },
-  {
-    "id": "palmeiras-ldu-090926",
-    "league": "Copa Libertadores (Cuartos, ida)",
-    "date": "9 sept · 17:00 (Perú)",
-    "team1": { "name": "Palmeiras", "abbr": "PAL", "color": "#3DBE7C" },
-    "team2": { "name": "LDU Quito", "abbr": "LDU", "color": "#E8A93C" },
-    "pick": "+17.5 remates totales de Palmeiras",
-    "confidence": 2,
-    "analysis": "Palmeiras de local suele ser de los equipos con mayor volumen ofensivo de Sudamérica, e institucionalmente llega motivado tras el subcampeonato de la edición pasada. LDU Quito es un rival que sabe jugar los cruces de ida y vuelta con orden y no regala espacios fácilmente, lo que puede hacer que el equipo brasileño tenga que insistir mucho por fuera y de media distancia para encontrar espacios. La confianza es media porque, aunque el dominio de Palmeiras es esperable, un cierre táctico bien plantado de LDU podría bajar el volumen de tiros de lo habitual."
-  },
-  {
     "id": "cienciano-torque-100926",
     "league": "Copa Sudamericana (Cuartos, ida)",
     "date": "10 sept · 19:30 (Perú)",
@@ -58,5 +18,45 @@
     "pick": "+4 atajadas del arquero Nikita Haikin",
     "confidence": 4,
     "analysis": "Bayern es de los ataques más letales de Europa y de local en el Allianz Arena suele generar una cantidad de ocasiones muy por encima del promedio continental, más aún debutando en Champions con ganas de arrancar bien. Bodø/Glimt, pese a ser la sorpresa de la edición pasada, va a jugar con bloque bajo y dejarle la iniciativa a Bayern, lo que en la práctica se traduce en que su arquero, Nikita Haikin, va a estar bajo asedio constante. Es de los picks con más confianza de la tanda: el volumen de disparo esperado de Bayern hace que superar las 4 atajadas sea prácticamente el escenario base, no la excepción."
+  },
+  {
+    "id": "manutd-sabah-100926",
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "10 sept · 14:00 (Perú)",
+    "team1": { "name": "Manchester United", "abbr": "MUN", "color": "#E4574B" },
+    "team2": { "name": "Sabah", "abbr": "SAB", "color": "#3DBE7C" },
+    "pick": "+2.5 goles del Manchester United",
+    "confidence": 2,
+    "analysis": "Old Trafford recibe el debut europeo del United tras dos años afuera de la Champions, ante un Sabah que juega esta competición por primera vez en su historia desde su fundación. Es la clase de partido donde el favorito de casa suele salir con hambre de imponer diferencia desde el arranque, más tratándose de un debut con el estadio a favor. La confianza no es máxima porque el United viene de un inicio irregular en la Premier (con altibajos incluso ante rivales de menor nivel), así que no se puede dar por completamente sentada la contundencia goleadora."
+  },
+  {
+    "id": "boca-centralcordoba-110926",
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "11 sept · 19:30 (Perú)",
+    "team1": { "name": "Boca Juniors", "abbr": "BOC", "color": "#1B2A6B" },
+    "team2": { "name": "Central Córdoba (SdE)", "abbr": "CCO", "color": "#8B96A3" },
+    "pick": "Menos de 2.5 goles en el partido",
+    "confidence": 2,
+    "analysis": "Boca llega con apenas dos días de descanso tras el desgaste físico y emocional de vencer a São Paulo por Sudamericana, lo que suele traducirse en rotaciones y un ritmo de partido más controlado que vistoso. Central Córdoba, por su parte, no es un equipo de gran producción ofensiva de visitante y viene de un andar irregular. La combinación de un local con las piernas cargadas y prioridad en no arriesgar, más un rival de bajo perfil ofensivo, encaja con un partido de pocos goles."
+  },
+  {
+    "id": "newells-velez-110926",
+    "league": "Liga Profesional Argentina (Clausura)",
+    "date": "11 sept · 15:00 (Perú)",
+    "team1": { "name": "Newell's Old Boys", "abbr": "NOB", "color": "#5B8DEF" },
+    "team2": { "name": "Vélez Sarsfield", "abbr": "VEL", "color": "#3DBE7C" },
+    "pick": "+1.5 goles en el partido",
+    "confidence": 3,
+    "analysis": "Newell's llega de un empate agónico en el clásico rosarino ante Central y va a buscar hacerse fuerte en el Coloso Bielsa para no perder pisada en la clasificación. Vélez llega en un gran momento, ganando 1-0 a Estudiantes y peleando la punta de su zona, por lo que no es un equipo que especule de visitante. Ambos vienen mostrando que generan situaciones de gol con relativa frecuencia esta temporada, así que superar el 1.5 de goles totales es un escenario cómodo más que ambicioso."
+  },
+  {
+    "id": "cusco-melgar-110926",
+    "league": "Liga 1 Perú",
+    "date": "11 sept · 19:00 (Perú)",
+    "team1": { "name": "Cusco FC", "abbr": "CUS", "color": "#E4574B" },
+    "team2": { "name": "Melgar", "abbr": "MEL", "color": "#8B1E3F" },
+    "pick": "+1.5 goles en el partido",
+    "confidence": 3,
+    "analysis": "Es un cruce directo por la parte alta del Clausura: el ganador se puede disparar hacia los primeros puestos, lo que eleva la necesidad de ambos de salir a buscar el partido en vez de especular. Cusco llega de ganar su partido anterior con confianza ofensiva, y Melgar, quinto en la tabla, tampoco es un equipo que se cierre atrás cuando visita. Ese contexto de necesidad mutua, sumado a que ninguno de los dos suele jugar partidos de cero a cero, respalda un pick de más de 1.5 goles con relativa comodidad."
   }
 ]

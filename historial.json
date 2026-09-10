@@ -1,5 +1,37 @@
 [
   {
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "9 sept",
+    "team1": "Barcelona",
+    "team2": "Feyenoord",
+    "pick": "+19.5 remates totales del Barcelona",
+    "result": "acierto"
+  },
+  {
+    "league": "Copa Libertadores (Cuartos, ida)",
+    "date": "9 sept",
+    "team1": "Palmeiras",
+    "team2": "LDU Quito",
+    "pick": "+17.5 remates totales de Palmeiras",
+    "result": "acierto"
+  },
+  {
+    "league": "Copa Sudamericana (Cuartos, ida)",
+    "date": "8 sept",
+    "team1": "Boca Juniors",
+    "team2": "São Paulo",
+    "pick": "Ambos equipos reciben 2 o más tarjetas",
+    "result": "fallo"
+  },
+  {
+    "league": "UEFA Champions League (Jornada 1)",
+    "date": "8 sept",
+    "team1": "Porto",
+    "team2": "Manchester City",
+    "pick": "+2.5 goles del partido",
+    "result": "fallo"
+  },
+  {
     "league": "Liga Profesional Argentina (Clausura)",
     "date": "6 sept",
     "team1": "River Plate",
@@ -144,3 +176,5 @@
     "result": "acierto"
   }
 ]
+
+
