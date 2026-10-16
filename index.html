@@ -1,647 +1,189 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CuotaGol — Pronósticos de fútbol con criterio propio</title>
-<meta name="description" content="Pronósticos de fútbol con análisis propio: LaLiga, Serie A, Bundesliga, Premier League, Champions League, Liga 1 Perú y más. Picks diarios con historial real de aciertos y fallos.">
-<link rel="canonical" href="https://josephsuarez29.github.io/CuotaGol/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CuotaGol — Pronósticos de fútbol con criterio propio">
-<meta property="og:description" content="Análisis y pronósticos de fútbol de varias ligas, con historial real de aciertos y fallos.">
-<meta property="og:url" content="https://josephsuarez29.github.io/CuotaGol/">
-<meta property="og:image" content="https://josephsuarez29.github.io/CuotaGol/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://josephsuarez29.github.io/CuotaGol/og-image.png">
-<meta name="robots" content="index, follow">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CuotaGol · Rachas y estadísticas de fútbol</title>
+<meta name="description" content="Rachas de más de 2.5 goles y ambos anotan por equipo en Premier League, La Liga y Champions League. Datos, no opiniones.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --bg: #0A0E12;
-    --bg-alt: #0D1319;
-    --surface: #131A22;
-    --surface-2: #182029;
-    --border: #232E39;
-    --text: #F3F1EA;
-    --text-muted: #8B96A3;
-    --amber: #E8A93C;
-    --amber-soft: rgba(232,169,60,0.12);
-    --pitch: #35A868;
-    --pitch-soft: rgba(53,168,104,0.12);
-    --danger: #E4574B;
-    --radius: 14px;
-    --display: 'Oswald', sans-serif;
-    --body: 'Inter', sans-serif;
-    --mono: 'JetBrains Mono', monospace;
-  }
-
-  *{ box-sizing:border-box; margin:0; padding:0; }
-  html{ scroll-behavior:smooth; }
-
-  body{
-    background:var(--bg);
-    color:var(--text);
-    font-family:var(--body);
-    line-height:1.5;
-    -webkit-font-smoothing:antialiased;
-  }
-
-  a{ color:inherit; text-decoration:none; }
-  ul{ list-style:none; }
-  img{ max-width:100%; display:block; }
-
-  :focus-visible{
-    outline:2px solid var(--amber);
-    outline-offset:3px;
-    border-radius:4px;
-  }
-
-  .wrap{
-    max-width:1180px;
-    margin:0 auto;
-    padding:0 24px;
-  }
-
-  .eyebrow{
-    font-family:var(--mono);
-    font-size:12px;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
-    color:var(--amber);
-  }
-
-  h1,h2,h3{ font-family:var(--display); font-weight:600; letter-spacing:0.01em; }
-
-  /* ---------- Header ---------- */
-  header{
-    position:sticky; top:0; z-index:50;
-    background:rgba(10,14,18,0.85);
-    backdrop-filter:blur(10px);
-    border-bottom:1px solid var(--border);
-  }
-  .nav{
-    display:flex; align-items:center; justify-content:space-between;
-    height:72px;
-  }
-  .logo{
-    font-family:var(--display);
-    font-size:22px;
-    font-weight:700;
-    letter-spacing:0.02em;
-  }
-  .logo span{ color:var(--amber); }
-  .nav-links{
-    display:flex; gap:32px;
-    font-size:14px; font-weight:500;
-    color:var(--text-muted);
-  }
-  .nav-links a:hover{ color:var(--text); }
-  .nav-right{ display:flex; align-items:center; gap:16px; }
-  .age-badge{
-    font-family:var(--mono);
-    font-size:11px;
-    color:var(--text-muted);
-    border:1px solid var(--border);
-    padding:4px 8px;
-    border-radius:6px;
-  }
-  .btn{
-    font-family:var(--body);
-    font-weight:600;
-    font-size:14px;
-    padding:10px 20px;
-    border-radius:8px;
-    border:none;
-    cursor:pointer;
-    transition:transform .15s ease, box-shadow .15s ease;
-  }
-  .btn-primary{
-    background:var(--amber);
-    color:#1A1204;
-  }
-  .btn-primary:hover{ transform:translateY(-1px); box-shadow:0 6px 20px rgba(232,169,60,0.25); }
-  .nav-toggle{ display:none; background:none; border:none; color:var(--text); font-size:24px; cursor:pointer; }
-
-  /* ---------- Hero ---------- */
-  .hero{
-    position:relative;
-    overflow:hidden;
-    padding:88px 0 64px;
-    background:
-      radial-gradient(ellipse 60% 50% at 80% 0%, rgba(53,168,104,0.14), transparent 60%),
-      radial-gradient(ellipse 50% 40% at 10% 10%, rgba(232,169,60,0.10), transparent 60%),
-      var(--bg);
-    border-bottom:1px solid var(--border);
-  }
-  .hero::before{
-    /* subtle pitch line pattern */
-    content:"";
-    position:absolute; inset:0;
-    background-image: repeating-linear-gradient(
-      100deg,
-      transparent 0,
-      transparent 118px,
-      rgba(255,255,255,0.025) 118px,
-      rgba(255,255,255,0.025) 120px
-    );
-    pointer-events:none;
-  }
-  .hero-grid{
-    position:relative;
-    display:grid;
-    grid-template-columns:1.1fr 0.9fr;
-    gap:56px;
-    align-items:center;
-  }
-  .hero h1{
-    font-size:clamp(34px, 4.6vw, 54px);
-    line-height:1.08;
-    margin:16px 0 20px;
-  }
-  .hero h1 em{ font-style:normal; color:var(--amber); }
-  .hero p{
-    color:var(--text-muted);
-    font-size:17px;
-    max-width:46ch;
-    margin-bottom:32px;
-  }
-  .hero-cta{ display:flex; gap:14px; flex-wrap:wrap; }
-  .btn-ghost{
-    background:transparent;
-    color:var(--text);
-    border:1px solid var(--border);
-  }
-  .btn-ghost:hover{ border-color:var(--text-muted); }
-
-  /* ---------- Ticket (signature element) ---------- */
-  .ticket{
-    position:relative;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:var(--radius);
-    padding:22px 22px 18px;
-    box-shadow:0 30px 60px -20px rgba(0,0,0,0.6);
-    transform:rotate(1.5deg);
-  }
-  .ticket::before, .ticket::after{
-    content:"";
-    position:absolute;
-    width:22px; height:22px;
-    background:var(--bg);
-    border-radius:50%;
-    top:50%; transform:translateY(-50%);
-  }
-  .ticket::before{ left:-11px; }
-  .ticket::after{ right:-11px; }
-  .ticket-perf{
-    border-top:1px dashed var(--border);
-    margin:14px 0;
-    position:relative;
-  }
-  .ticket-top{
-    display:flex; justify-content:space-between; align-items:center;
-    font-family:var(--mono); font-size:12px; color:var(--text-muted);
-  }
-  .ticket-hot{
-    background:var(--danger); color:#fff;
-    font-family:var(--body); font-weight:700; font-size:10px;
-    padding:3px 8px; border-radius:20px; letter-spacing:0.04em;
-  }
-  .ticket-teams{
-    display:flex; align-items:center; justify-content:space-between;
-    margin:16px 0 6px;
-  }
-  .team{ display:flex; flex-direction:column; align-items:center; gap:8px; width:38%; }
-  .badge{
-    width:52px; height:52px; border-radius:50%;
-    display:flex; align-items:center; justify-content:center;
-    font-family:var(--display); font-weight:700; font-size:16px; color:#0A0E12;
-  }
-  .team span{ font-size:13px; font-weight:600; text-align:center; }
-  .vs{ font-family:var(--mono); color:var(--text-muted); font-size:13px; }
-  .ticket-pick{
-    background:var(--pitch-soft);
-    border:1px solid rgba(53,168,104,0.35);
-    border-radius:8px;
-    padding:10px 12px;
-    font-size:14px; font-weight:600;
-    color:#B9F0D2;
-  }
-  .ticket-conf{
-    display:flex; align-items:center; gap:8px;
-    margin-top:12px;
-    font-family:var(--mono); font-size:11px; color:var(--text-muted);
-  }
-  .conf-dots{ display:flex; gap:4px; }
-  .conf-dots i{ width:6px; height:6px; border-radius:50%; background:var(--border); display:block; }
-  .conf-dots i.on{ background:var(--amber); } /* color por defecto, p. ej. el ticket destacado del hero */
-  .conf-dots.conf-high i.on{ background:var(--pitch); }   /* confianza 3-4: verde */
-  .conf-dots.conf-mid i.on{ background:var(--amber); }    /* confianza 2: ámbar */
-  .conf-dots.conf-low i.on{ background:var(--danger); }   /* confianza 1: rojizo, pick más arriesgado */
-
-  /* ---------- Stats strip ---------- */
-  .stats{
-    border-bottom:1px solid var(--border);
-    background:var(--bg-alt);
-  }
-  .stats-grid{
-    display:grid; grid-template-columns:repeat(4,1fr);
-    padding:28px 0;
-  }
-  .stat{ text-align:center; border-right:1px solid var(--border); }
-  .stat:last-child{ border-right:none; }
-  .stat b{
-    font-family:var(--display); font-size:26px; color:var(--amber); display:block;
-  }
-  .stat span{ font-size:12px; color:var(--text-muted); }
-
-  /* ---------- Predictions section ---------- */
-  .section{ padding:72px 0; }
-  .section-head{
-    display:flex; justify-content:space-between; align-items:flex-end;
-    margin-bottom:32px; flex-wrap:wrap; gap:16px;
-  }
-  .section-head h2{ font-size:30px; margin-top:8px; }
-  .filters{ display:flex; gap:8px; flex-wrap:wrap; }
-  .filter{
-    font-family:var(--mono); font-size:12px;
-    padding:7px 14px; border-radius:20px;
-    border:1px solid var(--border); color:var(--text-muted);
-    cursor:pointer; transition:all .15s ease;
-  }
-  .filter.active, .filter:hover{ border-color:var(--amber); color:var(--amber); }
-
-  .grid{
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:20px;
-  }
-
-  /* ---------- Skeleton de carga ---------- */
-  @keyframes skeleton-shimmer{
-    0%{ background-position:100% 50%; }
-    100%{ background-position:0 50%; }
-  }
-  .skeleton{
-    background:linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 37%, var(--surface) 63%);
-    background-size:400% 100%;
-    animation:skeleton-shimmer 1.4s ease infinite;
-    border:1px solid var(--border);
-  }
-  .skeleton-card{ height:230px; border-radius:var(--radius); }
-  .skeleton-row{ height:58px; border-radius:10px; margin-bottom:10px; }
-
-  @media (prefers-reduced-motion: reduce){
-    .skeleton{ animation:none; }
-  }
-
-  .card{
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:var(--radius);
-    padding:20px;
-    opacity:0; transform:translateY(16px);
-    transition:opacity .5s ease, transform .5s ease, border-color .2s ease;
-  }
-  .card.visible{ opacity:1; transform:translateY(0); }
-  .card:hover{ border-color:#324150; }
-
-  .card-league{
-    display:flex; justify-content:space-between; align-items:center;
-    font-family:var(--mono); font-size:11px; color:var(--text-muted);
-    margin-bottom:14px;
-  }
-  .card-league b{ color:var(--text); font-weight:600; font-family:var(--body); }
-
-  .card .ticket-teams{ margin:6px 0 14px; }
-  .card .badge{ width:44px; height:44px; font-size:14px; }
-  .card .team span{ font-size:12px; }
-
-  .card-pick-label{
-    font-size:11px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:6px;
-  }
-  .card-pick{
-    background:var(--pitch-soft);
-    border:1px solid rgba(53,168,104,0.35);
-    border-radius:8px;
-    padding:10px 12px;
-    font-size:14px; font-weight:600;
-    color:#B9F0D2;
-    margin-bottom:14px;
-  }
-
-  .card-foot{
-    display:flex; justify-content:space-between; align-items:center;
-    padding-top:12px; border-top:1px dashed var(--border);
-  }
-  .card-link{ font-size:13px; font-weight:600; color:var(--amber); }
-  .card-link:hover{ text-decoration:underline; }
-
-  .ad-slot{
-    grid-column:1 / -1;
-    border:1px dashed var(--border);
-    border-radius:var(--radius);
-    padding:26px;
-    text-align:center;
-    color:var(--text-muted);
-    font-family:var(--mono);
-    font-size:12px;
-    background:var(--bg-alt);
-  }
-
-  /* ---------- Historial ---------- */
-  .historial{
-    background:var(--bg-alt);
-    border-top:1px solid var(--border);
-    border-bottom:1px solid var(--border);
-  }
-  .historial-summary{
-    display:flex; align-items:center; gap:14px;
-    margin:18px 0 32px;
-    padding:16px 20px;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:var(--radius);
-    flex-wrap:wrap;
-  }
-  .historial-badge{
-    font-family:var(--display); font-size:28px; color:var(--pitch);
-    background:var(--pitch-soft);
-    border:1px solid rgba(53,168,104,0.35);
-    border-radius:10px;
-    padding:6px 16px;
-  }
-  .historial-summary p{ color:var(--text-muted); font-size:14px; }
-  .historial-summary strong{ color:var(--text); }
-
-  .hist-list{ display:flex; flex-direction:column; gap:10px; }
-  .hist-row{
-    display:grid;
-    grid-template-columns:90px 1fr 1fr 90px;
-    gap:14px;
-    align-items:center;
-    background:var(--surface);
-    border:1px solid var(--border);
-    border-radius:10px;
-    padding:12px 16px;
-    font-size:13px;
-  }
-  .hist-date{ font-family:var(--mono); color:var(--text-muted); font-size:12px; }
-  .hist-league{ color:var(--text-muted); font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:2px; }
-  .hist-match{ font-weight:600; }
-  .hist-pick{ color:var(--text-muted); }
-  .hist-result{
-    justify-self:end;
-    font-family:var(--body); font-weight:700; font-size:11px;
-    padding:5px 10px; border-radius:20px;
-    text-align:center;
-  }
-  .hist-result.acierto{ background:var(--pitch-soft); color:#5CE39C; border:1px solid rgba(53,168,104,0.4); }
-  .hist-result.fallo{ background:rgba(228,87,75,0.12); color:#F2897E; border:1px solid rgba(228,87,75,0.4); }
-
-  .hist-toggle{
-    display:block; margin:18px auto 0;
-    font-family:var(--body); font-weight:600; font-size:13px;
-    background:transparent; color:var(--amber);
-    border:1px solid var(--border); border-radius:8px;
-    padding:9px 18px; cursor:pointer;
-    transition:border-color .15s ease;
-  }
-  .hist-toggle:hover{ border-color:var(--amber); }
-
-  @media (max-width:600px){
-    .hist-row{ grid-template-columns:1fr; gap:6px; }
-    .hist-result{ justify-self:start; }
-  }
-
-  /* ---------- How it works ---------- */
-  .how{
-    background:var(--bg-alt);
-    border-top:1px solid var(--border);
-    border-bottom:1px solid var(--border);
-  }
-  .how-grid{
-    display:grid; grid-template-columns:repeat(3,1fr); gap:28px;
-    margin-top:36px;
-  }
-  .how-card b{
-    font-family:var(--display); font-size:15px; color:var(--amber);
-    display:block; margin-bottom:8px; letter-spacing:0.03em;
-  }
-  .how-card p{ color:var(--text-muted); font-size:14px; }
-
-  /* ---------- Footer ---------- */
-  footer{ padding:56px 0 32px; }
-  .footer-top{
-    display:flex; justify-content:space-between; gap:40px; flex-wrap:wrap;
-    padding-bottom:32px; border-bottom:1px solid var(--border);
-  }
-  .footer-brand p{ color:var(--text-muted); font-size:13px; max-width:36ch; margin-top:10px; }
-  .footer-cols{ display:flex; gap:56px; flex-wrap:wrap; }
-  .footer-col h4{ font-size:12px; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:12px; }
-  .footer-col a{ display:block; font-size:14px; color:var(--text); margin-bottom:9px; }
-  .footer-col a:hover{ color:var(--amber); }
-
-  .disclaimer{
-    margin-top:24px;
-    font-size:12px;
-    color:var(--text-muted);
-    line-height:1.7;
-  }
-  .disclaimer strong{ color:var(--text); }
-
-  @media (prefers-reduced-motion: reduce){
-    .card{ transition:none; opacity:1; transform:none; }
-    html{ scroll-behavior:auto; }
-  }
-
-  @media (max-width: 880px){
-    .nav-links{ display:none; }
-    .nav-toggle{ display:block; }
-    .hero-grid{ grid-template-columns:1fr; }
-    .ticket{ transform:none; max-width:360px; }
-    .stats-grid{ grid-template-columns:repeat(2,1fr); }
-    .stat{ border-right:none; border-bottom:1px solid var(--border); padding-bottom:14px; margin-bottom:10px; }
-    .grid{ grid-template-columns:1fr; }
-    .how-grid{ grid-template-columns:1fr; }
-    .footer-top{ flex-direction:column; }
-  }
-
-  @media (min-width:881px) and (max-width:1080px){
-    .grid{ grid-template-columns:repeat(2,1fr); }
-  }
+:root{--bg:#EEF1F6;--surf:#fff;--ink:#0F172A;--mut:#5B6577;--line:#DCE1EA;--over:#16794F;--btts:#3454D1;--hot:#E8890C;--r:10px}
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Figtree,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;font:800 22px Bricolage Grotesque,sans-serif;letter-spacing:-.02em}
+.brand svg{width:28px;height:28px}
+.tag{font-size:14px;color:var(--mut)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;padding:28px 0 36px;align-items:start}
+h1{font:800 clamp(34px,5.4vw,56px)/1.02 Bricolage Grotesque,sans-serif;letter-spacing:-.035em;margin:0 0 14px}
+.lead{color:var(--mut);max-width:44ch;margin:0 0 20px}
+.seg{display:inline-flex;background:var(--surf);border:1px solid var(--line);border-radius:999px;padding:4px;gap:2px}
+.seg button{border:0;background:none;font:500 14px Figtree,sans-serif;padding:8px 16px;border-radius:999px;cursor:pointer;color:var(--mut)}
+.seg button[aria-pressed=true]{background:var(--ink);color:#fff}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--btts);outline-offset:2px}
+.panel{background:var(--surf);border:1px solid var(--line);border-radius:var(--r)}
+.top6{padding:6px 18px 10px}
+.top6 h2{font:700 15px Figtree,sans-serif;margin:14px 0 6px}
+.top6 ol{list-style:none;margin:0;padding:0}
+.top6 li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:10px 0;border-top:1px solid var(--line)}
+.top6 li:first-child{border-top:0}
+.nm{font-weight:700}.lg{color:var(--mut);font-size:13px}
+.big{font:800 26px Bricolage Grotesque,sans-serif;text-align:right;line-height:1}
+.top6 .pips{grid-column:1/-1}
+.pips{display:flex;flex-wrap:wrap;gap:3px;align-items:center}
+.pips i{width:9px;height:16px;border-radius:3px;background:var(--c)}
+.pips.hot i{background:var(--hot)}
+.pips b{font-size:12px;color:var(--mut);margin-left:3px}
+.controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tabs button{border:1px solid var(--line);background:var(--surf);border-radius:8px;padding:7px 13px;font:500 14px Figtree,sans-serif;cursor:pointer}
+.tabs button[aria-pressed=true]{border-color:var(--ink);box-shadow:inset 0 -3px 0 var(--ink)}
+.filters{display:flex;gap:10px;flex-wrap:wrap}
+.filters input,.filters select{font:400 14px Figtree,sans-serif;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surf)}
+.tablebox{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:620px}
+th,td{padding:11px 16px;text-align:left;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font:500 13px Figtree,sans-serif;color:var(--mut);white-space:nowrap}
+th button{all:unset;cursor:pointer}
+th button:focus-visible{outline:3px solid var(--btts)}
+th[aria-sort]{color:var(--ink)}
+td.n{font-weight:700}
+.pct{display:flex;align-items:center;gap:10px;min-width:150px}
+.bar{flex:1;height:8px;background:var(--bg);border-radius:4px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--c)}
+.pct em{font-style:normal;width:38px;text-align:right}
+.rc{display:flex;align-items:center;gap:12px}
+.rc strong{width:24px;text-align:right}
+.note{color:var(--mut);font-size:13px;margin:10px 2px 0}
+footer{padding:36px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
+.err{padding:24px;color:#B42318}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.tag{display:none}}
 </style>
 </head>
 <body>
-
-<header>
-  <div class="wrap nav">
-    <div class="logo">Cuota<span>Gol</span></div>
-    <nav class="nav-links">
-      <a href="#pronosticos">Pronósticos</a>
-      <a href="#historial">Historial</a>
-      <a href="#como-trabajo">Cómo trabajo</a>
-      <a href="#sobre-mi">Sobre mí</a>
-    </nav>
-    <div class="nav-right">
-      <span class="age-badge">+18</span>
-      <a href="#pronosticos" class="btn btn-primary">Ver pronósticos</a>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" fill="none" stroke="#0F172A" stroke-width="2.4" aria-hidden="true"><rect x="2" y="5" width="28" height="22" rx="3"/><path d="M16 5v22"/><circle cx="16" cy="16" r="4.5"/></svg>
+      CuotaGol
     </div>
-  </div>
-</header>
+    <span class="tag">Datos, no corazonadas</span>
+  </header>
 
-<section class="hero">
-  <div class="wrap hero-grid">
+  <section class="hero">
     <div>
-      <span class="eyebrow">Análisis propio · Sin plantillas · Actualizado a diario</span>
-      <h1>Pronósticos de fútbol que <em>no siguen a la manada.</em></h1>
-      <p>Analizo forma, estadísticas y contexto de cada partido antes de dar un pick. Sin humo, sin promesas de "cuota segura": criterio, datos y seguimiento honesto de aciertos.</p>
-      <div class="hero-cta">
-        <a href="#pronosticos" class="btn btn-primary">Ver pronósticos de hoy</a>
-        <a href="#como-trabajo" class="btn btn-ghost">Cómo trabajo los análisis</a>
+      <h1>Qué equipos llevan más partidos seguidos marcando goles.</h1>
+      <p class="lead">Cada ficha es un partido consecutivo cumpliendo la condición. Elige el mercado y mira quién arrastra la racha más larga.</p>
+      <div class="seg" role="group" aria-label="Mercado">
+        <button data-m="o25" aria-pressed="true">Más de 2.5 goles</button>
+        <button data-m="btts" aria-pressed="false">Ambos anotan</button>
       </div>
     </div>
+    <aside class="panel top6" aria-live="polite">
+      <h2 id="topTitle">Rachas más largas</h2>
+      <ol id="top"></ol>
+    </aside>
+  </section>
 
-    <div class="ticket">
-      <div class="ticket-top">
-        <span>LIGA PROF. ARGENTINA · VIE 11 SEPT 15:00</span>
-        <span class="ticket-hot">DESTACADO</span>
-      </div>
-      <div class="ticket-teams">
-        <div class="team">
-          <div class="badge" style="background:#5B8DEF">NOB</div>
-          <span>Newell's Old Boys</span>
-        </div>
-        <span class="vs">VS</span>
-        <div class="team">
-          <div class="badge" style="background:#3DBE7C">VEL</div>
-          <span>Vélez Sarsfield</span>
-        </div>
-      </div>
-      <div class="ticket-perf"></div>
-      <div class="ticket-pick">Pick: +1.5 goles en el partido</div>
-      <div class="ticket-conf">
-        Confianza
-        <span class="conf-dots conf-high"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="stats">
-  <!-- Estos números se calculan solos desde historial.json, no hace falta editarlos a mano -->
-  <div class="wrap stats-grid">
-    <div class="stat"><b id="statAccuracy">—</b><span>% de acierto histórico</span></div>
-    <div class="stat"><b id="statTotal">—</b><span>Pronósticos evaluados</span></div>
-    <div class="stat"><b id="statLeagues">—</b><span>Ligas cubiertas</span></div>
-    <div class="stat"><b>Diario</b><span>Frecuencia de análisis</span></div>
-  </div>
-</section>
-
-<section class="section" id="pronosticos">
-  <div class="wrap">
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">Hoy · 29-30 ago 2026</span>
-        <h2>Pronósticos destacados</h2>
-      </div>
+  <section>
+    <div class="controls">
+      <div class="tabs" id="tabs" role="group" aria-label="Liga"></div>
       <div class="filters">
-        <!-- Los filtros se generan automáticamente según las ligas en predictions.json -->
+        <input id="q" type="search" placeholder="Buscar equipo" aria-label="Buscar equipo">
+        <select id="min" aria-label="Mínimo de partidos">
+          <option value="1">Todos los equipos</option>
+          <option value="10" selected>Mín. 10 partidos</option>
+          <option value="20">Mín. 20 partidos</option>
+          <option value="40">Mín. 40 partidos</option>
+        </select>
       </div>
     </div>
+    <div class="panel tablebox">
+      <table>
+        <thead><tr id="head"></tr></thead>
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+    <p class="note">Con pocos partidos, un porcentaje alto puede engañar: por eso mostramos los partidos jugados (PJ) y puedes filtrar por mínimo.</p>
+  </section>
 
-    <div class="grid" id="cardGrid">
-      <!-- Skeleton mientras carga predictions.json; app.js lo reemplaza automáticamente -->
-      <div class="skeleton skeleton-card"></div>
-      <div class="skeleton skeleton-card"></div>
-      <div class="skeleton skeleton-card"></div>
-      <div class="skeleton skeleton-card"></div>
-      <div class="skeleton skeleton-card"></div>
-      <div class="skeleton skeleton-card"></div>
-    </div>
-  </div>
-</section>
+  <footer>
+    Datos de <a href="https://www.football-data.org/" target="_blank" rel="noopener">football-data.org</a>, últimas temporadas disponibles. Son estadísticas del pasado, no predicciones ni garantía de resultados. Solo mayores de 18 años. Juega con responsabilidad.
+  </footer>
+</div>
 
-<section class="historial" id="historial">
-  <div class="wrap section">
-    <span class="eyebrow">Transparencia</span>
-    <div class="section-head" style="margin-bottom:0">
-      <h2>Historial de pronósticos</h2>
-      <div class="filters" id="histFilters">
-        <!-- Se genera automáticamente con las fechas disponibles en historial.json -->
-      </div>
-    </div>
-    <div class="historial-summary" id="historialSummary">
-      <span class="historial-badge" id="historialBadgeText">—%</span>
-      <p>Aciertos sobre el total evaluado. <strong>Se publican todos los resultados</strong>, aciertos y fallos, sin editar el historial.</p>
-    </div>
-    <div class="hist-list" id="histList">
-      <!-- Skeleton mientras carga historial.json; app.js lo reemplaza automáticamente -->
-      <div class="skeleton skeleton-row"></div>
-      <div class="skeleton skeleton-row"></div>
-      <div class="skeleton skeleton-row"></div>
-      <div class="skeleton skeleton-row"></div>
-    </div>
-    <button class="hist-toggle" id="histToggle" style="display:none"></button>
-  </div>
-</section>
+<script>
+const NOMBRES={PL:'Premier League',CL:'Champions League',PD:'La Liga',SA:'Serie A',BL1:'Bundesliga',FL1:'Ligue 1',BSA:'Brasileirão',DED:'Eredivisie',PPL:'Primeira Liga',ELC:'Championship'};
+const M={o25:{label:'Más de 2.5 goles',pct:'pct_over25',rac:'racha_over25',col:'#16794F'},btts:{label:'Ambos anotan',pct:'pct_btts',rac:'racha_btts',col:'#3454D1'}};
+const HOT=8, MAXPIPS=20;
+let data={}, liga='ALL', met='o25', min=10, q='', sort={k:'rac',dir:-1};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nombre=c=>NOMBRES[c]||c;
 
-<section class="how" id="como-trabajo">
-  <div class="wrap section">
-    <span class="eyebrow">Metodología</span>
-    <h2>Cómo llego a cada pronóstico</h2>
-    <div class="how-grid">
-      <div class="how-card">
-        <b>Forma reciente</b>
-        <p>Reviso los últimos partidos de cada equipo: resultados, rendimiento como local/visitante y lesiones relevantes.</p>
-      </div>
-      <div class="how-card">
-        <b>Contexto del partido</b>
-        <p>Calendario, motivación (qué se juega cada equipo), historial directo entre ambos y bajas confirmadas.</p>
-      </div>
-      <div class="how-card">
-        <b>Seguimiento honesto</b>
-        <p>Publico el pick antes del partido y el resultado después, aciertos y fallos, sin borrar lo que no salió.</p>
-      </div>
-    </div>
-  </div>
-</section>
+function filas(){
+  const m=M[met], out=[];
+  for(const c of Object.keys(data)){
+    if(liga!=='ALL'&&liga!==c)continue;
+    for(const t of data[c]){
+      if(t.partidos<min)continue;
+      if(q&&!t.equipo.toLowerCase().includes(q))continue;
+      out.push({equipo:t.equipo,liga:c,pj:t.partidos,pct:t[m.pct],rac:t[m.rac]});
+    }
+  }
+  return out;
+}
+function pips(n){
+  const m=M[met], s=Math.min(n,MAXPIPS);
+  return `<span class="pips${n>=HOT?' hot':''}" style="--c:${m.col}">${'<i></i>'.repeat(s)}${n>MAXPIPS?`<b>+${n-MAXPIPS}</b>`:''}</span>`;
+}
+function renderTabs(){
+  const cods=['ALL',...Object.keys(data)];
+  $('tabs').innerHTML=cods.map(c=>`<button data-l="${esc(c)}" aria-pressed="${c===liga}">${c==='ALL'?'Todas':esc(nombre(c))}</button>`).join('');
+}
+function renderTop(){
+  const m=M[met];
+  const all=[];
+  for(const c of Object.keys(data))for(const t of data[c])if(t.partidos>=Math.max(min,10))all.push({equipo:t.equipo,liga:c,rac:t[m.rac]});
+  all.sort((a,b)=>b.rac-a.rac);
+  $('topTitle').textContent='Rachas más largas · '+m.label;
+  $('top').innerHTML=all.slice(0,5).map(t=>`<li><div><div class="nm">${esc(t.equipo)}</div><div class="lg">${esc(nombre(t.liga))}</div></div><div class="big">${t.rac}</div>${pips(t.rac)}</li>`).join('');
+}
+function renderTable(){
+  const m=M[met];
+  const cols=[['equipo','Equipo'],['pj','PJ'],['pct','% '+m.label],['rac','Racha actual']];
+  $('head').innerHTML=cols.map(([k,l])=>`<th${sort.k===k?` aria-sort="${sort.dir<0?'descending':'ascending'}"`:''}><button data-s="${k}">${l}${sort.k===k?(sort.dir<0?' ↓':' ↑'):''}</button></th>`).join('');
+  const rows=filas().sort((a,b)=>{
+    const k=sort.k;
+    const r=k==='equipo'?a.equipo.localeCompare(b.equipo)*sort.dir:(a[k]-b[k])*sort.dir;
+    return r||(b.rac-a.rac)||(b.pct-a.pct);
+  });
+  $('body').innerHTML=rows.length?rows.map(r=>`<tr>
+    <td class="n">${esc(r.equipo)}${liga==='ALL'?`<div class="lg">${esc(nombre(r.liga))}</div>`:''}</td>
+    <td>${r.pj}</td>
+    <td><div class="pct"><div class="bar"><span style="width:${r.pct}%;--c:${m.col}"></span></div><em>${r.pct}%</em></div></td>
+    <td><div class="rc"><strong>${r.rac}</strong>${pips(r.rac)}</div></td></tr>`).join(''):'<tr><td colspan="4">Ningún equipo coincide con el filtro.</td></tr>';
+}
+function renderAll(){renderTabs();renderTop();renderTable();}
 
-<footer id="sobre-mi">
-  <div class="wrap">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <div class="logo">Cuota<span>Gol</span></div>
-        <p>Un espacio de análisis futbolístico hecho por un aficionado que también apuesta. Pronósticos con criterio propio, no fórmulas mágicas.</p>
-      </div>
-      <div class="footer-cols">
-        <div class="footer-col">
-          <h4>Sitio</h4>
-          <a href="#pronosticos">Pronósticos</a>
-          <a href="#como-trabajo">Metodología</a>
-          <a href="#sobre-mi">Sobre mí</a>
-        </div>
-        <div class="footer-col">
-          <h4>Ligas</h4>
-          <a href="#">LaLiga</a>
-          <a href="#">Serie A</a>
-          <a href="#">Liga 1 Perú</a>
-        </div>
-      </div>
-    </div>
-    <p class="disclaimer">
-      <strong>Juega con responsabilidad.</strong> CuotaGol es un sitio de análisis y opinión deportiva, no gestiona apuestas ni transacciones de dinero. Los pronósticos son opiniones basadas en análisis propio y no garantizan resultados. Contenido dirigido a mayores de 18 años. Si el juego deja de ser un entretenimiento, busca ayuda profesional.
-    </p>
-  </div>
-</footer>
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  if(b.dataset.m){met=b.dataset.m;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));renderAll();}
+  else if(b.dataset.l){liga=b.dataset.l;renderAll();}
+  else if(b.dataset.s){const k=b.dataset.s;sort=sort.k===k?{k,dir:-sort.dir}:{k,dir:k==='equipo'?1:-1};renderTable();}
+});
+$('q').addEventListener('input',e=>{q=e.target.value.trim().toLowerCase();renderTop();renderTable();});
+$('min').addEventListener('change',e=>{min=+e.target.value;renderTop();renderTable();});
 
-<script src="app.js"></script>
-
+fetch('stats.json').then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{data=d;renderAll();}).catch(()=>{
+  $('body').innerHTML='<tr><td colspan="4" class="err">No se pudo cargar stats.json. Sube el archivo junto a index.html (si abres el HTML con doble clic, el navegador lo bloquea: usa GitHub Pages).</td></tr>';
+});
+</script>
 </body>
 </html>
