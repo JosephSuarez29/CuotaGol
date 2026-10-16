@@ -111,10 +111,13 @@ function tabla(p){
   const r=p.resumen;if(!r)return '';
   const fila=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}${x.n<8?' · muestra pequeña':''}</small></td><td>${x.o25}%</td><td>${x.btts}%</td><td>${x.gf}</td><td>${x.gc}</td><td>${x.n}</td></tr>`;
   const v=x=>x??'—';
+  const fy=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}</small></td><td>${v(x.pta)}</td><td>${v(x.pta_c)}</td><td>${v(x.fal)}</td><td>${v(x.fal_c)}</td><td>${v(x.tar)}</td><td>${v(x.tar_c)}</td></tr>`;
   const fx=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}</small></td><td>${v(x.rem)}</td><td>${v(x.rem_c)}</td><td>${v(x.esq)}</td><td>${v(x.esq_c)}</td><td>${v(x.esq_t)}</td><td>${v(x.n_x)}</td></tr>`;
   let h=`<h4>Local en casa vs visitante fuera</h4><div class="rs"><table><thead><tr><th></th><th>Más de 2.5</th><th>Ambos anotan</th><th>Goles a favor</th><th>Goles en contra</th><th>PJ</th></tr></thead><tbody>${fila(r.local,p.local,'en casa')}${fila(r.visita,p.visitante,'de visitante')}</tbody></table></div>`;
-  if(r.local.rem!==undefined||r.visita.rem!==undefined)
+  if(r.local.rem!==undefined||r.visita.rem!==undefined){
     h+=`<h4>Remates y córners (promedio por partido)</h4><div class="rs"><table><thead><tr><th></th><th>Remates a favor</th><th>Remates en contra</th><th>Córners a favor</th><th>Córners en contra</th><th>Córners totales</th><th>PJ</th></tr></thead><tbody>${fx(r.local,p.local,'en casa')}${fx(r.visita,p.visitante,'de visitante')}</tbody></table></div>`;
+    h+=`<h4>Remates a puerta, faltas y tarjetas (promedio por partido)</h4><div class="rs"><table><thead><tr><th></th><th>A puerta a favor</th><th>A puerta en contra</th><th>Faltas cometidas</th><th>Faltas recibidas</th><th>Amarillas propias</th><th>Amarillas rival</th></tr></thead><tbody>${fy(r.local,p.local,'en casa')}${fy(r.visita,p.visitante,'de visitante')}</tbody></table></div>`;
+  }
   else h+='<p class="leyenda">Sin datos de remates y córners para este partido.</p>';
   return h;
 }

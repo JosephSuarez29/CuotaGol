@@ -222,22 +222,28 @@ def descargar_filas(code):
 def agregar_extra(filas, registro):
     """filas: {liga: [filas CSV]}; registro: {(liga, id): [nombres]}.
     Devuelve ({(liga, id): {"home": {...}, "away": {...}}}, equipos_sin_emparejar)."""
+    # metrica: (columna del local, columna del visitante)
+    METRICAS = {"rem": ("HS", "AS"), "pta": ("HST", "AST"), "esq": ("HC", "AC"),
+                "fal": ("HF", "AF"), "tar": ("HY", "AY")}
     extra, sin = {}, set()
     for comp, rows in filas.items():
         cands = {tid: n for (c, tid), n in registro.items() if c == comp}
         acum = {}
         for r in rows:
-            try:
-                v = {k: int(r[k]) for k in ("HS", "AS", "HC", "AC")}
-            except (KeyError, ValueError, TypeError):
-                continue
-            for lado, col, f, c, ef, ec in (("home", "HomeTeam", "HS", "AS", "HC", "AC"),
-                                            ("away", "AwayTeam", "AS", "HS", "AC", "HC")):
-                a = acum.setdefault((r[col], lado), {"rem": [], "rem_c": [], "esq": [], "esq_c": []})
-                a["rem"].append(v[f]); a["rem_c"].append(v[c])
-                a["esq"].append(v[ef]); a["esq_c"].append(v[ec])
+            for lado, col in (("home", "HomeTeam"), ("away", "AwayTeam")):
+                a = acum.setdefault((r.get(col), lado), {k: ([], []) for k in METRICAS})
+                for k, (ch, ca) in METRICAS.items():
+                    try:
+                        vh, va = int(r[ch]), int(r[ca])
+                    except (KeyError, ValueError, TypeError):
+                        continue
+                    pf, pc = (vh, va) if lado == "home" else (va, vh)
+                    a[k][0].append(pf)
+                    a[k][1].append(pc)
         cache = {}
         for (eq, lado), a in acum.items():
+            if not eq:
+                continue
             if eq not in cache:
                 cache[eq] = emparejar(eq, cands)
                 if cache[eq] is None:
@@ -245,11 +251,18 @@ def agregar_extra(filas, registro):
             tid = cache[eq]
             if tid is None:
                 continue
-            n = len(a["rem"])
-            av = lambda l: round(sum(l) / n, 1)
-            extra.setdefault((comp, tid), {})[lado] = {
-                "rem": av(a["rem"]), "rem_c": av(a["rem_c"]), "esq": av(a["esq"]), "esq_c": av(a["esq_c"]),
-                "esq_t": round((sum(a["esq"]) + sum(a["esq_c"])) / n, 1), "n_x": n}
+            d = {}
+            for k, (f, c) in a.items():
+                if f:
+                    d[k] = round(sum(f) / len(f), 1)
+                    d[k + "_c"] = round(sum(c) / len(c), 1)
+            if "esq" in d:
+                f, c = a["esq"]
+                d["esq_t"] = round((sum(f) + sum(c)) / len(f), 1)
+            if "rem" in a and a["rem"][0]:
+                d["n_x"] = len(a["rem"][0])
+            if d:
+                extra.setdefault((comp, tid), {})[lado] = d
     return extra, sin
 
 
