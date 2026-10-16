@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CuotaGol · Partidos y cruces local vs visitante</title>
+<meta name="description" content="Próximos partidos con forma reciente y cruces de estadísticas local vs visitante, más verificación de lo que pasó.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF1F6;--surf:#fff;--ink:#0F172A;--mut:#5B6577;--line:#DCE1EA;--over:#16794F;--btts:#3454D1;--hot:#E8890C;--bad:#B42318;--r:10px}
+*{box-sizing:border-box}
+html{color-scheme:light}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Figtree,system-ui,sans-serif;font-variant-numeric:tabular-nums}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;font:800 22px Bricolage Grotesque,sans-serif;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+.brand svg{width:28px;height:28px}
+nav{display:flex;gap:6px}
+nav a{color:var(--mut);text-decoration:none;font-weight:500;font-size:14px;padding:7px 13px;border-radius:8px}
+nav a[aria-current]{background:var(--ink);color:#fff}
+a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--btts);outline-offset:2px}
+h1{font:800 clamp(32px,5vw,50px)/1.05 Bricolage Grotesque,sans-serif;letter-spacing:-.035em;margin:18px 0 10px}
+.lead{color:var(--mut);max-width:56ch;margin:0 0 22px}
+.controls{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;margin-bottom:14px}
+.seg{display:inline-flex;background:var(--surf);border:1px solid var(--line);border-radius:999px;padding:4px;gap:2px}
+.seg button{border:0;background:none;font:500 14px Figtree,sans-serif;padding:8px 16px;border-radius:999px;cursor:pointer;color:var(--mut)}
+.seg button[aria-pressed=true]{background:var(--ink);color:#fff}
+select{font:400 14px Figtree,sans-serif;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--surf)}
+.resumen{background:var(--surf);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;margin-bottom:14px;font-size:14px;color:var(--mut)}
+.resumen strong{color:var(--ink)}
+details.p{background:var(--surf);border:1px solid var(--line);border-radius:var(--r);margin-bottom:10px}
+details.p summary{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:14px 16px;cursor:pointer;list-style:none}
+details.p summary::-webkit-details-marker{display:none}
+.meta{grid-column:1/-1;font-size:13px;color:var(--mut)}
+.eq{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.eq b{font:700 17px Bricolage Grotesque,sans-serif}
+.vs{color:var(--mut);font-size:13px}
+.score{font:800 22px Bricolage Grotesque,sans-serif}
+.nc{font-size:12px;color:var(--mut);align-self:center;white-space:nowrap}
+.forma{display:inline-flex;gap:2px}
+.forma i{width:17px;height:17px;border-radius:4px;font:700 10px/17px Figtree,sans-serif;font-style:normal;text-align:center;color:#fff}
+.forma .G{background:var(--over)}.forma .E{background:var(--hot)}.forma .P{background:var(--bad)}
+.cuerpo{border-top:1px solid var(--line);padding:6px 16px 14px}
+.cz{padding:10px 0;border-top:1px solid var(--line)}
+.cz:first-child{border-top:0}
+.cz h3{font:700 15px Figtree,sans-serif;margin:0 0 3px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.cz p{margin:0;color:var(--mut);font-size:14px}
+.nv{font:500 12px Figtree,sans-serif;border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--mut)}
+.nv.fuerte{border-color:var(--over);color:var(--over)}
+.ok{color:var(--over);font-weight:700;font-size:13px}.no{color:var(--bad);font-weight:700;font-size:13px}
+.vacio{padding:26px 6px;color:var(--mut)}
+.leyenda{font-size:13px;color:var(--mut);margin:6px 2px 0}
+footer{padding:30px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 32" fill="none" stroke="#0F172A" stroke-width="2.4" aria-hidden="true"><rect x="2" y="5" width="28" height="22" rx="3"/><path d="M16 5v22"/><circle cx="16" cy="16" r="4.5"/></svg>
+      CuotaGol
+    </a>
+    <nav><a href="index.html">Rachas</a><a href="partidos.html" aria-current="page">Partidos</a></nav>
+  </header>
+
+  <h1>Cada partido, local contra visitante.</h1>
+  <p class="lead">Cruzamos cómo rinde el local en su casa con cómo rinde el visitante fuera. Después del partido comprobamos si el cruce se cumplió, también cuando falla.</p>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Vista">
+      <button data-v="proximos" aria-pressed="true">Próximos</button>
+      <button data-v="recientes" aria-pressed="false">Verificados</button>
+    </div>
+    <select id="liga" aria-label="Liga"></select>
+  </div>
+  <div id="resumen" class="resumen" hidden></div>
+  <div id="lista"></div>
+  <p class="leyenda">Forma reciente, de izquierda a derecha, del partido más antiguo al más reciente: G ganó, E empató, P perdió. “Cruce fuerte” significa que ambos equipos están en 70% o más; “moderado”, en 60% o más.</p>
+
+  <footer id="pie">
+    Datos de <a href="https://www.football-data.org/" target="_blank" rel="noopener">football-data.org</a>. Son estadísticas del pasado, no predicciones ni garantía de resultados. Los cruces solo se muestran con una muestra mínima de partidos. Solo mayores de 18 años. Juega con responsabilidad.
+  </footer>
+</div>
+
+<script>
+let D=null, vista='proximos', liga='ALL';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const forma=a=>a.length?`<span class="forma" aria-label="Forma reciente: ${a.join(', ')}">${a.map(x=>`<i class="${x}">${x}</i>`).join('')}</span>`:'';
+
+function frase(c,l,v){
+  if(c.mercado==='o25')return `${esc(l)} supera 2.5 goles en ${c.local_pct}% de sus ${c.local_n} partidos como local, y ${esc(v)} en ${c.visita_pct}% de sus ${c.visita_n} como visitante.`;
+  if(c.mercado==='btts')return `En ${c.local_pct}% de los ${c.local_n} partidos de ${esc(l)} en casa anotaron ambos equipos, igual que en ${c.visita_pct}% de los ${c.visita_n} de ${esc(v)} fuera.`;
+  return `${esc(l)} se queda en 2 goles o menos en ${c.local_pct}% de sus ${c.local_n} partidos en casa, y ${esc(v)} en ${c.visita_pct}% de los ${c.visita_n} suyos fuera.`;
+}
+function fechaTxt(iso){
+  return new Date(iso).toLocaleString('es-PE',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
+}
+function item(p,rec){
+  const cz=p.cruces.map(c=>`<div class="cz"><h3>${esc(c.titulo)}<span class="nv ${c.nivel}">Cruce ${c.nivel}</span>${rec?(c.cumplido?'<span class="ok">✓ Se cumplió</span>':'<span class="no">✗ No se cumplió</span>'):''}</h3><p>${frase(c,p.local,p.visitante)}</p></div>`).join('')
+    ||'<div class="cz"><p>Sin cruces destacados para este partido con los datos disponibles.</p></div>';
+  const n=p.cruces.length;
+  return `<details class="p"><summary>
+    <div class="eq"><b>${esc(p.local)}</b>${forma(p.forma_local)}<span class="vs">vs</span><b>${esc(p.visitante)}</b>${forma(p.forma_visita)}</div>
+    ${rec?`<div class="score">${esc(p.marcador)}</div>`:`<div class="nc">${n} ${n===1?'cruce':'cruces'}</div>`}
+    <div class="meta">${esc(D.ligas[p.liga]||p.liga)} · ${fechaTxt(p.fecha)}</div>
+  </summary><div class="cuerpo">${cz}</div></details>`;
+}
+function render(){
+  const rec=vista==='recientes';
+  const arr=D[vista].filter(p=>liga==='ALL'||p.liga===liga);
+  $('lista').innerHTML=arr.length?arr.map(p=>item(p,rec)).join(''):`<div class="vacio">${rec?'Todavía no hay partidos recientes verificados.':'No hay partidos programados en los próximos días para esta liga.'}</div>`;
+  const rs=$('resumen');
+  if(rec){
+    const cs=arr.flatMap(p=>p.cruces);
+    rs.hidden=!cs.length;
+    if(cs.length){const ok=cs.filter(c=>c.cumplido).length;rs.innerHTML=`De <strong>${cs.length}</strong> cruces mostrados en partidos recientes, se cumplieron <strong>${ok}</strong> (${Math.round(100*ok/cs.length)}%). Con pocos partidos, este porcentaje cambia mucho de una semana a otra.`;}
+  }else rs.hidden=true;
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.seg button');if(!b)return;
+  vista=b.dataset.v;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));render();
+});
+$('liga').addEventListener('change',e=>{liga=e.target.value;render();});
+
+fetch('partidos.json').then(r=>{if(!r.ok)throw 0;return r.json();}).then(d=>{
+  D=d;
+  $('liga').innerHTML='<option value="ALL">Todas las ligas</option>'+Object.entries(d.ligas).map(([k,v])=>`<option value="${esc(k)}">${esc(v)}</option>`).join('');
+  $('pie').insertAdjacentHTML('afterbegin',`Actualizado: ${esc(new Date(d.generado).toLocaleString('es-PE',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}))}. `);
+  render();
+}).catch(()=>{$('lista').innerHTML='<div class="vacio">No se pudo cargar partidos.json. Sube el archivo junto a esta página y ábrela desde GitHub Pages.</div>';});
+</script>
+</body>
+</html>

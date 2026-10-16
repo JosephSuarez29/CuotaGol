@@ -1,0 +1,1778 @@
+{
+ "generado": "2026-10-16T02:59+00:00",
+ "ligas": {
+  "PL": "Premier League",
+  "PD": "La Liga",
+  "CL": "Champions League"
+ },
+ "proximos": [
+  {
+   "id": 564716,
+   "liga": "PD",
+   "fecha": "2026-10-16T19:00:00Z",
+   "local": "Deportivo",
+   "visitante": "Levante",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560603,
+   "liga": "PL",
+   "fecha": "2026-10-17T11:30:00Z",
+   "local": "Everton",
+   "visitante": "Chelsea",
+   "forma_local": [
+    "E",
+    "E",
+    "E",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564710,
+   "liga": "PD",
+   "fecha": "2026-10-17T12:00:00Z",
+   "local": "Espanyol",
+   "visitante": "Atleti",
+   "forma_local": [
+    "E",
+    "G",
+    "P",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560602,
+   "liga": "PL",
+   "fecha": "2026-10-17T14:00:00Z",
+   "local": "Fulham",
+   "visitante": "Hull City",
+   "forma_local": [
+    "P",
+    "P",
+    "E",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "E",
+    "P",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560610,
+   "liga": "PL",
+   "fecha": "2026-10-17T14:00:00Z",
+   "local": "Man City",
+   "visitante": "Ipswich Town",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 73,
+     "local_n": 41,
+     "visita_pct": 64,
+     "visita_n": 22
+    }
+   ]
+  },
+  {
+   "id": 560611,
+   "liga": "PL",
+   "fecha": "2026-10-17T14:00:00Z",
+   "local": "Brentford",
+   "visitante": "Liverpool",
+   "forma_local": [
+    "E",
+    "E",
+    "E",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 61,
+     "local_n": 41,
+     "visita_pct": 66,
+     "visita_n": 41
+    },
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "moderado",
+     "local_pct": 63,
+     "local_n": 41,
+     "visita_pct": 61,
+     "visita_n": 41
+    }
+   ]
+  },
+  {
+   "id": 564708,
+   "liga": "PD",
+   "fecha": "2026-10-17T14:15:00Z",
+   "local": "Villarreal",
+   "visitante": "Elche",
+   "forma_local": [
+    "P",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "P",
+    "G",
+    "E"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 76,
+     "local_n": 41,
+     "visita_pct": 61,
+     "visita_n": 23
+    },
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "fuerte",
+     "local_pct": 71,
+     "local_n": 41,
+     "visita_pct": 87,
+     "visita_n": 23
+    }
+   ]
+  },
+  {
+   "id": 560607,
+   "liga": "PL",
+   "fecha": "2026-10-17T16:30:00Z",
+   "local": "Newcastle",
+   "visitante": "Aston Villa",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "G",
+    "E",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564713,
+   "liga": "PD",
+   "fecha": "2026-10-17T16:30:00Z",
+   "local": "Real Betis",
+   "visitante": "Barça",
+   "forma_local": [
+    "G",
+    "G",
+    "E",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "moderado",
+     "local_pct": 62,
+     "local_n": 42,
+     "visita_pct": 64,
+     "visita_n": 42
+    }
+   ]
+  },
+  {
+   "id": 564711,
+   "liga": "PD",
+   "fecha": "2026-10-17T19:00:00Z",
+   "local": "Valencia",
+   "visitante": "Athletic",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "E",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564715,
+   "liga": "PD",
+   "fecha": "2026-10-18T12:00:00Z",
+   "local": "Osasuna",
+   "visitante": "Santander",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560604,
+   "liga": "PL",
+   "fecha": "2026-10-18T13:00:00Z",
+   "local": "Bournemouth",
+   "visitante": "Sunderland",
+   "forma_local": [
+    "E",
+    "E",
+    "E",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560605,
+   "liga": "PL",
+   "fecha": "2026-10-18T13:00:00Z",
+   "local": "Leeds United",
+   "visitante": "Man United",
+   "forma_local": [
+    "E",
+    "E",
+    "G",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "E",
+    "E",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560609,
+   "liga": "PL",
+   "fecha": "2026-10-18T13:00:00Z",
+   "local": "Brighton Hove",
+   "visitante": "Crystal Palace",
+   "forma_local": [
+    "P",
+    "E",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564712,
+   "liga": "PD",
+   "fecha": "2026-10-18T14:15:00Z",
+   "local": "Celta",
+   "visitante": "Alavés",
+   "forma_local": [
+    "E",
+    "E",
+    "E",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "P",
+    "E",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560608,
+   "liga": "PL",
+   "fecha": "2026-10-18T15:30:00Z",
+   "local": "Nottingham",
+   "visitante": "Arsenal",
+   "forma_local": [
+    "E",
+    "E",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564714,
+   "liga": "PD",
+   "fecha": "2026-10-18T16:30:00Z",
+   "local": "Málaga",
+   "visitante": "Real Sociedad",
+   "forma_local": [
+    "E",
+    "E",
+    "P",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564709,
+   "liga": "PD",
+   "fecha": "2026-10-18T19:00:00Z",
+   "local": "Real Madrid",
+   "visitante": "Sevilla FC",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "G",
+    "P",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 560606,
+   "liga": "PL",
+   "fecha": "2026-10-19T19:00:00Z",
+   "local": "Tottenham",
+   "visitante": "Coventry City",
+   "forma_local": [
+    "P",
+    "E",
+    "E",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564717,
+   "liga": "PD",
+   "fecha": "2026-10-19T19:00:00Z",
+   "local": "Getafe",
+   "visitante": "Rayo Vallecano",
+   "forma_local": [
+    "E",
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "G",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575359,
+   "liga": "CL",
+   "fecha": "2026-10-20T16:45:00Z",
+   "local": "Sabah FK",
+   "visitante": "Dortmund",
+   "forma_local": [
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "G",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575360,
+   "liga": "CL",
+   "fecha": "2026-10-20T16:45:00Z",
+   "local": "Fenerbahçe",
+   "visitante": "Slavia Praha",
+   "forma_local": [
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575361,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Man City",
+   "visitante": "PAE AEK",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575362,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Stuttgart",
+   "visitante": "Atleti",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575363,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Liverpool",
+   "visitante": "Villarreal",
+   "forma_local": [
+    "G",
+    "E",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575364,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Roma",
+   "visitante": "Sl. Bratislava",
+   "forma_local": [
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575365,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Porto",
+   "visitante": "PSV",
+   "forma_local": [
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "E",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575366,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "Napoli",
+   "visitante": "Bodø/Glimt",
+   "forma_local": [
+    "P",
+    "E",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575367,
+   "liga": "CL",
+   "fecha": "2026-10-20T19:00:00Z",
+   "local": "PSG",
+   "visitante": "Barça",
+   "forma_local": [
+    "G",
+    "E",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "fuerte",
+     "local_pct": 74,
+     "local_n": 19,
+     "visita_pct": 86,
+     "visita_n": 14
+    },
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "moderado",
+     "local_pct": 68,
+     "local_n": 19,
+     "visita_pct": 86,
+     "visita_n": 14
+    }
+   ]
+  },
+  {
+   "id": 575368,
+   "liga": "CL",
+   "fecha": "2026-10-21T16:45:00Z",
+   "local": "Como 1907",
+   "visitante": "Man United",
+   "forma_local": [
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "E",
+    "E",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575369,
+   "liga": "CL",
+   "fecha": "2026-10-21T16:45:00Z",
+   "local": "Lille",
+   "visitante": "Galatasaray",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 564685,
+   "liga": "PD",
+   "fecha": "2026-10-21T18:00:00Z",
+   "local": "Levante",
+   "visitante": "Athletic",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "E",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575370,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Real Madrid",
+   "visitante": "RB Leipzig",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575371,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Inter",
+   "visitante": "Shaktar",
+   "forma_local": [
+    "G",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575372,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Bayern",
+   "visitante": "Arsenal",
+   "forma_local": [
+    "G",
+    "P",
+    "E",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575373,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Club Brugge",
+   "visitante": "RC Lens",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575374,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Aston Villa",
+   "visitante": "Viking",
+   "forma_local": [
+    "G",
+    "P",
+    "G",
+    "E",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575375,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Sporting CP",
+   "visitante": "LASK",
+   "forma_local": [
+    "G",
+    "P",
+    "E",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "P"
+   ],
+   "cruces": []
+  },
+  {
+   "id": 575376,
+   "liga": "CL",
+   "fecha": "2026-10-21T19:00:00Z",
+   "local": "Real Betis",
+   "visitante": "Feyenoord",
+   "forma_local": [
+    "G",
+    "G",
+    "E",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": []
+  }
+ ],
+ "recientes": [
+  {
+   "id": 575352,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Roma",
+   "visitante": "Real Madrid",
+   "forma_local": [
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "3-4"
+  },
+  {
+   "id": 575353,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Man City",
+   "visitante": "PSG",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "E",
+    "G",
+    "G"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 60,
+     "local_n": 10,
+     "visita_pct": 62,
+     "visita_n": 16,
+     "cumplido": true
+    }
+   ],
+   "marcador": "2-4"
+  },
+  {
+   "id": 575354,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Bodø/Glimt",
+   "visitante": "Dortmund",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "1-0"
+  },
+  {
+   "id": 575355,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Aston Villa",
+   "visitante": "Fenerbahçe",
+   "forma_local": [
+    "E",
+    "G",
+    "P",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "6-0"
+  },
+  {
+   "id": 575356,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Real Betis",
+   "visitante": "Porto",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "E",
+    "G"
+   ],
+   "forma_visita": [
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-2"
+  },
+  {
+   "id": 575357,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Shaktar",
+   "visitante": "PAE AEK",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "3-1"
+  },
+  {
+   "id": 575358,
+   "liga": "CL",
+   "fecha": "2026-10-14T19:00:00Z",
+   "local": "Sl. Bratislava",
+   "visitante": "Stuttgart",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "0-3"
+  },
+  {
+   "id": 575350,
+   "liga": "CL",
+   "fecha": "2026-10-14T16:45:00Z",
+   "local": "LASK",
+   "visitante": "Liverpool",
+   "forma_local": [
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "E",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-6"
+  },
+  {
+   "id": 575351,
+   "liga": "CL",
+   "fecha": "2026-10-14T16:45:00Z",
+   "local": "Feyenoord",
+   "visitante": "Como 1907",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "3-2"
+  },
+  {
+   "id": 575343,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Inter",
+   "visitante": "Club Brugge",
+   "forma_local": [
+    "P",
+    "G",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "E",
+    "P",
+    "P"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "fuerte",
+     "local_pct": 75,
+     "local_n": 12,
+     "visita_pct": 82,
+     "visita_n": 11,
+     "cumplido": true
+    }
+   ],
+   "marcador": "3-4"
+  },
+  {
+   "id": 575344,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Galatasaray",
+   "visitante": "Barça",
+   "forma_local": [
+    "G",
+    "P",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "1-4"
+  },
+  {
+   "id": 575345,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Atleti",
+   "visitante": "Man United",
+   "forma_local": [
+    "P",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "P",
+    "E",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "2-0"
+  },
+  {
+   "id": 575346,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Arsenal",
+   "visitante": "Lille",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "E",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-0"
+  },
+  {
+   "id": 575347,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Viking",
+   "visitante": "Bayern",
+   "forma_local": [
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "3-3"
+  },
+  {
+   "id": 575348,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "RB Leipzig",
+   "visitante": "PSV",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "1-0"
+  },
+  {
+   "id": 575349,
+   "liga": "CL",
+   "fecha": "2026-10-13T19:00:00Z",
+   "local": "Villarreal",
+   "visitante": "Napoli",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "E",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-1"
+  },
+  {
+   "id": 575341,
+   "liga": "CL",
+   "fecha": "2026-10-13T16:45:00Z",
+   "local": "RC Lens",
+   "visitante": "Sporting CP",
+   "forma_local": [
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "0-2"
+  },
+  {
+   "id": 575342,
+   "liga": "CL",
+   "fecha": "2026-10-13T16:45:00Z",
+   "local": "Sabah FK",
+   "visitante": "Slavia Praha",
+   "forma_local": [
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "2-0"
+  },
+  {
+   "id": 560597,
+   "liga": "PL",
+   "fecha": "2026-10-12T19:00:00Z",
+   "local": "Coventry City",
+   "visitante": "Newcastle",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "4-1"
+  },
+  {
+   "id": 564704,
+   "liga": "PD",
+   "fecha": "2026-10-12T19:00:00Z",
+   "local": "Levante",
+   "visitante": "Sevilla FC",
+   "forma_local": [
+    "E",
+    "G",
+    "E",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "G",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-3"
+  },
+  {
+   "id": 564705,
+   "liga": "PD",
+   "fecha": "2026-10-11T19:00:00Z",
+   "local": "Santander",
+   "visitante": "Valencia",
+   "forma_local": [
+    "G",
+    "P",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "2-2"
+  },
+  {
+   "id": 564701,
+   "liga": "PD",
+   "fecha": "2026-10-11T16:30:00Z",
+   "local": "Real Betis",
+   "visitante": "Osasuna",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "5-2"
+  },
+  {
+   "id": 560598,
+   "liga": "PL",
+   "fecha": "2026-10-11T15:30:00Z",
+   "local": "Liverpool",
+   "visitante": "Man City",
+   "forma_local": [
+    "E",
+    "G",
+    "G",
+    "E",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "0-3"
+  },
+  {
+   "id": 564707,
+   "liga": "PD",
+   "fecha": "2026-10-11T14:15:00Z",
+   "local": "Real Sociedad",
+   "visitante": "Deportivo",
+   "forma_local": [
+    "G",
+    "E",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "E",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "3-2"
+  },
+  {
+   "id": 560594,
+   "liga": "PL",
+   "fecha": "2026-10-11T13:00:00Z",
+   "local": "Hull City",
+   "visitante": "Everton",
+   "forma_local": [
+    "G",
+    "G",
+    "E",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "E",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "2-2"
+  },
+  {
+   "id": 560596,
+   "liga": "PL",
+   "fecha": "2026-10-11T13:00:00Z",
+   "local": "Crystal Palace",
+   "visitante": "Nottingham",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "E",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "3-1"
+  },
+  {
+   "id": 564703,
+   "liga": "PD",
+   "fecha": "2026-10-11T12:00:00Z",
+   "local": "Elche",
+   "visitante": "Celta",
+   "forma_local": [
+    "P",
+    "P",
+    "E",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "E",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "0-0"
+  },
+  {
+   "id": 564702,
+   "liga": "PD",
+   "fecha": "2026-10-10T19:00:00Z",
+   "local": "Real Madrid",
+   "visitante": "Villarreal",
+   "forma_local": [
+    "P",
+    "G",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "1-0"
+  },
+  {
+   "id": 560600,
+   "liga": "PL",
+   "fecha": "2026-10-10T16:30:00Z",
+   "local": "Man United",
+   "visitante": "Tottenham",
+   "forma_local": [
+    "G",
+    "E",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "E",
+    "E",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "1-1"
+  },
+  {
+   "id": 564700,
+   "liga": "PD",
+   "fecha": "2026-10-10T16:30:00Z",
+   "local": "Barça",
+   "visitante": "Getafe",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "3-0"
+  },
+  {
+   "id": 564699,
+   "liga": "PD",
+   "fecha": "2026-10-10T14:15:00Z",
+   "local": "Alavés",
+   "visitante": "Atleti",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "1-2"
+  },
+  {
+   "id": 560592,
+   "liga": "PL",
+   "fecha": "2026-10-10T14:00:00Z",
+   "local": "Sunderland",
+   "visitante": "Brighton Hove",
+   "forma_local": [
+    "P",
+    "G",
+    "E",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "E",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "0-2"
+  },
+  {
+   "id": 560595,
+   "liga": "PL",
+   "fecha": "2026-10-10T14:00:00Z",
+   "local": "Chelsea",
+   "visitante": "Bournemouth",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "E",
+    "E",
+    "P"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 60,
+     "local_n": 40,
+     "visita_pct": 72,
+     "visita_n": 40,
+     "cumplido": true
+    },
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "moderado",
+     "local_pct": 62,
+     "local_n": 40,
+     "visita_pct": 75,
+     "visita_n": 40,
+     "cumplido": true
+    }
+   ],
+   "marcador": "5-1"
+  },
+  {
+   "id": 560599,
+   "liga": "PL",
+   "fecha": "2026-10-10T14:00:00Z",
+   "local": "Ipswich Town",
+   "visitante": "Fulham",
+   "forma_local": [
+    "G",
+    "P",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "E",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "2-1"
+  },
+  {
+   "id": 560601,
+   "liga": "PL",
+   "fecha": "2026-10-10T14:00:00Z",
+   "local": "Aston Villa",
+   "visitante": "Brentford",
+   "forma_local": [
+    "P",
+    "E",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "E",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "marcador": "2-2"
+  },
+  {
+   "id": 560593,
+   "liga": "PL",
+   "fecha": "2026-10-10T11:30:00Z",
+   "local": "Arsenal",
+   "visitante": "Leeds United",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "E",
+    "G",
+    "E"
+   ],
+   "cruces": [],
+   "marcador": "2-1"
+  },
+  {
+   "id": 564706,
+   "liga": "PD",
+   "fecha": "2026-10-09T19:00:00Z",
+   "local": "Málaga",
+   "visitante": "Espanyol",
+   "forma_local": [
+    "P",
+    "E",
+    "E",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "G",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "marcador": "1-1"
+  }
+ ]
+}
