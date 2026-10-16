@@ -43,6 +43,14 @@ details.p summary::-webkit-details-marker{display:none}
 .forma{display:inline-flex;gap:2px}
 .forma i{width:17px;height:17px;border-radius:4px;font:700 10px/17px Figtree,sans-serif;font-style:normal;text-align:center;color:#fff}
 .forma .G{background:var(--over)}.forma .E{background:var(--hot)}.forma .P{background:var(--bad)}
+.rs{overflow-x:auto;padding:8px 0 4px}
+.rs table{width:100%;border-collapse:collapse;font-size:13px;min-width:430px}
+.rs th{font-weight:500;color:var(--mut);text-align:right;padding:4px 8px;white-space:nowrap}
+.rs th:first-child,.rs td:first-child{text-align:left;padding-left:0}
+.rs td{text-align:right;padding:6px 8px;border-top:1px solid var(--line)}
+.rs td:first-child{font-weight:700;color:var(--ink)}
+.rs small{display:block;font-weight:400;color:var(--mut);font-size:11px}
+.cuerpo h4{font:700 12px Figtree,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--mut);margin:14px 0 2px}
 .cuerpo{border-top:1px solid var(--line);padding:6px 16px 14px}
 .cz{padding:10px 0;border-top:1px solid var(--line)}
 .cz:first-child{border-top:0}
@@ -99,15 +107,26 @@ function frase(c,l,v){
 function fechaTxt(iso){
   return new Date(iso).toLocaleString('es-PE',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 }
+function tabla(p){
+  const r=p.resumen;if(!r)return '';
+  const fila=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}${x.n<8?' · muestra pequeña':''}</small></td><td>${x.o25}%</td><td>${x.btts}%</td><td>${x.gf}</td><td>${x.gc}</td><td>${x.n}</td></tr>`;
+  const v=x=>x??'—';
+  const fx=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}</small></td><td>${v(x.rem)}</td><td>${v(x.rem_c)}</td><td>${v(x.esq)}</td><td>${v(x.esq_c)}</td><td>${v(x.esq_t)}</td><td>${v(x.n_x)}</td></tr>`;
+  let h=`<h4>Local en casa vs visitante fuera</h4><div class="rs"><table><thead><tr><th></th><th>Más de 2.5</th><th>Ambos anotan</th><th>Goles a favor</th><th>Goles en contra</th><th>PJ</th></tr></thead><tbody>${fila(r.local,p.local,'en casa')}${fila(r.visita,p.visitante,'de visitante')}</tbody></table></div>`;
+  if(r.local.rem!==undefined||r.visita.rem!==undefined)
+    h+=`<h4>Remates y córners (promedio por partido)</h4><div class="rs"><table><thead><tr><th></th><th>Remates a favor</th><th>Remates en contra</th><th>Córners a favor</th><th>Córners en contra</th><th>Córners totales</th><th>PJ</th></tr></thead><tbody>${fx(r.local,p.local,'en casa')}${fx(r.visita,p.visitante,'de visitante')}</tbody></table></div>`;
+  else h+='<p class="leyenda">Sin datos de remates y córners para este partido.</p>';
+  return h;
+}
 function item(p,rec){
   const cz=p.cruces.map(c=>`<div class="cz"><h3>${esc(c.titulo)}<span class="nv ${c.nivel}">Cruce ${c.nivel}</span>${rec?(c.cumplido?'<span class="ok">✓ Se cumplió</span>':'<span class="no">✗ No se cumplió</span>'):''}</h3><p>${frase(c,p.local,p.visitante)}</p></div>`).join('')
-    ||'<div class="cz"><p>Sin cruces destacados para este partido con los datos disponibles.</p></div>';
+    ||'<div class="cz"><p>Ningún mercado alcanza el umbral de cruce en este partido: no hay una coincidencia clara entre ambos equipos.</p></div>';
   const n=p.cruces.length;
   return `<details class="p"><summary>
     <div class="eq"><b>${esc(p.local)}</b>${forma(p.forma_local)}<span class="vs">vs</span><b>${esc(p.visitante)}</b>${forma(p.forma_visita)}</div>
-    ${rec?`<div class="score">${esc(p.marcador)}</div>`:`<div class="nc">${n} ${n===1?'cruce':'cruces'}</div>`}
+    ${rec?`<div class="score">${esc(p.marcador)}</div>`:`<div class="nc">${n?`${n} ${n===1?'cruce':'cruces'}`:'Sin cruce destacado'}</div>`}
     <div class="meta">${esc(D.ligas[p.liga]||p.liga)} · ${fechaTxt(p.fecha)}</div>
-  </summary><div class="cuerpo">${cz}</div></details>`;
+  </summary><div class="cuerpo">${tabla(p)}<h4>Cruces</h4>${cz}</div></details>`;
 }
 function render(){
   const rec=vista==='recientes';
