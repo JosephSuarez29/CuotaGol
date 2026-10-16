@@ -1,0 +1,51 @@
+/* Tema compartido de CuotaGol: se carga DESPUES del estilo propio de cada pagina */
+:root{--bg:#F1F4FA;--ink:#0B1630;--mut:#5A6785;--line:#DDE3F0;--navy:#0B1B3A;--navy2:#1B3B7A;--mint:#19C37D;
+--over:#12805C;--btts:#3454D1;--c-goles:#12A06B;--c-rem:#3B6CF0;--c-esq:#F08A0C;--c-tar:#E2AE00;--c-fal:#8B5CF6}
+body{background:var(--bg);color:var(--ink)}
+.banda{background:linear-gradient(120deg,var(--navy),var(--navy2));border-bottom:3px solid var(--mint)}
+.banda header.top{padding:14px 0}
+.banda .brand{color:#fff}
+.banda .brand svg{stroke:#fff}
+.banda nav a,.banda .nav a{color:#B9C6E6;text-decoration:none;font-weight:500;font-size:14px;padding:7px 13px;border-radius:8px}
+.banda nav a:hover,.banda .nav a:hover{color:#fff}
+.banda nav a[aria-current],.banda .nav a[aria-current]{background:var(--mint);color:#052315}
+.banda a:focus-visible{outline:3px solid #fff}
+h1{color:var(--navy)}
+.panel,details.p,.resumen,.tablebox{box-shadow:0 1px 2px rgba(11,27,58,.06),0 8px 20px rgba(11,27,58,.05)}
+.top6{border-top:4px solid var(--mint)}
+.seg button[aria-pressed=true]{background:var(--navy2)}
+.tabs button[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy);box-shadow:none}
+.tabs button:hover{border-color:var(--navy2)}
+thead th{background:#F5F8FE}
+tbody tr:hover{background:#F6F9FF}
+details.p{border-left:4px solid var(--mint)}
+details.p[open]{border-left-color:var(--navy2)}
+.cuerpo h4::before{content:"";display:inline-block;width:8px;height:8px;border-radius:2px;background:var(--mint);margin-right:7px}
+.cuerpo h4:nth-of-type(2)::before{background:var(--c-rem)}
+.cuerpo h4:nth-of-type(3)::before{background:var(--c-fal)}
+.how{border-top:4px solid var(--btts)}
+
+/* ---- Pagina Ligas ---- */
+.cats{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.cats button{--cc:var(--mut);display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 14px;font:700 14px Figtree,sans-serif;cursor:pointer;color:var(--ink)}
+.cats button::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--cc)}
+.cats button[aria-pressed=true]{background:var(--cc);border-color:var(--cc);color:#fff}
+.cats button[aria-pressed=true]::before{background:#fff}
+.cats button[data-c=tar][aria-pressed=true]{color:#2A2000}
+.cats button[data-c=tar][aria-pressed=true]::before{background:#2A2000}
+.cats button:disabled{opacity:.45;cursor:not-allowed}
+.lt{--cc:var(--c-goles)}
+.lt table{min-width:560px}
+.lt td.rk{width:46px;padding-right:0}
+.rk b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;font-size:13px;background:var(--bg);color:var(--mut)}
+.lt tr.top3 .rk b{background:var(--cc);color:#fff}
+.lt th button{all:unset;cursor:pointer;display:inline-block}
+.lt th button:focus-visible{outline:3px solid var(--btts)}
+.lt th[aria-sort]{color:var(--ink);box-shadow:inset 0 -3px 0 var(--cc)}
+.mb{display:flex;align-items:center;gap:10px;min-width:130px}
+.mb .bar{flex:1;height:8px;background:var(--bg);border-radius:4px;overflow:hidden}
+.mb .bar span{display:block;height:100%;background:var(--cc);border-radius:4px}
+.mb em{font-style:normal;font-weight:700;width:42px;text-align:right}
+.lt tr.top3 td.n{color:var(--ink)}
+.vacio{padding:26px;color:var(--mut)}
+@media(max-width:760px){.cats button{padding:8px 11px;font-size:13px}}
