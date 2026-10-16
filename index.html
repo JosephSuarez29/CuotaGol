@@ -63,7 +63,20 @@ td.n{font-weight:700}
 .note{color:var(--mut);font-size:13px;margin:10px 2px 0}
 footer{padding:36px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
 .err{padding:24px;color:#B42318}
-@media(max-width:760px){.hero{grid-template-columns:1fr}.tag{display:none}}
+.nav{display:flex;gap:6px}.nav a{color:var(--mut);text-decoration:none;font-weight:500;font-size:14px;padding:7px 13px;border-radius:8px}.nav a[aria-current]{background:var(--ink);color:#fff}.nav a:focus-visible{outline:3px solid var(--btts);outline-offset:2px}
+.how{margin-bottom:28px}
+.how summary{cursor:pointer;font:700 15px Figtree,sans-serif;padding:14px 18px}
+.how summary:focus-visible{outline:3px solid var(--btts);outline-offset:-3px;border-radius:var(--r)}
+.how .cols{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.how .cols>div{padding:16px 18px;border-left:1px solid var(--line)}
+.how .cols>div:first-child{border-left:0}
+.how h3{font:700 16px Bricolage Grotesque,sans-serif;margin:0 0 6px;display:flex;align-items:center;gap:8px}
+.how h3 i{width:9px;height:16px;border-radius:3px;display:inline-block}
+.how p{margin:0 0 8px;color:var(--mut);font-size:14px}
+.how .ej{font-size:13px;color:var(--ink)}
+.how .ej b{font-weight:700;color:var(--over)}
+.how .ej s{text-decoration:none;font-weight:700;color:#B42318}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.how .cols{grid-template-columns:1fr}.how .cols>div{border-left:0;border-top:1px solid var(--line)}.how .cols>div:first-child{border-top:0}}
 </style>
 </head>
 <body>
@@ -73,7 +86,7 @@ footer{padding:36px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
       <svg viewBox="0 0 32 32" fill="none" stroke="#0F172A" stroke-width="2.4" aria-hidden="true"><rect x="2" y="5" width="28" height="22" rx="3"/><path d="M16 5v22"/><circle cx="16" cy="16" r="4.5"/></svg>
       CuotaGol
     </div>
-    <span class="tag">Datos, no corazonadas</span>
+    <nav class="nav"><a href="index.html" aria-current="page">Rachas</a><a href="partidos.html">Partidos</a></nav>
   </header>
 
   <section class="hero">
@@ -90,6 +103,27 @@ footer{padding:36px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
       <ol id="top"></ol>
     </aside>
   </section>
+
+  <details class="panel how" open>
+    <summary>¿Cómo leer estas cifras?</summary>
+    <div class="cols">
+      <div>
+        <h3><i style="background:var(--over)"></i>Más de 2.5 goles</h3>
+        <p>El partido termina con 3 goles o más sumando los dos equipos. No importa quién los marque.</p>
+        <div class="ej"><b>Cuenta:</b> 2-1, 3-0, 2-2 &nbsp;·&nbsp; <s>No cuenta:</s> 1-1, 2-0, 0-0</div>
+      </div>
+      <div>
+        <h3><i style="background:var(--btts)"></i>Ambos anotan</h3>
+        <p>Los dos equipos marcan al menos un gol. No importa cuántos goles haya en total.</p>
+        <div class="ej"><b>Cuenta:</b> 1-1, 2-1, 3-2 &nbsp;·&nbsp; <s>No cuenta:</s> 3-0, 1-0, 0-0</div>
+      </div>
+      <div>
+        <h3>Porcentaje y racha</h3>
+        <p>El porcentaje indica en cuántos partidos del equipo se cumplió. La racha cuenta los partidos seguidos, desde el más reciente, que la cumplen: cada ficha es un partido.</p>
+        <div class="ej">Una racha larga es un dato del pasado, no asegura que continúe.</div>
+      </div>
+    </div>
+  </details>
 
   <section>
     <div class="controls">
