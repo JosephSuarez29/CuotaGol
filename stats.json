@@ -18,43 +18,35 @@
   },
   {
    "equipo": "Real Racing Club de Santander",
-   "partidos": 8,
-   "pct_over25": 88,
-   "pct_btts": 75,
-   "racha_over25": 6,
-   "racha_btts": 1
+   "partidos": 7,
+   "pct_over25": 86,
+   "pct_btts": 71,
+   "racha_over25": 5,
+   "racha_btts": 0
   },
   {
    "equipo": "Real Sociedad de Fútbol",
-   "partidos": 84,
+   "partidos": 83,
    "pct_over25": 52,
-   "pct_btts": 54,
-   "racha_over25": 4,
-   "racha_btts": 2
+   "pct_btts": 53,
+   "racha_over25": 3,
+   "racha_btts": 1
   },
   {
    "equipo": "Levante UD",
+   "partidos": 44,
+   "pct_over25": 48,
+   "pct_btts": 50,
+   "racha_over25": 2,
+   "racha_btts": 2
+  },
+  {
+   "equipo": "Elche CF",
    "partidos": 45,
-   "pct_over25": 49,
-   "pct_btts": 51,
-   "racha_over25": 3,
-   "racha_btts": 3
-  },
-  {
-   "equipo": "Sevilla FC",
-   "partidos": 84,
-   "pct_over25": 49,
-   "pct_btts": 58,
+   "pct_over25": 60,
+   "pct_btts": 73,
    "racha_over25": 2,
-   "racha_btts": 2
-  },
-  {
-   "equipo": "Valencia CF",
-   "partidos": 84,
-   "pct_over25": 44,
-   "pct_btts": 55,
-   "racha_over25": 2,
-   "racha_btts": 2
+   "racha_btts": 5
   },
   {
    "equipo": "Getafe CF",
@@ -65,12 +57,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Real Betis Balompié",
-   "partidos": 84,
+   "equipo": "RC Celta de Vigo",
+   "partidos": 83,
    "pct_over25": 52,
-   "pct_btts": 68,
+   "pct_btts": 64,
    "racha_over25": 1,
-   "racha_btts": 2
+   "racha_btts": 0
   },
   {
    "equipo": "Deportivo Alavés",
@@ -81,12 +73,12 @@
    "racha_btts": 1
   },
   {
-   "equipo": "CA Osasuna",
-   "partidos": 84,
+   "equipo": "Sevilla FC",
+   "partidos": 83,
    "pct_over25": 48,
    "pct_btts": 58,
    "racha_over25": 1,
-   "racha_btts": 2
+   "racha_btts": 1
   },
   {
    "equipo": "CD Leganés",
@@ -95,6 +87,14 @@
    "pct_btts": 45,
    "racha_over25": 1,
    "racha_btts": 0
+  },
+  {
+   "equipo": "Valencia CF",
+   "partidos": 83,
+   "pct_over25": 43,
+   "pct_btts": 54,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "RCD Mallorca",
@@ -121,20 +121,20 @@
    "racha_btts": 0
   },
   {
-   "equipo": "RC Deportivo La Coruña",
-   "partidos": 8,
-   "pct_over25": 38,
-   "pct_btts": 88,
-   "racha_over25": 1,
-   "racha_btts": 2
-  },
-  {
    "equipo": "Athletic Club",
    "partidos": 82,
    "pct_over25": 41,
    "pct_btts": 50,
    "racha_over25": 0,
    "racha_btts": 0
+  },
+  {
+   "equipo": "Real Betis Balompié",
+   "partidos": 83,
+   "pct_over25": 52,
+   "pct_btts": 67,
+   "racha_over25": 0,
+   "racha_btts": 1
   },
   {
    "equipo": "Girona FC",
@@ -145,20 +145,20 @@
    "racha_btts": 1
   },
   {
-   "equipo": "RC Celta de Vigo",
-   "partidos": 84,
-   "pct_over25": 51,
-   "pct_btts": 63,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "UD Las Palmas",
    "partidos": 38,
    "pct_over25": 50,
    "pct_btts": 63,
    "racha_over25": 0,
    "racha_btts": 0
+  },
+  {
+   "equipo": "CA Osasuna",
+   "partidos": 83,
+   "pct_over25": 47,
+   "pct_btts": 58,
+   "racha_over25": 0,
+   "racha_btts": 1
   },
   {
    "equipo": "Rayo Vallecano de Madrid",
@@ -193,12 +193,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Elche CF",
-   "partidos": 46,
-   "pct_over25": 59,
-   "pct_btts": 72,
+   "equipo": "RC Deportivo La Coruña",
+   "partidos": 7,
+   "pct_over25": 29,
+   "pct_btts": 86,
    "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 1
   },
   {
    "equipo": "Málaga CF",
