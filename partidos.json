@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-17T01:14+00:00",
+ "generado": "2026-10-17T01:45+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
@@ -13,11 +13,11 @@
    "local": "Everton",
    "visitante": "Chelsea",
    "forma_local": [
-    "E",
-    "E",
-    "E",
     "G",
-    "E"
+    "E",
+    "E",
+    "E",
+    "G"
    ],
    "forma_visita": [
     "G",
@@ -145,10 +145,10 @@
    ],
    "forma_visita": [
     "G",
+    "G",
     "E",
     "E",
-    "P",
-    "E"
+    "P"
    ],
    "cruces": [],
    "resumen": {
@@ -279,9 +279,9 @@
    ],
    "forma_visita": [
     "G",
+    "G",
     "E",
     "G",
-    "P",
     "G"
    ],
    "cruces": [
@@ -433,11 +433,11 @@
    "local": "Newcastle",
    "visitante": "Aston Villa",
    "forma_local": [
+    "E",
     "G",
     "E",
     "P",
-    "G",
-    "P"
+    "G"
    ],
    "forma_visita": [
     "G",
@@ -823,10 +823,10 @@
    ],
    "forma_visita": [
     "P",
+    "P",
     "G",
     "P",
-    "E",
-    "G"
+    "E"
    ],
    "cruces": [],
    "resumen": {
@@ -939,10 +939,10 @@
    "local": "Nottingham",
    "visitante": "Arsenal",
    "forma_local": [
+    "P",
     "E",
     "E",
     "G",
-    "P",
     "P"
    ],
    "forma_visita": [
@@ -1135,7 +1135,7 @@
     "P",
     "P",
     "P",
-    "G",
+    "P",
     "G"
    ],
    "cruces": [],
@@ -1393,9 +1393,9 @@
    "visitante": "Villarreal",
    "forma_local": [
     "G",
+    "G",
     "E",
     "G",
-    "P",
     "G"
    ],
    "forma_visita": [
@@ -1994,10 +1994,10 @@
     "G"
    ],
    "forma_visita": [
+    "P",
     "E",
     "E",
     "G",
-    "P",
     "P"
    ],
    "cruces": [],
@@ -2022,11 +2022,11 @@
      "n_x": 22
     },
     "visita": {
-     "n": 41,
+     "n": 40,
      "o25": 68,
-     "btts": 56,
+     "btts": 55,
      "gf": 1.6,
-     "gc": 1.6,
+     "gc": 1.5,
      "rem": 11.7,
      "rem_c": 14.7,
      "pta": 4.3,
@@ -2447,11 +2447,11 @@
     "P"
    ],
    "forma_visita": [
+    "E",
     "G",
     "G",
     "E",
-    "G",
-    "P"
+    "G"
    ],
    "cruces": [],
    "resumen": {
@@ -2858,69 +2858,6 @@
    "marcador": "2-0"
   },
   {
-   "id": 560597,
-   "liga": "PL",
-   "fecha": "2026-10-12T19:00:00Z",
-   "local": "Coventry City",
-   "visitante": "Newcastle",
-   "forma_local": [
-    "P",
-    "P",
-    "P",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "E",
-    "G",
-    "E",
-    "P",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 2,
-     "o25": 50,
-     "btts": 0,
-     "gf": 0.0,
-     "gc": 3.0,
-     "rem": 11.3,
-     "rem_c": 15.7,
-     "pta": 5.0,
-     "pta_c": 5.0,
-     "esq": 4.3,
-     "esq_c": 3.7,
-     "fal": 7.7,
-     "fal_c": 11.0,
-     "tar": 0.7,
-     "tar_c": 1.7,
-     "esq_t": 8.0,
-     "n_x": 3
-    },
-    "visita": {
-     "n": 40,
-     "o25": 52,
-     "btts": 55,
-     "gf": 1.2,
-     "gc": 1.4,
-     "rem": 11.8,
-     "rem_c": 12.7,
-     "pta": 3.9,
-     "pta_c": 4.4,
-     "esq": 5.4,
-     "esq_c": 5.1,
-     "fal": 9.7,
-     "fal_c": 11.0,
-     "tar": 1.7,
-     "tar_c": 1.8,
-     "esq_t": 10.5,
-     "n_x": 41
-    }
-   },
-   "marcador": "4-1"
-  },
-  {
    "id": 564704,
    "liga": "PD",
    "fecha": "2026-10-12T19:00:00Z",
@@ -3110,69 +3047,6 @@
    "marcador": "5-2"
   },
   {
-   "id": 560598,
-   "liga": "PL",
-   "fecha": "2026-10-11T15:30:00Z",
-   "local": "Liverpool",
-   "visitante": "Man City",
-   "forma_local": [
-    "E",
-    "G",
-    "G",
-    "E",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 40,
-     "o25": 55,
-     "btts": 65,
-     "gf": 1.9,
-     "gc": 0.9,
-     "rem": 16.6,
-     "rem_c": 10.4,
-     "pta": 5.4,
-     "pta_c": 3.4,
-     "esq": 6.2,
-     "esq_c": 4.6,
-     "fal": 11.0,
-     "fal_c": 10.5,
-     "tar": 1.5,
-     "tar_c": 2.1,
-     "esq_t": 10.9,
-     "n_x": 41
-    },
-    "visita": {
-     "n": 40,
-     "o25": 50,
-     "btts": 50,
-     "gf": 1.6,
-     "gc": 1.1,
-     "rem": 14.9,
-     "rem_c": 10.7,
-     "pta": 5.1,
-     "pta_c": 3.8,
-     "esq": 6.1,
-     "esq_c": 4.0,
-     "fal": 8.7,
-     "fal_c": 10.8,
-     "tar": 1.7,
-     "tar_c": 2.0,
-     "esq_t": 10.1,
-     "n_x": 41
-    }
-   },
-   "marcador": "0-3"
-  },
-  {
    "id": 564707,
    "liga": "PD",
    "fecha": "2026-10-11T14:15:00Z",
@@ -3234,132 +3108,6 @@
     }
    },
    "marcador": "3-2"
-  },
-  {
-   "id": 560594,
-   "liga": "PL",
-   "fecha": "2026-10-11T13:00:00Z",
-   "local": "Hull City",
-   "visitante": "Everton",
-   "forma_local": [
-    "G",
-    "G",
-    "E",
-    "E",
-    "P"
-   ],
-   "forma_visita": [
-    "G",
-    "E",
-    "E",
-    "E",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 2,
-     "o25": 0,
-     "btts": 0,
-     "gf": 1.0,
-     "gc": 0.0,
-     "rem": 9.3,
-     "rem_c": 16.3,
-     "pta": 4.3,
-     "pta_c": 4.3,
-     "esq": 3.7,
-     "esq_c": 5.3,
-     "fal": 11.7,
-     "fal_c": 6.0,
-     "tar": 2.0,
-     "tar_c": 0.3,
-     "esq_t": 9.0,
-     "n_x": 3
-    },
-    "visita": {
-     "n": 40,
-     "o25": 30,
-     "btts": 42,
-     "gf": 0.9,
-     "gc": 1.1,
-     "rem": 10.3,
-     "rem_c": 15.3,
-     "pta": 3.5,
-     "pta_c": 4.5,
-     "esq": 4.0,
-     "esq_c": 6.2,
-     "fal": 11.0,
-     "fal_c": 10.7,
-     "tar": 2.0,
-     "tar_c": 1.3,
-     "esq_t": 10.2,
-     "n_x": 41
-    }
-   },
-   "marcador": "2-2"
-  },
-  {
-   "id": 560596,
-   "liga": "PL",
-   "fecha": "2026-10-11T13:00:00Z",
-   "local": "Crystal Palace",
-   "visitante": "Nottingham",
-   "forma_local": [
-    "P",
-    "P",
-    "G",
-    "P",
-    "E"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "E",
-    "G",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 40,
-     "o25": 50,
-     "btts": 60,
-     "gf": 1.1,
-     "gc": 1.4,
-     "rem": 13.6,
-     "rem_c": 11.9,
-     "pta": 4.3,
-     "pta_c": 4.3,
-     "esq": 4.5,
-     "esq_c": 5.3,
-     "fal": 10.4,
-     "fal_c": 11.2,
-     "tar": 1.7,
-     "tar_c": 2.2,
-     "esq_t": 9.7,
-     "n_x": 41
-    },
-    "visita": {
-     "n": 40,
-     "o25": 68,
-     "btts": 55,
-     "gf": 1.6,
-     "gc": 1.5,
-     "rem": 11.7,
-     "rem_c": 14.7,
-     "pta": 4.3,
-     "pta_c": 5.0,
-     "esq": 4.3,
-     "esq_c": 6.1,
-     "fal": 11.1,
-     "fal_c": 11.5,
-     "tar": 2.4,
-     "tar_c": 2.3,
-     "esq_t": 10.4,
-     "n_x": 41
-    }
-   },
-   "marcador": "3-1"
   },
   {
    "id": 564703,
