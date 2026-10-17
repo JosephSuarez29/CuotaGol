@@ -51,6 +51,34 @@ def fecha(m):
     return datetime.fromisoformat(m["utcDate"].replace("Z", "+00:00"))
 
 
+def inicio_temporada(ahora):
+    """1 de julio de la temporada en curso (UTC)."""
+    y = ahora.year if ahora.month >= 7 else ahora.year - 1
+    return datetime(y, 7, 1, tzinfo=timezone.utc)
+
+
+def fecha_csv(s):
+    for f in ("%d/%m/%Y", "%d/%m/%y"):
+        try:
+            return datetime.strptime((s or "").strip(), f).replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    return None
+
+
+def resumen_goles(est):
+    out = {}
+    for (tid, comp), e in est.items():
+        d = {}
+        for k, v in e.items():
+            n = len(v["o"])
+            if n:
+                d[k] = {"pj": n, "o25": tasa(v["o"])[0], "btts": tasa(v["b"])[0],
+                        "gf": round(sum(v["gf"]) / n, 1), "gc": round(sum(v["gc"]) / n, 1)}
+        out[(comp, tid)] = d
+    return out
+
+
 def tasa(lista):
     n = len(lista)
     return (round(100 * sum(lista) / n), n) if n else (0, 0)
@@ -112,7 +140,8 @@ def resumen(est, comp, hid, aid, extra=None):
 
 def procesar(partidos, ahora, extra=None):
     """partidos: lista de (codigo_liga, partido). Devuelve (stats, partidos_json)."""
-    est, forma = {}, {}
+    est, est_act, forma = {}, {}, {}
+    inicio = inicio_temporada(ahora)
     proximos, recientes, pendientes = [], [], []
     for comp, m in sorted(partidos, key=lambda x: fecha(x[1])):
         h, a = m["homeTeam"], m["awayTeam"]
@@ -142,12 +171,13 @@ def procesar(partidos, ahora, extra=None):
             f["cruces"] = [dict(c, cumplido=cumple[c["mercado"]]) for c in f["cruces"]]
             recientes.append(f)
         for tid, lado, gf, gc in ((h["id"], "home", gl, gv), (a["id"], "away", gv, gl)):
-            e = est.setdefault((tid, comp), nuevo())
-            for k in ("all", lado):
-                e[k]["o"].append(total > 2.5)
-                e[k]["b"].append(ambos)
-                e[k]["gf"].append(gf)
-                e[k]["gc"].append(gc)
+            for dic in ((est, est_act) if fecha(m) >= inicio else (est,)):
+                e = dic.setdefault((tid, comp), nuevo())
+                for k in ("all", lado):
+                    e[k]["o"].append(total > 2.5)
+                    e[k]["b"].append(ambos)
+                    e[k]["gf"].append(gf)
+                    e[k]["gc"].append(gc)
             forma.setdefault(tid, []).append("G" if gf > gc else "E" if gf == gc else "P")
     for comp, m in pendientes:   # con el estado final
         h, a = m["homeTeam"], m["awayTeam"]
@@ -177,7 +207,8 @@ def procesar(partidos, ahora, extra=None):
     pj = {"generado": ahora.isoformat(timespec="minutes"),
           "ligas": {c: NOMBRES.get(c, c) for c in COMPETICIONES},
           "proximos": proximos, "recientes": recientes}
-    return stats, pj
+    goles = {"hist": resumen_goles(est), "act": resumen_goles(est_act)}
+    return stats, pj, goles
 
 
 def toks(s):
@@ -219,10 +250,9 @@ def descargar_filas(code):
     return filas
 
 
-def agregar_extra(filas, registro):
-    """filas: {liga: [filas CSV]}; registro: {(liga, id): [nombres]}.
-    Devuelve ({(liga, id): {"home": {...}, "away": {...}}}, equipos_sin_emparejar)."""
-    # metrica: (columna del local, columna del visitante)
+def agregar_extra(filas, registro, inicio=None):
+    """filas: {liga: [filas CSV]}; registro: {(liga, id): [nombres]}; inicio: solo partidos desde esa fecha.
+    Devuelve ({(liga, id): {"all"|"home"|"away": {...}}}, equipos_sin_emparejar)."""
     METRICAS = {"rem": ("HS", "AS"), "pta": ("HST", "AST"), "esq": ("HC", "AC"),
                 "fal": ("HF", "AF"), "tar": ("HY", "AY")}
     extra, sin = {}, set()
@@ -230,16 +260,21 @@ def agregar_extra(filas, registro):
         cands = {tid: n for (c, tid), n in registro.items() if c == comp}
         acum = {}
         for r in rows:
+            if inicio:
+                f = fecha_csv(r.get("Date"))
+                if f is None or f < inicio:
+                    continue
             for lado, col in (("home", "HomeTeam"), ("away", "AwayTeam")):
-                a = acum.setdefault((r.get(col), lado), {k: ([], []) for k in METRICAS})
-                for k, (ch, ca) in METRICAS.items():
-                    try:
-                        vh, va = int(r[ch]), int(r[ca])
-                    except (KeyError, ValueError, TypeError):
-                        continue
-                    pf, pc = (vh, va) if lado == "home" else (va, vh)
-                    a[k][0].append(pf)
-                    a[k][1].append(pc)
+                for sc in (lado, "all"):
+                    a = acum.setdefault((r.get(col), sc), {k: ([], []) for k in METRICAS})
+                    for k, (ch, ca) in METRICAS.items():
+                        try:
+                            vh, va = int(r[ch]), int(r[ca])
+                        except (KeyError, ValueError, TypeError):
+                            continue
+                        pf, pc = (vh, va) if lado == "home" else (va, vh)
+                        a[k][0].append(pf)
+                        a[k][1].append(pc)
         cache = {}
         for (eq, lado), a in acum.items():
             if not eq:
@@ -259,11 +294,29 @@ def agregar_extra(filas, registro):
             if "esq" in d:
                 f, c = a["esq"]
                 d["esq_t"] = round((sum(f) + sum(c)) / len(f), 1)
-            if "rem" in a and a["rem"][0]:
+            if a["rem"][0]:
                 d["n_x"] = len(a["rem"][0])
             if d:
                 extra.setdefault((comp, tid), {})[lado] = d
     return extra, sin
+
+
+def construir_tablas(goles, extras, todos, ahora):
+    """Tablas por liga para la pagina Ligas: periodo x ambito (all/home/away)."""
+    cortos = {}
+    for comp, m in todos:
+        for t in (m["homeTeam"], m["awayTeam"]):
+            if t.get("id"):
+                cortos.setdefault((comp, t["id"]), t.get("shortName") or t["name"])
+    tablas = {}
+    for per in ("hist", "act"):
+        for (comp, tid), sc in goles[per].items():
+            fila = tablas.setdefault(comp, {}).setdefault(tid, {"equipo": cortos.get((comp, tid), str(tid))})
+            ex = extras[per].get((comp, tid), {})
+            fila[per] = {k: dict(v, **ex.get(k, {})) for k, v in sc.items()}
+    return {"generado": ahora.isoformat(timespec="minutes"),
+            "ligas": {c: NOMBRES.get(c, c) for c in COMPETICIONES},
+            "tablas": {c: sorted(d.values(), key=lambda r: r["equipo"]) for c, d in tablas.items()}}
 
 
 def main():
@@ -287,11 +340,14 @@ def main():
         if code in CSV_LIGAS:
             print(f"Descargando remates y corners {code}...")
             filas[code] = descargar_filas(CSV_LIGAS[code])
+    ahora = datetime.now(timezone.utc)
     extra, sin = agregar_extra(filas, registro)
+    extra_act, _ = agregar_extra(filas, registro, inicio_temporada(ahora))
     if sin:
         print("Equipos sin emparejar (sin remates/corners):", sorted(sin))
-    stats, pj = procesar(todos, datetime.now(timezone.utc), extra)
-    for nombre, obj in (("stats.json", stats), ("partidos.json", pj)):
+    stats, pj, goles = procesar(todos, ahora, extra)
+    tablas = construir_tablas(goles, {"hist": extra, "act": extra_act}, todos, ahora)
+    for nombre, obj in (("stats.json", stats), ("partidos.json", pj), ("tablas.json", tablas)):
         with open(nombre, "w", encoding="utf-8") as f:
             json.dump(obj, f, ensure_ascii=False, indent=1)
     print(f"Listo: stats.json y partidos.json ({len(pj['proximos'])} proximos, "
