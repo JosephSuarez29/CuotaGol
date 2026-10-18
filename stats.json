@@ -9,14 +9,6 @@
    "racha_btts": 1
   },
   {
-   "equipo": "Real Racing Club de Santander",
-   "partidos": 8,
-   "pct_over25": 88,
-   "pct_btts": 75,
-   "racha_over25": 6,
-   "racha_btts": 1
-  },
-  {
    "equipo": "Real Sociedad de Fútbol",
    "partidos": 84,
    "pct_over25": 52,
@@ -55,14 +47,6 @@
    "pct_btts": 55,
    "racha_over25": 1,
    "racha_btts": 1
-  },
-  {
-   "equipo": "CA Osasuna",
-   "partidos": 84,
-   "pct_over25": 48,
-   "pct_btts": 58,
-   "racha_over25": 1,
-   "racha_btts": 2
   },
   {
    "equipo": "CD Leganés",
@@ -129,6 +113,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "CA Osasuna",
+   "partidos": 85,
+   "pct_over25": 47,
+   "pct_btts": 58,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "Valencia CF",
    "partidos": 85,
    "pct_over25": 44,
@@ -189,6 +181,14 @@
    "partidos": 47,
    "pct_over25": 57,
    "pct_btts": 70,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Real Racing Club de Santander",
+   "partidos": 9,
+   "pct_over25": 78,
+   "pct_btts": 67,
    "racha_over25": 0,
    "racha_btts": 0
   },
