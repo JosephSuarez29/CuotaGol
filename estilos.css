@@ -49,3 +49,36 @@ details.p[open]{border-left-color:var(--navy2)}
 .lt tr.top3 td.n{color:var(--ink)}
 .vacio{padding:26px;color:var(--mut)}
 @media(max-width:760px){.cats button{padding:8px 11px;font-size:13px}}
+
+/* ---- Tendencia, probabilidades y cara a cara ---- */
+.tnd{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:6px 0 10px}
+.tnd>div{background:var(--bg);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px}
+.tnd small{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--mut)}
+.tnd strong{font:800 18px Bricolage Grotesque,sans-serif;color:var(--navy)}
+.tnd span{font-size:13px;color:var(--mut)}
+.cf{align-self:flex-start;font:700 11px Figtree,sans-serif;font-style:normal;border-radius:999px;padding:2px 10px;margin-top:4px;border:1px solid}
+.cf.alta{background:#E6F7EE;border-color:#9ADBB8;color:#0F7A47}
+.cf.media{background:#FFF5E0;border-color:#F3D08A;color:#9A5B00}
+.cf.baja{background:#EEF1F6;border-color:var(--line);color:var(--mut)}
+.x12{display:flex;gap:3px;height:26px;border-radius:8px;overflow:hidden;margin-top:4px}
+.x12 span{display:grid;place-items:center;color:#fff;font:700 12px Figtree,sans-serif;min-width:34px}
+.x12l{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--mut);margin:4px 0 2px}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:6px 0 4px}
+.pc{border:1px solid;border-radius:10px;padding:10px 6px;text-align:center;display:flex;flex-direction:column;gap:1px}
+.pc b{font:800 24px Bricolage Grotesque,sans-serif;line-height:1.1}
+.pc span{font-size:12px;font-weight:700;color:var(--ink)}
+.pc small{font-size:11px;color:var(--mut)}
+.pc.g{background:#E6F7EE;border-color:#9ADBB8}.pc.g b{color:#0F7A47}
+.pc.a{background:#FFF5E0;border-color:#F3D08A}.pc.a b{color:#9A5B00}
+.pc.r{background:#FDECEA;border-color:#F2B8B2}.pc.r b{color:#B42318}
+.h2h .hseg{display:inline-flex;background:var(--bg);border-radius:999px;padding:3px;gap:2px;margin:4px 0 10px}
+.hseg button{border:0;background:none;font:500 13px Figtree,sans-serif;padding:6px 13px;border-radius:999px;cursor:pointer;color:var(--mut)}
+.hseg button[aria-pressed=true]{background:var(--navy);color:#fff}
+.h2h[data-v=todos] .ult5,.h2h[data-v=ult5] .todos{display:none}
+.h2b{display:flex;gap:3px;height:10px;border-radius:5px;overflow:hidden}
+.h2n{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--mut);margin:5px 0}
+.h2n b{color:var(--ink);font-size:15px}
+.h2m{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;border-top:1px solid var(--line);padding-top:10px;margin-top:6px;text-align:center}
+.h2m b{display:block;font:800 18px Bricolage Grotesque,sans-serif}
+.h2m span{font-size:11px;color:var(--mut)}
+@media(max-width:560px){.tnd{grid-template-columns:1fr}}

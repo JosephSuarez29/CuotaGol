@@ -6,7 +6,7 @@ Uso (PowerShell):
   $env:FOOTBALL_DATA_TOKEN="TU_TOKEN"
   python actualizar_datos.py
 """
-import csv, difflib, io, json, os, re, sys, time, unicodedata, urllib.error, urllib.request
+import csv, difflib, io, json, math, os, re, sys, time, unicodedata, urllib.error, urllib.request
 from datetime import datetime, timedelta, timezone
 
 COMPETICIONES = ["PL", "PD", "CL"]     # agrega: "SA", "BL1", "FL1", "BSA"...
@@ -20,7 +20,7 @@ NOMBRES = {"PL": "Premier League", "PD": "La Liga", "CL": "Champions League", "S
 
 # Remates y corners: CSV gratuitos de football-data.co.uk (no incluye Champions League)
 CSV_LIGAS = {"PL": "E0", "PD": "SP1", "SA": "I1", "BL1": "D1", "FL1": "F1"}
-CSV_TEMPORADAS = ["2425", "2526", "2627"]
+HISTORIAL_TEMPORADAS = 10   # temporadas de CSV para el cara a cara (H2H)
 ALIAS = {"Man City": "Manchester City", "Man United": "Manchester United", "Nott'm Forest": "Nottingham Forest",
          "Spurs": "Tottenham", "Wolves": "Wolverhampton", "Ath Madrid": "Atletico Madrid",
          "Ath Bilbao": "Athletic Club", "Sociedad": "Real Sociedad", "Vallecano": "Rayo Vallecano",
@@ -77,6 +77,53 @@ def resumen_goles(est):
                         "gf": round(sum(v["gf"]) / n, 1), "gc": round(sum(v["gc"]) / n, 1)}
         out[(comp, tid)] = d
     return out
+
+
+def poisson(k, lam):
+    return math.exp(-lam) * lam ** k / math.factorial(k)
+
+
+def modelo(est, lg, comp, hid, aid, k=10):
+    """Probabilidades estimadas con un modelo de Poisson sobre goles de la liga.
+    Cada tasa se suaviza hacia el promedio de la liga (k partidos de peso)."""
+    h, a, l = est.get((hid, comp)), est.get((aid, comp)), lg.get(comp)
+    if not h or not a or not l or l[2] < 30:
+        return None
+    lh, la = l[0] / l[2], l[1] / l[2]
+    sh = lambda lista, base: (sum(lista) + k * base) / (len(lista) + k)
+    lam_h = sh(h["home"]["gf"], lh) * sh(a["away"]["gc"], lh) / lh
+    lam_a = sh(a["away"]["gf"], la) * sh(h["home"]["gc"], la) / la
+    ph = [poisson(i, lam_h) for i in range(11)]
+    pa = [poisson(i, lam_a) for i in range(11)]
+    suma = lambda f: sum(ph[i] * pa[j] for i in range(11) for j in range(11) if f(i, j))
+    pct = lambda x: round(100 * x)
+    p1, p2 = pct(suma(lambda i, j: i > j)), pct(suma(lambda i, j: i < j))
+    return {"lam_l": round(lam_h, 2), "lam_v": round(lam_a, 2), "p1": p1, "px": 100 - p1 - p2, "p2": p2,
+            "o15": pct(suma(lambda i, j: i + j >= 2)), "o25": pct(suma(lambda i, j: i + j >= 3)),
+            "o35": pct(suma(lambda i, j: i + j >= 4)),
+            "btts": pct((1 - math.exp(-lam_h)) * (1 - math.exp(-lam_a))),
+            "pc0_l": pct(math.exp(-lam_a)), "pc0_v": pct(math.exp(-lam_h))}
+
+
+def bloque_h2h(ms, hid):
+    """ms: [(fecha, id_local_de_ese_partido, goles_local, goles_visita)]; hid = local del partido por jugar."""
+    b = {k: 0 for k in ("vl", "e", "vv", "gl", "gv", "o15", "o25", "o35", "btts", "pc0_l", "pc0_v")}
+    b["n"] = len(ms)
+    for _, ht, hg, ag in ms:
+        gl, gv = (hg, ag) if ht == hid else (ag, hg)
+        b["vl"] += gl > gv; b["e"] += gl == gv; b["vv"] += gl < gv
+        b["gl"] += gl; b["gv"] += gv
+        t = gl + gv
+        b["o15"] += t >= 2; b["o25"] += t >= 3; b["o35"] += t >= 4
+        b["btts"] += gl > 0 and gv > 0
+        b["pc0_l"] += gv == 0; b["pc0_v"] += gl == 0
+    return b
+
+
+def resumen_h2h(lista, hid):
+    if not lista:
+        return None
+    return {"todos": bloque_h2h(lista[:20], hid), "ult5": bloque_h2h(lista[:5], hid)}
 
 
 def tasa(lista):
@@ -138,9 +185,9 @@ def resumen(est, comp, hid, aid, extra=None):
             "visita": lado(a["away"], ex.get((comp, aid), {}).get("away"))}
 
 
-def procesar(partidos, ahora, extra=None):
+def procesar(partidos, ahora, extra=None, reuniones=None):
     """partidos: lista de (codigo_liga, partido). Devuelve (stats, partidos_json)."""
-    est, est_act, forma = {}, {}, {}
+    est, est_act, forma, lg = {}, {}, {}, {}
     inicio = inicio_temporada(ahora)
     proximos, recientes, pendientes = [], [], []
     for comp, m in sorted(partidos, key=lambda x: fecha(x[1])):
@@ -164,6 +211,8 @@ def procesar(partidos, ahora, extra=None):
         if gl is None or gv is None:
             continue
         total, ambos = gl + gv, gl > 0 and gv > 0
+        acc = lg.setdefault(comp, [0, 0, 0])
+        acc[0] += gl; acc[1] += gv; acc[2] += 1
         if ahora - timedelta(days=DIAS_ATRAS) <= fecha(m) <= ahora:
             f = ficha()
             cumple = {"o25": total > 2.5, "btts": ambos, "u25": total <= 2.5}
@@ -187,7 +236,9 @@ def procesar(partidos, ahora, extra=None):
                          "forma_local": forma.get(h["id"], [])[-5:],
                          "forma_visita": forma.get(a["id"], [])[-5:],
                          "cruces": cruces(est, comp, h["id"], a["id"]),
-                         "resumen": resumen(est, comp, h["id"], a["id"], extra)})
+                         "resumen": resumen(est, comp, h["id"], a["id"], extra),
+                         "modelo": modelo(est, lg, comp, h["id"], a["id"]),
+                         "h2h": resumen_h2h((reuniones or {}).get((comp, frozenset((h["id"], a["id"])))), h["id"])})
     nombres = {}
     for comp, m in partidos:
         for t in (m["homeTeam"], m["awayTeam"]):
@@ -236,9 +287,9 @@ def emparejar(nombre, cands):
     return elegido if mejor >= 0.75 else None
 
 
-def descargar_filas(code):
+def descargar_filas(code, temporadas):
     filas = []
-    for t in CSV_TEMPORADAS:
+    for t in temporadas:
         url = f"https://www.football-data.co.uk/mmz4281/{t}/{code}.csv"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -301,6 +352,30 @@ def agregar_extra(filas, registro, inicio=None):
     return extra, sin
 
 
+def construir_reuniones(filas, registro):
+    """{(liga, frozenset({id1, id2})): [(fecha, id_local, goles_local, goles_visita)]} mas reciente primero."""
+    out = {}
+    for comp, rows in filas.items():
+        cands = {tid: n for (c, tid), n in registro.items() if c == comp}
+        cache = {}
+        eq = lambda nom: cache.setdefault(nom, emparejar(nom, cands))
+        for r in rows:
+            f = fecha_csv(r.get("Date"))
+            try:
+                hg, ag = int(r["FTHG"]), int(r["FTAG"])
+            except (KeyError, ValueError, TypeError):
+                continue
+            if f is None or not r.get("HomeTeam") or not r.get("AwayTeam"):
+                continue
+            th, ta = eq(r["HomeTeam"]), eq(r["AwayTeam"])
+            if th is None or ta is None or th == ta:
+                continue
+            out.setdefault((comp, frozenset((th, ta))), []).append((f, th, hg, ag))
+    for v in out.values():
+        v.sort(key=lambda x: x[0], reverse=True)
+    return out
+
+
 def construir_tablas(goles, extras, todos, ahora):
     """Tablas por liga para la pagina Ligas: periodo x ambito (all/home/away)."""
     cortos = {}
@@ -335,22 +410,25 @@ def main():
             if t.get("id"):
                 registro.setdefault((comp, t["id"]), set()).update({t["name"], t.get("shortName") or t["name"]})
     registro = {k: sorted(v) for k, v in registro.items()}
+    ahora = datetime.now(timezone.utc)
+    y0 = inicio_temporada(ahora).year
+    temps = [f"{y % 100:02d}{(y + 1) % 100:02d}" for y in range(y0 - HISTORIAL_TEMPORADAS + 1, y0 + 1)]
     filas = {}
     for code in COMPETICIONES:
         if code in CSV_LIGAS:
-            print(f"Descargando remates y corners {code}...")
-            filas[code] = descargar_filas(CSV_LIGAS[code])
-    ahora = datetime.now(timezone.utc)
-    extra, sin = agregar_extra(filas, registro)
-    extra_act, _ = agregar_extra(filas, registro, inicio_temporada(ahora))
+            print(f"Descargando remates, corners e historial {code}...")
+            filas[code] = descargar_filas(CSV_LIGAS[code], temps)
+    extra, _ = agregar_extra(filas, registro, datetime(y0 - 2, 7, 1, tzinfo=timezone.utc))
+    extra_act, sin = agregar_extra(filas, registro, inicio_temporada(ahora))
     if sin:
         print("Equipos sin emparejar (sin remates/corners):", sorted(sin))
-    stats, pj, goles = procesar(todos, ahora, extra)
+    reuniones = construir_reuniones(filas, registro)
+    stats, pj, goles = procesar(todos, ahora, extra, reuniones)
     tablas = construir_tablas(goles, {"hist": extra, "act": extra_act}, todos, ahora)
     for nombre, obj in (("stats.json", stats), ("partidos.json", pj), ("tablas.json", tablas)):
         with open(nombre, "w", encoding="utf-8") as f:
             json.dump(obj, f, ensure_ascii=False, indent=1)
-    print(f"Listo: stats.json y partidos.json ({len(pj['proximos'])} proximos, "
+    print(f"Listo: stats.json, partidos.json y tablas.json ({len(pj['proximos'])} proximos, "
           f"{len(pj['recientes'])} recientes)")
 
 

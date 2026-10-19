@@ -87,6 +87,7 @@ footer{padding:30px 0 48px;color:var(--mut);font-size:13px;max-width:70ch}
   </div>
   <div id="resumen" class="resumen" hidden></div>
   <div id="lista"></div>
+  <p class="leyenda">Las probabilidades son estimaciones estadísticas, no predicciones seguras: no consideran lesiones, alineaciones ni el contexto del partido. La confianza es alta cuando coinciden el modelo, los cruces y el cara a cara con muestra suficiente; media si coinciden dos; baja en los demás casos.</p>
   <p class="leyenda">Forma reciente, de izquierda a derecha, del partido más antiguo al más reciente: G ganó, E empató, P perdió. “Cruce fuerte” significa que ambos equipos están en 70% o más; “moderado”, en 60% o más.</p>
 
   <footer id="pie">
@@ -108,6 +109,54 @@ function frase(c,l,v){
 function fechaTxt(iso){
   return new Date(iso).toLocaleString('es-PE',{weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
 }
+const clsP=v=>v>=60?'g':v>=40?'a':'r';
+function tend(p){
+  const m=p.modelo;if(!m)return null;
+  let g,gs,mk=null;
+  if(m.o25>=60){g='Partido de goles';gs=m.o25+'% de Más de 2.5';mk='o25';}
+  else if(m.o25<=40){g='Pocos goles';gs=(100-m.o25)+'% de Menos de 2.5';mk='u25';}
+  else{g='Sin tendencia clara';gs=m.o25+'% de Más de 2.5';}
+  const mx=Math.max(m.p1,m.px,m.p2);
+  const r=mx<45?'Resultado abierto':mx===m.p1?'Ventaja del local':mx===m.p2?'Ventaja del visitante':'Partido parejo';
+  let conf=null;
+  if(mk){
+    const rs=p.resumen,h=p.h2h&&p.h2h.todos;
+    const cruce=p.cruces.some(c=>c.mercado===mk);
+    const hAcuerdo=h&&h.n>=5&&(mk==='o25'?h.o25/h.n>=.6:h.o25/h.n<=.4);
+    const n=rs?Math.min(rs.local.n,rs.visita.n):0;
+    const pts=(cruce?1:0)+(hAcuerdo?1:0)+(n>=15?1:0);
+    conf=pts>=3?'alta':pts===2?'media':'baja';
+  }
+  return {g,gs,r,mx,conf};
+}
+function probs(p){
+  const m=p.modelo;if(!m)return '';
+  const h=p.h2h&&p.h2h.todos, hn=h&&h.n?h.n:0;
+  const cel=(v,t,k)=>`<div class="pc ${clsP(v)}"><b>${v}%</b><span>${t}</span>${hn?`<small>H2H ${h[k]}/${hn}</small>`:''}</div>`;
+  const t=tend(p);
+  return `<h4>Tendencia estadística</h4><div class="tnd">
+    <div><small>Goles</small><strong>${t.g}</strong><span>${t.gs}</span>${t.conf?`<em class="cf ${t.conf}">Confianza ${t.conf}</em>`:''}</div>
+    <div><small>Resultado</small><strong>${t.r}</strong><span>Máx. ${t.mx}% · ${m.lam_l} – ${m.lam_v} goles estimados</span></div>
+  </div>
+  <div class="x12" role="img" aria-label="Probabilidades: local ${m.p1}%, empate ${m.px}%, visitante ${m.p2}%"><span style="flex:${m.p1};background:var(--c-rem)">${m.p1}%</span><span style="flex:${m.px};background:#98A2B3">${m.px}%</span><span style="flex:${m.p2};background:var(--c-fal)">${m.p2}%</span></div>
+  <div class="x12l"><span>${esc(p.local)}</span><span>Empate</span><span>${esc(p.visitante)}</span></div>
+  <h4>Probabilidad de goles</h4>
+  <div class="pg">${cel(m.o15,'Más de 1.5','o15')}${cel(m.o25,'Más de 2.5','o25')}${cel(m.o35,'Más de 3.5','o35')}${cel(m.btts,'Ambos anotan','btts')}${cel(m.pc0_l,'Portería 0 · local','pc0_l')}${cel(m.pc0_v,'Portería 0 · visitante','pc0_v')}</div>
+  <p class="leyenda">Probabilidades estimadas con un modelo de Poisson sobre los goles de cada equipo como local o visitante${hn?'; debajo, cuántos de sus enfrentamientos directos lo cumplieron (H2H)':''}.</p>`;
+}
+function h2hBloque(b,p){
+  if(!b.n)return '<p class="leyenda">Sin enfrentamientos registrados en esta liga.</p>';
+  const w=v=>Math.max(4,100*v/b.n);
+  return `<div class="h2b"><span style="flex:${b.vl||.0001};background:var(--c-rem)"></span><span style="flex:${b.e||.0001};background:#98A2B3"></span><span style="flex:${b.vv||.0001};background:var(--c-fal)"></span></div>
+  <div class="h2n"><span><b>${b.vl}</b> victorias ${esc(p.local)}</span><span><b>${b.e}</b> empates</span><span><b>${b.vv}</b> victorias ${esc(p.visitante)}</span></div>
+  <p class="leyenda">En los últimos ${b.n} enfrentamientos, ${esc(p.local)} marcó ${b.gl} goles y ${esc(p.visitante)} ${b.gv}.</p>
+  <div class="h2m"><div><b>${(b.gl/b.n+b.gv/b.n).toFixed(2)}</b><span>Goles/partido</span></div><div><b>${(b.gl/b.n).toFixed(2)}</b><span>${esc(p.local)} GF/p</span></div><div><b>${(b.gv/b.n).toFixed(2)}</b><span>${esc(p.visitante)} GF/p</span></div></div>`;
+}
+function h2h(p){
+  const h=p.h2h;if(!h)return '';
+  return `<h4>Cara a cara</h4><div class="h2h" data-v="todos"><div class="hseg" role="group" aria-label="Periodo del cara a cara"><button data-hv="todos" aria-pressed="true">Todos (${h.todos.n})</button><button data-hv="ult5" aria-pressed="false">Últ. 5</button></div>
+  <div class="hb todos">${h2hBloque(h.todos,p)}</div><div class="hb ult5">${h2hBloque(h.ult5,p)}</div></div>`;
+}
 function tabla(p){
   const r=p.resumen;if(!r)return '';
   const fila=(x,nom,tipo)=>`<tr><td>${esc(nom)}<small>${tipo}${x.n<8?' · muestra pequeña':''}</small></td><td>${x.o25}%</td><td>${x.btts}%</td><td>${x.gf}</td><td>${x.gc}</td><td>${x.n}</td></tr>`;
@@ -126,11 +175,12 @@ function item(p,rec){
   const cz=p.cruces.map(c=>`<div class="cz"><h3>${esc(c.titulo)}<span class="nv ${c.nivel}">Cruce ${c.nivel}</span>${rec?(c.cumplido?'<span class="ok">✓ Se cumplió</span>':'<span class="no">✗ No se cumplió</span>'):''}</h3><p>${frase(c,p.local,p.visitante)}</p></div>`).join('')
     ||'<div class="cz"><p>Ningún mercado alcanza el umbral de cruce en este partido: no hay una coincidencia clara entre ambos equipos.</p></div>';
   const n=p.cruces.length;
+  const T=!rec?tend(p):null;
   return `<details class="p"><summary>
     <div class="eq"><b>${esc(p.local)}</b>${forma(p.forma_local)}<span class="vs">vs</span><b>${esc(p.visitante)}</b>${forma(p.forma_visita)}</div>
     ${rec?`<div class="score">${esc(p.marcador)}</div>`:`<div class="nc">${n?`${n} ${n===1?'cruce':'cruces'}`:'Sin cruce destacado'}</div>`}
-    <div class="meta">${esc(D.ligas[p.liga]||p.liga)} · ${fechaTxt(p.fecha)}</div>
-  </summary><div class="cuerpo">${tabla(p)}<h4>Cruces</h4>${cz}</div></details>`;
+    <div class="meta">${esc(D.ligas[p.liga]||p.liga)} · ${fechaTxt(p.fecha)}${T?` · <b>${T.g}</b>`:''}</div>
+  </summary><div class="cuerpo">${rec?'':probs(p)}${rec?'':h2h(p)}${tabla(p)}<h4>Cruces</h4>${cz}</div></details>`;
 }
 function render(){
   const rec=vista==='recientes';
@@ -146,6 +196,11 @@ function render(){
 document.addEventListener('click',e=>{
   const b=e.target.closest('.seg button');if(!b)return;
   vista=b.dataset.v;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b));render();
+});
+document.addEventListener('click',e=>{
+  const b=e.target.closest('.hseg button');if(!b)return;
+  const box=b.closest('.h2h');box.dataset.v=b.dataset.hv;
+  box.querySelectorAll('.hseg button').forEach(x=>x.setAttribute('aria-pressed',x===b));
 });
 $('liga').addEventListener('change',e=>{liga=e.target.value;render();});
 
