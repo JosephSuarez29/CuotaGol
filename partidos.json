@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-28T02:07+00:00",
+ "generado": "2026-10-28T17:01+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
@@ -4124,81 +4124,6 @@
     }
    },
    "marcador": "3-1"
-  },
-  {
-   "id": 575368,
-   "liga": "CL",
-   "fecha": "2026-10-21T16:45:00Z",
-   "local": "Como 1907",
-   "visitante": "Man United",
-   "forma_local": [
-    "G",
-    "P"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "E",
-    "P",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 1,
-     "o25": 100,
-     "btts": 100,
-     "gf": 4.0,
-     "gc": 1.0
-    },
-    "visita": {
-     "n": 1,
-     "o25": 0,
-     "btts": 0,
-     "gf": 0.0,
-     "gc": 2.0
-    }
-   },
-   "marcador": "4-1"
-  },
-  {
-   "id": 575369,
-   "liga": "CL",
-   "fecha": "2026-10-21T16:45:00Z",
-   "local": "Lille",
-   "visitante": "Galatasaray",
-   "forma_local": [
-    "G",
-    "E",
-    "P",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "P",
-    "G",
-    "P",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 6,
-     "o25": 67,
-     "btts": 83,
-     "gf": 2.3,
-     "gc": 1.5
-    },
-    "visita": {
-     "n": 7,
-     "o25": 71,
-     "btts": 43,
-     "gf": 1.0,
-     "gc": 2.6
-    }
-   },
-   "marcador": "2-4"
   }
  ]
 }
