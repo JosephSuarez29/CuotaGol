@@ -89,22 +89,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "RCD Espanyol de Barcelona",
-   "partidos": 86,
-   "pct_over25": 47,
-   "pct_btts": 58,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
-   "equipo": "Villarreal CF",
-   "partidos": 86,
-   "pct_over25": 63,
-   "pct_btts": 66,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
    "equipo": "Real Oviedo",
    "partidos": 38,
    "pct_over25": 39,
@@ -181,6 +165,22 @@
    "partidos": 86,
    "pct_over25": 47,
    "pct_btts": 57,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "RCD Espanyol de Barcelona",
+   "partidos": 87,
+   "pct_over25": 46,
+   "pct_btts": 57,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Villarreal CF",
+   "partidos": 87,
+   "pct_over25": 62,
+   "pct_btts": 66,
    "racha_over25": 0,
    "racha_btts": 0
   },
