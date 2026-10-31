@@ -33,14 +33,6 @@
    "racha_btts": 2
   },
   {
-   "equipo": "Levante UD",
-   "partidos": 48,
-   "pct_over25": 50,
-   "pct_btts": 54,
-   "racha_over25": 2,
-   "racha_btts": 6
-  },
-  {
    "equipo": "Getafe CF",
    "partidos": 86,
    "pct_over25": 30,
@@ -186,9 +178,17 @@
   },
   {
    "equipo": "Club Atlético de Madrid",
-   "partidos": 86,
-   "pct_over25": 50,
-   "pct_btts": 48,
+   "partidos": 87,
+   "pct_over25": 49,
+   "pct_btts": 47,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Levante UD",
+   "partidos": 49,
+   "pct_over25": 49,
+   "pct_btts": 53,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -227,14 +227,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Manchester United FC",
-   "partidos": 84,
-   "pct_over25": 55,
-   "pct_btts": 57,
-   "racha_over25": 1,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Southampton FC",
    "partidos": 38,
    "pct_over25": 61,
@@ -257,6 +249,14 @@
    "pct_btts": 58,
    "racha_over25": 1,
    "racha_btts": 1
+  },
+  {
+   "equipo": "Manchester United FC",
+   "partidos": 85,
+   "pct_over25": 54,
+   "pct_btts": 56,
+   "racha_over25": 0,
+   "racha_btts": 0
   },
   {
    "equipo": "Fulham FC",
@@ -348,9 +348,9 @@
   },
   {
    "equipo": "Chelsea FC",
-   "partidos": 84,
-   "pct_over25": 62,
-   "pct_btts": 61,
+   "partidos": 85,
+   "pct_over25": 61,
+   "pct_btts": 60,
    "racha_over25": 0,
    "racha_btts": 0
   },
