@@ -25,6 +25,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Getafe CF",
+   "partidos": 87,
+   "pct_over25": 31,
+   "pct_btts": 36,
+   "racha_over25": 2,
+   "racha_btts": 1
+  },
+  {
    "equipo": "Rayo Vallecano de Madrid",
    "partidos": 86,
    "pct_over25": 44,
@@ -39,14 +47,6 @@
    "pct_btts": 57,
    "racha_over25": 2,
    "racha_btts": 2
-  },
-  {
-   "equipo": "Getafe CF",
-   "partidos": 86,
-   "pct_over25": 30,
-   "pct_btts": 35,
-   "racha_over25": 1,
-   "racha_btts": 0
   },
   {
    "equipo": "Real Betis Balompié",
@@ -71,6 +71,14 @@
    "pct_btts": 56,
    "racha_over25": 1,
    "racha_btts": 4
+  },
+  {
+   "equipo": "Sevilla FC",
+   "partidos": 87,
+   "pct_over25": 49,
+   "pct_btts": 59,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "CD Leganés",
@@ -149,14 +157,6 @@
    "partidos": 38,
    "pct_over25": 50,
    "pct_btts": 63,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Sevilla FC",
-   "partidos": 86,
-   "pct_over25": 49,
-   "pct_btts": 58,
    "racha_over25": 0,
    "racha_btts": 0
   },
