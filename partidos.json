@@ -1,431 +1,11 @@
 {
- "generado": "2026-10-31T15:58+00:00",
+ "generado": "2026-11-01T02:03+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 560627,
-   "liga": "PL",
-   "fecha": "2026-10-31T17:30:00Z",
-   "local": "Tottenham",
-   "visitante": "Crystal Palace",
-   "forma_local": [
-    "E",
-    "P",
-    "E",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "G",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 42,
-     "o25": 67,
-     "btts": 69,
-     "gf": 1.5,
-     "gc": 1.7,
-     "rem": 13.7,
-     "rem_c": 12.4,
-     "pta": 4.7,
-     "pta_c": 4.5,
-     "esq": 6.7,
-     "esq_c": 5.2,
-     "fal": 12.1,
-     "fal_c": 11.7,
-     "tar": 2.1,
-     "tar_c": 2.1,
-     "esq_t": 12.0,
-     "n_x": 42
-    },
-    "visita": {
-     "n": 42,
-     "o25": 52,
-     "btts": 50,
-     "gf": 1.2,
-     "gc": 1.5,
-     "rem": 11.2,
-     "rem_c": 13.5,
-     "pta": 4.2,
-     "pta_c": 4.3,
-     "esq": 4.1,
-     "esq_c": 5.7,
-     "fal": 10.9,
-     "fal_c": 9.5,
-     "tar": 2.1,
-     "tar_c": 1.5,
-     "esq_t": 9.7,
-     "n_x": 42
-    }
-   },
-   "modelo": {
-    "lam_l": 1.45,
-    "lam_v": 1.56,
-    "p1": 35,
-    "px": 25,
-    "p2": 40,
-    "o15": 80,
-    "o25": 58,
-    "o35": 36,
-    "btts": 60,
-    "pc0_l": 21,
-    "pc0_v": 23
-   },
-   "h2h": {
-    "todos": {
-     "vl": 12,
-     "e": 2,
-     "vv": 4,
-     "gl": 30,
-     "gv": 14,
-     "o15": 12,
-     "o25": 8,
-     "o35": 5,
-     "btts": 6,
-     "pc0_l": 9,
-     "pc0_v": 3,
-     "n": 18
-    },
-    "ult5": {
-     "vl": 2,
-     "e": 0,
-     "vv": 3,
-     "gl": 5,
-     "gv": 7,
-     "o15": 3,
-     "o25": 2,
-     "o35": 2,
-     "btts": 2,
-     "pc0_l": 1,
-     "pc0_v": 2,
-     "n": 5
-    }
-   }
-  },
-  {
-   "id": 564736,
-   "liga": "PD",
-   "fecha": "2026-10-31T17:30:00Z",
-   "local": "Real Betis",
-   "visitante": "Málaga",
-   "forma_local": [
-    "G",
-    "G",
-    "P",
-    "G",
-    "E"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "E",
-    "P",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 53,
-     "btts": 63,
-     "gf": 1.8,
-     "gc": 1.1,
-     "rem": 15.8,
-     "rem_c": 10.8,
-     "pta": 5.5,
-     "pta_c": 3.8,
-     "esq": 5.0,
-     "esq_c": 4.3,
-     "fal": 10.8,
-     "fal_c": 13.6,
-     "tar": 2.0,
-     "tar_c": 2.8,
-     "esq_t": 9.3,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 5,
-     "o25": 20,
-     "btts": 40,
-     "gf": 0.4,
-     "gc": 1.8,
-     "rem": 9.8,
-     "rem_c": 17.8,
-     "pta": 2.2,
-     "pta_c": 6.0,
-     "esq": 4.6,
-     "esq_c": 5.6,
-     "fal": 11.6,
-     "fal_c": 12.6,
-     "tar": 1.8,
-     "tar_c": 1.8,
-     "esq_t": 10.2,
-     "n_x": 5
-    }
-   },
-   "modelo": {
-    "lam_l": 1.82,
-    "lam_v": 0.86,
-    "p1": 60,
-    "px": 23,
-    "p2": 17,
-    "o15": 75,
-    "o25": 50,
-    "o35": 28,
-    "btts": 49,
-    "pc0_l": 42,
-    "pc0_v": 16
-   },
-   "h2h": {
-    "todos": {
-     "vl": 2,
-     "e": 0,
-     "vv": 0,
-     "gl": 4,
-     "gv": 1,
-     "o15": 2,
-     "o25": 1,
-     "o35": 0,
-     "btts": 1,
-     "pc0_l": 1,
-     "pc0_v": 0,
-     "n": 2
-    },
-    "ult5": {
-     "vl": 2,
-     "e": 0,
-     "vv": 0,
-     "gl": 4,
-     "gv": 1,
-     "o15": 2,
-     "o25": 1,
-     "o35": 0,
-     "btts": 1,
-     "pc0_l": 1,
-     "pc0_v": 0,
-     "n": 2
-    }
-   }
-  },
-  {
-   "id": 560628,
-   "liga": "PL",
-   "fecha": "2026-10-31T20:00:00Z",
-   "local": "Aston Villa",
-   "visitante": "Fulham",
-   "forma_local": [
-    "E",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "E",
-    "E",
-    "P",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 42,
-     "o25": 60,
-     "btts": 64,
-     "gf": 1.7,
-     "gc": 1.1,
-     "rem": 14.2,
-     "rem_c": 11.1,
-     "pta": 5.0,
-     "pta_c": 4.0,
-     "esq": 6.2,
-     "esq_c": 4.1,
-     "fal": 10.5,
-     "fal_c": 13.4,
-     "tar": 1.6,
-     "tar_c": 2.9,
-     "esq_t": 10.3,
-     "n_x": 42
-    },
-    "visita": {
-     "n": 42,
-     "o25": 48,
-     "btts": 57,
-     "gf": 1.1,
-     "gc": 1.4,
-     "rem": 12.3,
-     "rem_c": 12.4,
-     "pta": 3.7,
-     "pta_c": 4.3,
-     "esq": 5.0,
-     "esq_c": 4.9,
-     "fal": 11.5,
-     "fal_c": 9.2,
-     "tar": 2.3,
-     "tar_c": 1.4,
-     "esq_t": 9.9,
-     "n_x": 42
-    }
-   },
-   "modelo": {
-    "lam_l": 1.54,
-    "lam_v": 1.02,
-    "p1": 49,
-    "px": 26,
-    "p2": 25,
-    "o15": 72,
-    "o25": 47,
-    "o35": 25,
-    "btts": 50,
-    "pc0_l": 36,
-    "pc0_v": 22
-   },
-   "h2h": {
-    "todos": {
-     "vl": 8,
-     "e": 0,
-     "vv": 2,
-     "gl": 19,
-     "gv": 9,
-     "o15": 7,
-     "o25": 7,
-     "o35": 4,
-     "btts": 5,
-     "pc0_l": 3,
-     "pc0_v": 2,
-     "n": 10
-    },
-    "ult5": {
-     "vl": 4,
-     "e": 0,
-     "vv": 1,
-     "gl": 9,
-     "gv": 4,
-     "o15": 3,
-     "o25": 3,
-     "o35": 2,
-     "btts": 3,
-     "pc0_l": 1,
-     "pc0_v": 1,
-     "n": 5
-    }
-   }
-  },
-  {
-   "id": 564732,
-   "liga": "PD",
-   "fecha": "2026-10-31T20:00:00Z",
-   "local": "Barça",
-   "visitante": "Alavés",
-   "forma_local": [
-    "G",
-    "G",
-    "G",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "P",
-    "P",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 74,
-     "btts": 53,
-     "gf": 3.0,
-     "gc": 0.8,
-     "rem": 20.0,
-     "rem_c": 6.9,
-     "pta": 7.6,
-     "pta_c": 2.5,
-     "esq": 8.2,
-     "esq_c": 3.5,
-     "fal": 9.9,
-     "fal_c": 11.7,
-     "tar": 1.3,
-     "tar_c": 2.0,
-     "esq_t": 11.6,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 42,
-     "o25": 50,
-     "btts": 60,
-     "gf": 1.1,
-     "gc": 1.6,
-     "rem": 11.3,
-     "rem_c": 12.4,
-     "pta": 3.7,
-     "pta_c": 4.2,
-     "esq": 4.0,
-     "esq_c": 5.0,
-     "fal": 16.0,
-     "fal_c": 13.4,
-     "tar": 2.8,
-     "tar_c": 2.1,
-     "esq_t": 9.0,
-     "n_x": 42
-    }
-   },
-   "modelo": {
-    "lam_l": 2.78,
-    "lam_v": 0.86,
-    "p1": 77,
-    "px": 14,
-    "p2": 9,
-    "o15": 88,
-    "o25": 70,
-    "o35": 49,
-    "btts": 54,
-    "pc0_l": 42,
-    "pc0_v": 6
-   },
-   "h2h": {
-    "todos": {
-     "vl": 13,
-     "e": 2,
-     "vv": 1,
-     "gl": 38,
-     "gv": 9,
-     "o15": 13,
-     "o25": 9,
-     "o35": 5,
-     "btts": 8,
-     "pc0_l": 7,
-     "pc0_v": 1,
-     "n": 16
-    },
-    "ult5": {
-     "vl": 4,
-     "e": 0,
-     "vv": 1,
-     "gl": 10,
-     "gv": 3,
-     "o15": 3,
-     "o25": 3,
-     "o35": 2,
-     "btts": 2,
-     "pc0_l": 2,
-     "pc0_v": 1,
-     "n": 5
-    }
-   }
-  },
   {
    "id": 564733,
    "liga": "PD",
@@ -493,7 +73,7 @@
     "p1": 38,
     "px": 29,
     "p2": 33,
-    "o15": 64,
+    "o15": 63,
     "o25": 37,
     "o35": 17,
     "btts": 43,
@@ -672,8 +252,8 @@
     "lam_l": 1.19,
     "lam_v": 1.24,
     "p1": 35,
-    "px": 28,
-    "p2": 37,
+    "px": 27,
+    "p2": 38,
     "o15": 70,
     "o25": 44,
     "o35": 23,
@@ -774,13 +354,13 @@
     }
    },
    "modelo": {
-    "lam_l": 1.64,
+    "lam_l": 1.63,
     "lam_v": 1.1,
     "p1": 50,
-    "px": 25,
-    "p2": 25,
+    "px": 24,
+    "p2": 26,
     "o15": 76,
-    "o25": 52,
+    "o25": 51,
     "o35": 29,
     "btts": 54,
     "pc0_l": 33,
@@ -879,14 +459,14 @@
     }
    },
    "modelo": {
-    "lam_l": 1.5,
+    "lam_l": 1.49,
     "lam_v": 0.92,
     "p1": 51,
     "px": 26,
     "p2": 23,
     "o15": 70,
-    "o25": 44,
-    "o35": 23,
+    "o25": 43,
+    "o35": 22,
     "btts": 47,
     "pc0_l": 40,
     "pc0_v": 22
@@ -985,7 +565,7 @@
    },
    "modelo": {
     "lam_l": 1.52,
-    "lam_v": 1.03,
+    "lam_v": 1.04,
     "p1": 48,
     "px": 26,
     "p2": 26,
@@ -993,7 +573,7 @@
     "o25": 47,
     "o35": 25,
     "btts": 50,
-    "pc0_l": 36,
+    "pc0_l": 35,
     "pc0_v": 22
    },
    "h2h": {
@@ -1268,16 +848,16 @@
    "forma_local": [
     "G",
     "G",
-    "G",
     "P",
-    "P"
+    "P",
+    "G"
    ],
    "forma_visita": [
-    "E",
     "G",
     "G",
     "G",
-    "G"
+    "G",
+    "E"
    ],
    "cruces": [],
    "resumen": {
@@ -1700,10 +1280,10 @@
     "P"
    ],
    "forma_visita": [
-    "G",
     "P",
     "G",
     "G",
+    "P",
     "P"
    ],
    "cruces": [],
@@ -1876,10 +1456,10 @@
    ],
    "forma_visita": [
     "G",
-    "G",
     "P",
     "G",
-    "E"
+    "E",
+    "G"
    ],
    "cruces": [],
    "resumen": {
@@ -2073,11 +1653,11 @@
     "P"
    ],
    "forma_visita": [
-    "P",
     "G",
     "G",
     "P",
-    "P"
+    "P",
+    "G"
    ],
    "cruces": [],
    "resumen": {
@@ -2149,11 +1729,11 @@
     "G"
    ],
    "forma_visita": [
-    "P",
     "E",
     "P",
     "P",
-    "E"
+    "E",
+    "P"
    ],
    "cruces": [],
    "resumen": {
@@ -2177,11 +1757,11 @@
      "n_x": 43
     },
     "visita": {
-     "n": 42,
-     "o25": 50,
+     "n": 43,
+     "o25": 51,
      "btts": 60,
      "gf": 1.1,
-     "gc": 1.6,
+     "gc": 1.7,
      "rem": 11.3,
      "rem_c": 12.4,
      "pta": 3.7,
@@ -2197,17 +1777,17 @@
     }
    },
    "modelo": {
-    "lam_l": 1.24,
+    "lam_l": 1.3,
     "lam_v": 1.2,
-    "p1": 37,
-    "px": 28,
-    "p2": 35,
-    "o15": 70,
-    "o25": 44,
-    "o35": 23,
-    "btts": 50,
+    "p1": 39,
+    "px": 27,
+    "p2": 34,
+    "o15": 71,
+    "o25": 45,
+    "o35": 24,
+    "btts": 51,
     "pc0_l": 30,
-    "pc0_v": 29
+    "pc0_v": 27
    },
    "h2h": {
     "todos": {
@@ -2247,16 +1827,16 @@
    "local": "Leeds United",
    "visitante": "Tottenham",
    "forma_local": [
-    "G",
     "E",
     "P",
     "E",
-    "E"
+    "E",
+    "P"
    ],
    "forma_visita": [
-    "E",
     "P",
     "E",
+    "G",
     "G",
     "G"
    ],
@@ -2353,10 +1933,10 @@
    "visitante": "Santander",
    "forma_local": [
     "P",
-    "P",
     "E",
     "P",
-    "E"
+    "E",
+    "P"
    ],
    "forma_visita": [
     "P",
@@ -2407,7 +1987,7 @@
     }
    },
    "modelo": {
-    "lam_l": 1.96,
+    "lam_l": 1.97,
     "lam_v": 1.29,
     "p1": 53,
     "px": 22,
@@ -2435,10 +2015,10 @@
     "G"
    ],
    "forma_visita": [
-    "E",
     "P",
     "E",
     "P",
+    "E",
     "E"
    ],
    "cruces": [],
@@ -2505,10 +2085,10 @@
    "visitante": "Newcastle",
    "forma_local": [
     "E",
-    "E",
     "P",
     "G",
-    "G"
+    "G",
+    "E"
    ],
    "forma_visita": [
     "P",
@@ -2706,9 +2286,976 @@
      "n": 2
     }
    }
+  },
+  {
+   "id": 560641,
+   "liga": "PL",
+   "fecha": "2026-11-07T17:30:00Z",
+   "local": "Nottingham",
+   "visitante": "Man City",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 33,
+     "btts": 38,
+     "gf": 1.1,
+     "gc": 1.0,
+     "rem": 13.8,
+     "rem_c": 12.1,
+     "pta": 4.0,
+     "pta_c": 3.8,
+     "esq": 5.1,
+     "esq_c": 5.0,
+     "fal": 10.5,
+     "fal_c": 11.4,
+     "tar": 1.5,
+     "tar_c": 2.0,
+     "esq_t": 10.0,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 52,
+     "btts": 50,
+     "gf": 1.7,
+     "gc": 1.1,
+     "rem": 14.9,
+     "rem_c": 10.7,
+     "pta": 5.1,
+     "pta_c": 3.8,
+     "esq": 6.1,
+     "esq_c": 4.0,
+     "fal": 8.9,
+     "fal_c": 11.0,
+     "tar": 1.7,
+     "tar_c": 2.0,
+     "esq_t": 10.2,
+     "n_x": 42
+    }
+   },
+   "modelo": {
+    "lam_l": 0.9,
+    "lam_v": 1.29,
+    "p1": 26,
+    "px": 28,
+    "p2": 46,
+    "o15": 64,
+    "o25": 37,
+    "o35": 18,
+    "btts": 43,
+    "pc0_l": 27,
+    "pc0_v": 41
+   },
+   "h2h": {
+    "todos": {
+     "vl": 1,
+     "e": 2,
+     "vv": 5,
+     "gl": 5,
+     "gv": 18,
+     "o15": 7,
+     "o25": 4,
+     "o35": 2,
+     "btts": 3,
+     "pc0_l": 1,
+     "pc0_v": 4,
+     "n": 8
+    },
+    "ult5": {
+     "vl": 1,
+     "e": 1,
+     "vv": 3,
+     "gl": 4,
+     "gv": 9,
+     "o15": 4,
+     "o25": 3,
+     "o35": 1,
+     "btts": 2,
+     "pc0_l": 1,
+     "pc0_v": 2,
+     "n": 5
+    }
+   }
+  },
+  {
+   "id": 564739,
+   "liga": "PD",
+   "fecha": "2026-11-07T17:30:00Z",
+   "local": "Osasuna",
+   "visitante": "Athletic",
+   "forma_local": [
+    "P",
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "E",
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 53,
+     "btts": 67,
+     "gf": 1.6,
+     "gc": 1.2,
+     "rem": 13.5,
+     "rem_c": 10.9,
+     "pta": 4.7,
+     "pta_c": 4.0,
+     "esq": 4.7,
+     "esq_c": 3.9,
+     "fal": 13.8,
+     "fal_c": 11.3,
+     "tar": 2.4,
+     "tar_c": 2.4,
+     "esq_t": 8.7,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 42,
+     "o25": 43,
+     "btts": 50,
+     "gf": 1.1,
+     "gc": 1.4,
+     "rem": 11.9,
+     "rem_c": 11.2,
+     "pta": 3.7,
+     "pta_c": 4.5,
+     "esq": 5.2,
+     "esq_c": 4.4,
+     "fal": 13.0,
+     "fal_c": 11.0,
+     "tar": 1.9,
+     "tar_c": 1.9,
+     "esq_t": 9.7,
+     "n_x": 42
+    }
+   },
+   "modelo": {
+    "lam_l": 1.44,
+    "lam_v": 1.11,
+    "p1": 45,
+    "px": 26,
+    "p2": 29,
+    "o15": 72,
+    "o25": 47,
+    "o35": 25,
+    "btts": 51,
+    "pc0_l": 33,
+    "pc0_v": 24
+   },
+   "h2h": {
+    "todos": {
+     "vl": 3,
+     "e": 5,
+     "vv": 6,
+     "gl": 12,
+     "gv": 17,
+     "o15": 9,
+     "o25": 5,
+     "o35": 3,
+     "btts": 6,
+     "pc0_l": 5,
+     "pc0_v": 5,
+     "n": 14
+    },
+    "ult5": {
+     "vl": 0,
+     "e": 3,
+     "vv": 2,
+     "gl": 4,
+     "gv": 6,
+     "o15": 3,
+     "o25": 2,
+     "o35": 1,
+     "btts": 3,
+     "pc0_l": 1,
+     "pc0_v": 2,
+     "n": 5
+    }
+   }
+  },
+  {
+   "id": 564741,
+   "liga": "PD",
+   "fecha": "2026-11-07T20:00:00Z",
+   "local": "Valencia",
+   "visitante": "Real Madrid",
+   "forma_local": [
+    "G",
+    "P",
+    "E",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 44,
+     "o25": 43,
+     "btts": 52,
+     "gf": 1.3,
+     "gc": 1.2,
+     "rem": 12.5,
+     "rem_c": 10.7,
+     "pta": 3.7,
+     "pta_c": 3.5,
+     "esq": 5.7,
+     "esq_c": 4.2,
+     "fal": 12.4,
+     "fal_c": 12.7,
+     "tar": 2.2,
+     "tar_c": 2.9,
+     "esq_t": 9.9,
+     "n_x": 44
+    },
+    "visita": {
+     "n": 43,
+     "o25": 56,
+     "btts": 58,
+     "gf": 1.7,
+     "gc": 1.0,
+     "rem": 15.1,
+     "rem_c": 11.7,
+     "pta": 5.6,
+     "pta_c": 3.9,
+     "esq": 5.3,
+     "esq_c": 4.5,
+     "fal": 9.7,
+     "fal_c": 15.0,
+     "tar": 1.8,
+     "tar_c": 2.7,
+     "esq_t": 9.8,
+     "n_x": 43
+    }
+   },
+   "modelo": {
+    "lam_l": 0.98,
+    "lam_v": 1.67,
+    "p1": 22,
+    "px": 24,
+    "p2": 54,
+    "o15": 74,
+    "o25": 49,
+    "o35": 27,
+    "btts": 51,
+    "pc0_l": 19,
+    "pc0_v": 38
+   },
+   "h2h": {
+    "todos": {
+     "vl": 4,
+     "e": 3,
+     "vv": 11,
+     "gl": 19,
+     "gv": 40,
+     "o15": 17,
+     "o25": 12,
+     "o35": 7,
+     "btts": 11,
+     "pc0_l": 1,
+     "pc0_v": 6,
+     "n": 18
+    },
+    "ult5": {
+     "vl": 1,
+     "e": 1,
+     "vv": 3,
+     "gl": 5,
+     "gv": 11,
+     "o15": 5,
+     "o25": 4,
+     "o35": 2,
+     "btts": 3,
+     "pc0_l": 0,
+     "pc0_v": 2,
+     "n": 5
+    }
+   }
   }
  ],
  "recientes": [
+  {
+   "id": 560628,
+   "liga": "PL",
+   "fecha": "2026-10-31T20:00:00Z",
+   "local": "Aston Villa",
+   "visitante": "Fulham",
+   "forma_local": [
+    "E",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "E",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 60,
+     "btts": 64,
+     "gf": 1.7,
+     "gc": 1.1,
+     "rem": 14.2,
+     "rem_c": 11.1,
+     "pta": 5.0,
+     "pta_c": 4.0,
+     "esq": 6.2,
+     "esq_c": 4.1,
+     "fal": 10.5,
+     "fal_c": 13.4,
+     "tar": 1.6,
+     "tar_c": 2.9,
+     "esq_t": 10.3,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 48,
+     "btts": 57,
+     "gf": 1.1,
+     "gc": 1.4,
+     "rem": 12.3,
+     "rem_c": 12.4,
+     "pta": 3.7,
+     "pta_c": 4.3,
+     "esq": 5.0,
+     "esq_c": 4.9,
+     "fal": 11.5,
+     "fal_c": 9.2,
+     "tar": 2.3,
+     "tar_c": 1.4,
+     "esq_t": 9.9,
+     "n_x": 42
+    }
+   },
+   "marcador": "1-1"
+  },
+  {
+   "id": 564732,
+   "liga": "PD",
+   "fecha": "2026-10-31T20:00:00Z",
+   "local": "Barça",
+   "visitante": "Alavés",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 74,
+     "btts": 53,
+     "gf": 3.0,
+     "gc": 0.8,
+     "rem": 20.0,
+     "rem_c": 6.9,
+     "pta": 7.6,
+     "pta_c": 2.5,
+     "esq": 8.2,
+     "esq_c": 3.5,
+     "fal": 9.9,
+     "fal_c": 11.7,
+     "tar": 1.3,
+     "tar_c": 2.0,
+     "esq_t": 11.6,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 42,
+     "o25": 50,
+     "btts": 60,
+     "gf": 1.1,
+     "gc": 1.6,
+     "rem": 11.3,
+     "rem_c": 12.4,
+     "pta": 3.7,
+     "pta_c": 4.2,
+     "esq": 4.0,
+     "esq_c": 5.0,
+     "fal": 16.0,
+     "fal_c": 13.4,
+     "tar": 2.8,
+     "tar_c": 2.1,
+     "esq_t": 9.0,
+     "n_x": 42
+    }
+   },
+   "marcador": "6-1"
+  },
+  {
+   "id": 560627,
+   "liga": "PL",
+   "fecha": "2026-10-31T17:30:00Z",
+   "local": "Tottenham",
+   "visitante": "Crystal Palace",
+   "forma_local": [
+    "E",
+    "P",
+    "E",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "G",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 67,
+     "btts": 69,
+     "gf": 1.5,
+     "gc": 1.7,
+     "rem": 13.7,
+     "rem_c": 12.4,
+     "pta": 4.7,
+     "pta_c": 4.5,
+     "esq": 6.7,
+     "esq_c": 5.2,
+     "fal": 12.1,
+     "fal_c": 11.7,
+     "tar": 2.1,
+     "tar_c": 2.1,
+     "esq_t": 12.0,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 52,
+     "btts": 50,
+     "gf": 1.2,
+     "gc": 1.5,
+     "rem": 11.2,
+     "rem_c": 13.5,
+     "pta": 4.2,
+     "pta_c": 4.3,
+     "esq": 4.1,
+     "esq_c": 5.7,
+     "fal": 10.9,
+     "fal_c": 9.5,
+     "tar": 2.1,
+     "tar_c": 1.5,
+     "esq_t": 9.7,
+     "n_x": 42
+    }
+   },
+   "marcador": "2-0"
+  },
+  {
+   "id": 564736,
+   "liga": "PD",
+   "fecha": "2026-10-31T17:30:00Z",
+   "local": "Real Betis",
+   "visitante": "Málaga",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "G",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "E",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 53,
+     "btts": 63,
+     "gf": 1.8,
+     "gc": 1.1,
+     "rem": 15.8,
+     "rem_c": 10.8,
+     "pta": 5.5,
+     "pta_c": 3.8,
+     "esq": 5.0,
+     "esq_c": 4.3,
+     "fal": 10.8,
+     "fal_c": 13.6,
+     "tar": 2.0,
+     "tar_c": 2.8,
+     "esq_t": 9.3,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 5,
+     "o25": 20,
+     "btts": 40,
+     "gf": 0.4,
+     "gc": 1.8,
+     "rem": 9.8,
+     "rem_c": 17.8,
+     "pta": 2.2,
+     "pta_c": 6.0,
+     "esq": 4.6,
+     "esq_c": 5.6,
+     "fal": 11.6,
+     "fal_c": 12.6,
+     "tar": 1.8,
+     "tar_c": 1.8,
+     "esq_t": 10.2,
+     "n_x": 5
+    }
+   },
+   "marcador": "2-1"
+  },
+  {
+   "id": 564735,
+   "liga": "PD",
+   "fecha": "2026-10-31T15:15:00Z",
+   "local": "Rayo Vallecano",
+   "visitante": "Celta",
+   "forma_local": [
+    "P",
+    "G",
+    "E",
+    "E",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "E",
+    "G",
+    "E"
+   ],
+   "cruces": [
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "moderado",
+     "local_pct": 62,
+     "local_n": 42,
+     "visita_pct": 64,
+     "visita_n": 42,
+     "cumplido": false
+    }
+   ],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 43,
+     "btts": 62,
+     "gf": 1.3,
+     "gc": 1.1,
+     "rem": 16.0,
+     "rem_c": 12.0,
+     "pta": 5.6,
+     "pta_c": 4.1,
+     "esq": 6.2,
+     "esq_c": 4.5,
+     "fal": 12.6,
+     "fal_c": 11.5,
+     "tar": 2.2,
+     "tar_c": 2.2,
+     "esq_t": 10.6,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 50,
+     "btts": 64,
+     "gf": 1.2,
+     "gc": 1.4,
+     "rem": 9.9,
+     "rem_c": 12.4,
+     "pta": 3.7,
+     "pta_c": 4.4,
+     "esq": 3.2,
+     "esq_c": 5.0,
+     "fal": 12.7,
+     "fal_c": 12.2,
+     "tar": 2.3,
+     "tar_c": 2.4,
+     "esq_t": 8.1,
+     "n_x": 42
+    }
+   },
+   "marcador": "3-0"
+  },
+  {
+   "id": 560623,
+   "liga": "PL",
+   "fecha": "2026-10-31T15:00:00Z",
+   "local": "Man City",
+   "visitante": "Brighton Hove",
+   "forma_local": [
+    "G",
+    "P",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 74,
+     "btts": 57,
+     "gf": 2.4,
+     "gc": 1.0,
+     "rem": 16.5,
+     "rem_c": 8.7,
+     "pta": 6.0,
+     "pta_c": 3.1,
+     "esq": 6.9,
+     "esq_c": 3.1,
+     "fal": 8.9,
+     "fal_c": 11.3,
+     "tar": 1.5,
+     "tar_c": 2.3,
+     "esq_t": 10.0,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 57,
+     "btts": 57,
+     "gf": 1.6,
+     "gc": 1.5,
+     "rem": 12.9,
+     "rem_c": 12.7,
+     "pta": 4.6,
+     "pta_c": 4.2,
+     "esq": 4.9,
+     "esq_c": 5.2,
+     "fal": 12.0,
+     "fal_c": 9.8,
+     "tar": 2.3,
+     "tar_c": 1.8,
+     "esq_t": 10.1,
+     "n_x": 42
+    }
+   },
+   "marcador": "0-1"
+  },
+  {
+   "id": 560624,
+   "liga": "PL",
+   "fecha": "2026-10-31T15:00:00Z",
+   "local": "Bournemouth",
+   "visitante": "Leeds United",
+   "forma_local": [
+    "E",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "P",
+    "E",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 38,
+     "btts": 52,
+     "gf": 1.4,
+     "gc": 1.0,
+     "rem": 15.7,
+     "rem_c": 10.4,
+     "pta": 5.1,
+     "pta_c": 3.3,
+     "esq": 6.0,
+     "esq_c": 4.4,
+     "fal": 12.7,
+     "fal_c": 10.6,
+     "tar": 2.3,
+     "tar_c": 2.1,
+     "esq_t": 10.5,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 23,
+     "o25": 48,
+     "btts": 61,
+     "gf": 1.0,
+     "gc": 1.7,
+     "rem": 10.8,
+     "rem_c": 14.2,
+     "pta": 3.7,
+     "pta_c": 4.9,
+     "esq": 3.4,
+     "esq_c": 5.6,
+     "fal": 11.7,
+     "fal_c": 11.0,
+     "tar": 1.8,
+     "tar_c": 1.6,
+     "esq_t": 9.0,
+     "n_x": 23
+    }
+   },
+   "marcador": "2-0"
+  },
+  {
+   "id": 560625,
+   "liga": "PL",
+   "fecha": "2026-10-31T15:00:00Z",
+   "local": "Coventry City",
+   "visitante": "Sunderland",
+   "forma_local": [
+    "P",
+    "G",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 4,
+     "o25": 50,
+     "btts": 25,
+     "gf": 1.0,
+     "gc": 2.0,
+     "rem": 11.8,
+     "rem_c": 14.8,
+     "pta": 4.2,
+     "pta_c": 4.5,
+     "esq": 4.2,
+     "esq_c": 4.2,
+     "fal": 8.0,
+     "fal_c": 11.0,
+     "tar": 0.5,
+     "tar_c": 1.8,
+     "esq_t": 8.5,
+     "n_x": 4
+    },
+    "visita": {
+     "n": 23,
+     "o25": 43,
+     "btts": 52,
+     "gf": 1.0,
+     "gc": 1.7,
+     "rem": 9.2,
+     "rem_c": 16.6,
+     "pta": 3.4,
+     "pta_c": 5.0,
+     "esq": 3.5,
+     "esq_c": 5.4,
+     "fal": 11.1,
+     "fal_c": 11.7,
+     "tar": 2.2,
+     "tar_c": 1.6,
+     "esq_t": 8.9,
+     "n_x": 23
+    }
+   },
+   "marcador": "3-1"
+  },
+  {
+   "id": 560629,
+   "liga": "PL",
+   "fecha": "2026-10-31T15:00:00Z",
+   "local": "Hull City",
+   "visitante": "Ipswich Town",
+   "forma_local": [
+    "E",
+    "P",
+    "E",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 4,
+     "o25": 25,
+     "btts": 50,
+     "gf": 1.2,
+     "gc": 0.8,
+     "rem": 10.0,
+     "rem_c": 15.8,
+     "pta": 3.8,
+     "pta_c": 4.8,
+     "esq": 4.0,
+     "esq_c": 5.5,
+     "fal": 11.2,
+     "fal_c": 6.8,
+     "tar": 1.5,
+     "tar_c": 0.5,
+     "esq_t": 9.5,
+     "n_x": 4
+    },
+    "visita": {
+     "n": 23,
+     "o25": 65,
+     "btts": 70,
+     "gf": 1.3,
+     "gc": 2.1,
+     "rem": 9.1,
+     "rem_c": 18.1,
+     "pta": 3.3,
+     "pta_c": 5.8,
+     "esq": 3.5,
+     "esq_c": 7.0,
+     "fal": 12.7,
+     "fal_c": 9.6,
+     "tar": 2.6,
+     "tar_c": 1.6,
+     "esq_t": 10.5,
+     "n_x": 23
+    }
+   },
+   "marcador": "2-2"
+  },
+  {
+   "id": 560630,
+   "liga": "PL",
+   "fecha": "2026-10-31T15:00:00Z",
+   "local": "Brentford",
+   "visitante": "Nottingham",
+   "forma_local": [
+    "E",
+    "G",
+    "E",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "P",
+    "P",
+    "E"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "moderado",
+     "local_pct": 62,
+     "local_n": 42,
+     "visita_pct": 67,
+     "visita_n": 42,
+     "cumplido": false
+    }
+   ],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 62,
+     "btts": 64,
+     "gf": 1.9,
+     "gc": 1.4,
+     "rem": 12.7,
+     "rem_c": 14.1,
+     "pta": 4.8,
+     "pta_c": 4.4,
+     "esq": 4.7,
+     "esq_c": 5.2,
+     "fal": 9.0,
+     "fal_c": 10.0,
+     "tar": 1.6,
+     "tar_c": 2.0,
+     "esq_t": 10.0,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 67,
+     "btts": 57,
+     "gf": 1.6,
+     "gc": 1.5,
+     "rem": 11.8,
+     "rem_c": 14.5,
+     "pta": 4.4,
+     "pta_c": 4.9,
+     "esq": 4.4,
+     "esq_c": 6.0,
+     "fal": 11.1,
+     "fal_c": 11.5,
+     "tar": 2.4,
+     "tar_c": 2.3,
+     "esq_t": 10.3,
+     "n_x": 42
+    }
+   },
+   "marcador": "2-0"
+  },
   {
    "id": 564730,
    "liga": "PD",
@@ -3560,195 +4107,6 @@
     }
    },
    "marcador": "4-0"
-  },
-  {
-   "id": 564724,
-   "liga": "PD",
-   "fecha": "2026-10-24T19:00:00Z",
-   "local": "Atleti",
-   "visitante": "Deportivo",
-   "forma_local": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "E"
-   ],
-   "forma_visita": [
-    "E",
-    "P",
-    "E",
-    "P",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 42,
-     "o25": 55,
-     "btts": 48,
-     "gf": 2.2,
-     "gc": 0.8,
-     "rem": 15.6,
-     "rem_c": 9.1,
-     "pta": 6.2,
-     "pta_c": 2.8,
-     "esq": 6.6,
-     "esq_c": 3.4,
-     "fal": 10.6,
-     "fal_c": 10.7,
-     "tar": 2.0,
-     "tar_c": 2.0,
-     "esq_t": 10.0,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 4,
-     "o25": 50,
-     "btts": 100,
-     "gf": 1.8,
-     "gc": 1.8,
-     "rem": 12.0,
-     "rem_c": 15.4,
-     "pta": 4.4,
-     "pta_c": 3.8,
-     "esq": 5.2,
-     "esq_c": 5.4,
-     "fal": 10.8,
-     "fal_c": 13.0,
-     "tar": 2.2,
-     "tar_c": 2.2,
-     "esq_t": 10.6,
-     "n_x": 5
-    }
-   },
-   "marcador": "1-0"
-  },
-  {
-   "id": 560617,
-   "liga": "PL",
-   "fecha": "2026-10-24T16:30:00Z",
-   "local": "Chelsea",
-   "visitante": "Tottenham",
-   "forma_local": [
-    "P",
-    "E",
-    "P",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "E",
-    "E",
-    "P",
-    "E",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 41,
-     "o25": 61,
-     "btts": 63,
-     "gf": 1.8,
-     "gc": 1.2,
-     "rem": 16.0,
-     "rem_c": 10.4,
-     "pta": 5.5,
-     "pta_c": 3.9,
-     "esq": 6.5,
-     "esq_c": 3.9,
-     "fal": 10.8,
-     "fal_c": 12.0,
-     "tar": 2.3,
-     "tar_c": 2.4,
-     "esq_t": 10.4,
-     "n_x": 42
-    },
-    "visita": {
-     "n": 41,
-     "o25": 56,
-     "btts": 49,
-     "gf": 1.4,
-     "gc": 1.5,
-     "rem": 11.2,
-     "rem_c": 13.6,
-     "pta": 4.0,
-     "pta_c": 4.3,
-     "esq": 5.3,
-     "esq_c": 4.7,
-     "fal": 12.2,
-     "fal_c": 11.9,
-     "tar": 2.2,
-     "tar_c": 2.1,
-     "esq_t": 10.0,
-     "n_x": 42
-    }
-   },
-   "marcador": "0-2"
-  },
-  {
-   "id": 564722,
-   "liga": "PD",
-   "fecha": "2026-10-24T16:30:00Z",
-   "local": "Valencia",
-   "visitante": "Villarreal",
-   "forma_local": [
-    "P",
-    "G",
-    "P",
-    "E",
-    "E"
-   ],
-   "forma_visita": [
-    "G",
-    "P",
-    "G",
-    "E",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 42,
-     "btts": 51,
-     "gf": 1.3,
-     "gc": 1.2,
-     "rem": 12.5,
-     "rem_c": 10.7,
-     "pta": 3.7,
-     "pta_c": 3.5,
-     "esq": 5.7,
-     "esq_c": 4.2,
-     "fal": 12.4,
-     "fal_c": 12.7,
-     "tar": 2.2,
-     "tar_c": 2.9,
-     "esq_t": 9.9,
-     "n_x": 44
-    },
-    "visita": {
-     "n": 43,
-     "o25": 51,
-     "btts": 63,
-     "gf": 1.4,
-     "gc": 1.3,
-     "rem": 11.6,
-     "rem_c": 13.5,
-     "pta": 3.8,
-     "pta_c": 4.2,
-     "esq": 4.1,
-     "esq_c": 5.1,
-     "fal": 11.9,
-     "fal_c": 13.2,
-     "tar": 2.5,
-     "tar_c": 2.5,
-     "esq_t": 9.2,
-     "n_x": 44
-    }
-   },
-   "marcador": "1-2"
   }
  ]
 }
