@@ -10,18 +10,26 @@
   },
   {
    "equipo": "Real Sociedad de Fútbol",
-   "partidos": 86,
-   "pct_over25": 53,
+   "partidos": 87,
+   "pct_over25": 54,
    "pct_btts": 55,
-   "racha_over25": 6,
-   "racha_btts": 4
+   "racha_over25": 7,
+   "racha_btts": 5
   },
   {
    "equipo": "Athletic Club",
-   "partidos": 85,
-   "pct_over25": 42,
-   "pct_btts": 49,
-   "racha_over25": 2,
+   "partidos": 86,
+   "pct_over25": 43,
+   "pct_btts": 50,
+   "racha_over25": 3,
+   "racha_btts": 1
+  },
+  {
+   "equipo": "Real Madrid CF",
+   "partidos": 87,
+   "pct_over25": 60,
+   "pct_btts": 56,
+   "racha_over25": 3,
    "racha_btts": 0
   },
   {
@@ -41,12 +49,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Real Madrid CF",
-   "partidos": 86,
-   "pct_over25": 59,
-   "pct_btts": 57,
+   "equipo": "Real Racing Club de Santander",
+   "partidos": 11,
+   "pct_over25": 82,
+   "pct_btts": 64,
    "racha_over25": 2,
-   "racha_btts": 2
+   "racha_btts": 0
   },
   {
    "equipo": "Real Betis Balompié",
@@ -89,14 +97,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Valencia CF",
-   "partidos": 86,
-   "pct_over25": 44,
-   "pct_btts": 55,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
    "equipo": "RCD Mallorca",
    "partidos": 76,
    "pct_over25": 51,
@@ -119,22 +119,6 @@
    "pct_btts": 32,
    "racha_over25": 1,
    "racha_btts": 0
-  },
-  {
-   "equipo": "Elche CF",
-   "partidos": 48,
-   "pct_over25": 58,
-   "pct_btts": 69,
-   "racha_over25": 1,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Real Racing Club de Santander",
-   "partidos": 10,
-   "pct_over25": 80,
-   "pct_btts": 70,
-   "racha_over25": 1,
-   "racha_btts": 1
   },
   {
    "equipo": "Málaga CF",
@@ -169,6 +153,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Valencia CF",
+   "partidos": 87,
+   "pct_over25": 44,
+   "pct_btts": 54,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "RCD Espanyol de Barcelona",
    "partidos": 87,
    "pct_over25": 46,
@@ -197,6 +189,14 @@
    "partidos": 49,
    "pct_over25": 49,
    "pct_btts": 53,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Elche CF",
+   "partidos": 49,
+   "pct_over25": 57,
+   "pct_btts": 67,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -276,17 +276,17 @@
   },
   {
    "equipo": "Liverpool FC",
-   "partidos": 84,
-   "pct_over25": 61,
-   "pct_btts": 62,
+   "partidos": 85,
+   "pct_over25": 60,
+   "pct_btts": 61,
    "racha_over25": 0,
    "racha_btts": 0
   },
   {
    "equipo": "Arsenal FC",
-   "partidos": 84,
-   "pct_over25": 49,
-   "pct_btts": 50,
+   "partidos": 85,
+   "pct_over25": 48,
+   "pct_btts": 49,
    "racha_over25": 0,
    "racha_btts": 0
   },
