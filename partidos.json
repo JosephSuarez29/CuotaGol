@@ -1,390 +1,11 @@
 {
- "generado": "2026-11-03T18:16+00:00",
+ "generado": "2026-11-04T02:59+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 575379,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Feyenoord",
-   "visitante": "Inter",
-   "forma_local": [
-    "P",
-    "P",
-    "P",
-    "G",
-    "P"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "P",
-    "P",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 7,
-     "o25": 71,
-     "btts": 43,
-     "gf": 1.7,
-     "gc": 1.9
-    },
-    "visita": {
-     "n": 14,
-     "o25": 50,
-     "btts": 36,
-     "gf": 1.4,
-     "gc": 1.2
-    }
-   },
-   "modelo": {
-    "lam_l": 1.45,
-    "lam_v": 1.6,
-    "p1": 35,
-    "px": 24,
-    "p2": 41,
-    "o15": 81,
-    "o25": 59,
-    "o35": 36,
-    "btts": 61,
-    "pc0_l": 20,
-    "pc0_v": 23
-   },
-   "h2h": null
-  },
-  {
-   "id": 575380,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Barça",
-   "visitante": "Aston Villa",
-   "forma_local": [
-    "G",
-    "G",
-    "P",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 14,
-     "o25": 93,
-     "btts": 71,
-     "gf": 3.5,
-     "gc": 1.2
-    },
-    "visita": {
-     "n": 7,
-     "o25": 71,
-     "btts": 57,
-     "gf": 1.9,
-     "gc": 1.4
-    }
-   },
-   "modelo": {
-    "lam_l": 2.54,
-    "lam_v": 1.46,
-    "p1": 61,
-    "px": 18,
-    "p2": 21,
-    "o15": 91,
-    "o25": 76,
-    "o35": 57,
-    "btts": 71,
-    "pc0_l": 23,
-    "pc0_v": 8
-   },
-   "h2h": null
-  },
-  {
-   "id": 575381,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Atleti",
-   "visitante": "Bayern",
-   "forma_local": [
-    "G",
-    "G",
-    "E",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "G",
-    "E",
-    "E"
-   ],
-   "cruces": [
-    {
-     "mercado": "o25",
-     "titulo": "Más de 2.5 goles",
-     "nivel": "fuerte",
-     "local_pct": 86,
-     "local_n": 14,
-     "visita_pct": 87,
-     "visita_n": 15
-    },
-    {
-     "mercado": "btts",
-     "titulo": "Ambos anotan",
-     "nivel": "fuerte",
-     "local_pct": 93,
-     "local_n": 14,
-     "visita_pct": 80,
-     "visita_n": 15
-    }
-   ],
-   "resumen": {
-    "local": {
-     "n": 14,
-     "o25": 86,
-     "btts": 93,
-     "gf": 2.5,
-     "gc": 1.5
-    },
-    "visita": {
-     "n": 15,
-     "o25": 87,
-     "btts": 80,
-     "gf": 2.5,
-     "gc": 1.9
-    }
-   },
-   "modelo": {
-    "lam_l": 2.2,
-    "lam_v": 2.08,
-    "p1": 42,
-    "px": 20,
-    "p2": 38,
-    "o15": 93,
-    "o25": 80,
-    "o35": 62,
-    "btts": 78,
-    "pc0_l": 12,
-    "pc0_v": 11
-   },
-   "h2h": null
-  },
-  {
-   "id": 575382,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Villarreal",
-   "visitante": "PSG",
-   "forma_local": [
-    "G",
-    "E",
-    "P",
-    "G",
-    "P"
-   ],
-   "forma_visita": [
-    "E",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 5,
-     "o25": 80,
-     "btts": 80,
-     "gf": 1.6,
-     "gc": 2.0
-    },
-    "visita": {
-     "n": 17,
-     "o25": 65,
-     "btts": 53,
-     "gf": 2.4,
-     "gc": 1.1
-    }
-   },
-   "modelo": {
-    "lam_l": 1.32,
-    "lam_v": 2.31,
-    "p1": 21,
-    "px": 19,
-    "p2": 60,
-    "o15": 88,
-    "o25": 70,
-    "o35": 49,
-    "btts": 66,
-    "pc0_l": 10,
-    "pc0_v": 27
-   },
-   "h2h": null
-  },
-  {
-   "id": 575383,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Man United",
-   "visitante": "Roma",
-   "forma_local": [
-    "P",
-    "E",
-    "P",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "E",
-    "P",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 1,
-     "o25": 100,
-     "btts": 0,
-     "gf": 4.0,
-     "gc": 0.0
-    },
-    "visita": {
-     "n": 1,
-     "o25": 0,
-     "btts": 100,
-     "gf": 1.0,
-     "gc": 1.0
-    }
-   },
-   "modelo": {
-    "lam_l": 2.09,
-    "lam_v": 1.31,
-    "p1": 55,
-    "px": 21,
-    "p2": 24,
-    "o15": 85,
-    "o25": 66,
-    "o35": 44,
-    "btts": 64,
-    "pc0_l": 27,
-    "pc0_v": 12
-   },
-   "h2h": null
-  },
-  {
-   "id": 575384,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "Bodø/Glimt",
-   "visitante": "Lille",
-   "forma_local": [
-    "G",
-    "P",
-    "P",
-    "G",
-    "P"
-   ],
-   "forma_visita": [
-    "E",
-    "P",
-    "P",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 7,
-     "o25": 71,
-     "btts": 57,
-     "gf": 2.0,
-     "gc": 1.1
-    },
-    "visita": {
-     "n": 6,
-     "o25": 67,
-     "btts": 67,
-     "gf": 1.2,
-     "gc": 1.7
-    }
-   },
-   "modelo": {
-    "lam_l": 1.88,
-    "lam_v": 1.24,
-    "p1": 52,
-    "px": 23,
-    "p2": 25,
-    "o15": 82,
-    "o25": 60,
-    "o35": 38,
-    "btts": 60,
-    "pc0_l": 29,
-    "pc0_v": 15
-   },
-   "h2h": null
-  },
-  {
-   "id": 575385,
-   "liga": "CL",
-   "fecha": "2026-11-03T20:00:00Z",
-   "local": "LASK",
-   "visitante": "Sl. Bratislava",
-   "forma_local": [
-    "P",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "P",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 1,
-     "o25": 100,
-     "btts": 100,
-     "gf": 3.0,
-     "gc": 6.0
-    },
-    "visita": {
-     "n": 6,
-     "o25": 83,
-     "btts": 67,
-     "gf": 0.7,
-     "gc": 3.8
-    }
-   },
-   "modelo": {
-    "lam_l": 2.82,
-    "lam_v": 1.51,
-    "p1": 65,
-    "px": 16,
-    "p2": 19,
-    "o15": 93,
-    "o25": 81,
-    "o35": 63,
-    "btts": 73,
-    "pc0_l": 22,
-    "pc0_v": 6
-   },
-   "h2h": null
-  },
   {
    "id": 575386,
    "liga": "CL",
@@ -428,7 +49,7 @@
     "p2": 37,
     "o15": 88,
     "o25": 71,
-    "o35": 50,
+    "o35": 49,
     "btts": 70,
     "pc0_l": 17,
     "pc0_v": 15
@@ -471,7 +92,7 @@
     }
    },
    "modelo": {
-    "lam_l": 1.4,
+    "lam_l": 1.39,
     "lam_v": 1.72,
     "p1": 31,
     "px": 24,
@@ -533,7 +154,7 @@
     "o35": 43,
     "btts": 66,
     "pc0_l": 21,
-    "pc0_v": 16
+    "pc0_v": 17
    },
    "h2h": null
   },
@@ -585,7 +206,7 @@
     "o35": 47,
     "btts": 63,
     "pc0_l": 9,
-    "pc0_v": 30
+    "pc0_v": 31
    },
    "h2h": null
   },
@@ -700,8 +321,8 @@
    "modelo": {
     "lam_l": 2.26,
     "lam_v": 1.37,
-    "p1": 58,
-    "px": 19,
+    "p1": 57,
+    "px": 20,
     "p2": 23,
     "o15": 88,
     "o25": 70,
@@ -748,7 +369,7 @@
     }
    },
    "modelo": {
-    "lam_l": 1.9,
+    "lam_l": 1.89,
     "lam_v": 1.26,
     "p1": 52,
     "px": 23,
@@ -796,11 +417,11 @@
     }
    },
    "modelo": {
-    "lam_l": 1.91,
+    "lam_l": 1.9,
     "lam_v": 1.58,
-    "p1": 46,
+    "p1": 45,
     "px": 22,
-    "p2": 32,
+    "p2": 33,
     "o15": 86,
     "o25": 68,
     "o35": 46,
@@ -844,13 +465,13 @@
     }
    },
    "modelo": {
-    "lam_l": 2.29,
+    "lam_l": 2.28,
     "lam_v": 1.48,
     "p1": 56,
-    "px": 20,
-    "p2": 24,
+    "px": 19,
+    "p2": 25,
     "o15": 89,
-    "o25": 73,
+    "o25": 72,
     "o35": 52,
     "btts": 69,
     "pc0_l": 23,
@@ -2468,18 +2089,18 @@
    "local": "Man United",
    "visitante": "Aston Villa",
    "forma_local": [
-    "P",
     "E",
     "P",
     "P",
-    "P"
+    "P",
+    "G"
    ],
    "forma_visita": [
     "G",
     "G",
     "G",
-    "G",
-    "E"
+    "E",
+    "P"
    ],
    "cruces": [],
    "resumen": {
@@ -2678,10 +2299,10 @@
    "local": "Villarreal",
    "visitante": "Getafe",
    "forma_local": [
-    "G",
     "E",
     "P",
     "G",
+    "P",
     "P"
    ],
    "forma_visita": [
@@ -2784,16 +2405,16 @@
    "visitante": "Barça",
    "forma_local": [
     "G",
-    "G",
     "E",
     "G",
-    "G"
+    "G",
+    "P"
    ],
    "forma_visita": [
     "G",
+    "P",
+    "P",
     "G",
-    "P",
-    "P",
     "G"
    ],
    "cruces": [],
@@ -2883,6 +2504,374 @@
   }
  ],
  "recientes": [
+  {
+   "id": 575379,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Feyenoord",
+   "visitante": "Inter",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 7,
+     "o25": 71,
+     "btts": 43,
+     "gf": 1.7,
+     "gc": 1.9
+    },
+    "visita": {
+     "n": 14,
+     "o25": 50,
+     "btts": 36,
+     "gf": 1.4,
+     "gc": 1.2
+    }
+   },
+   "marcador": "0-3"
+  },
+  {
+   "id": 575380,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Barça",
+   "visitante": "Aston Villa",
+   "forma_local": [
+    "G",
+    "G",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 14,
+     "o25": 93,
+     "btts": 71,
+     "gf": 3.5,
+     "gc": 1.2
+    },
+    "visita": {
+     "n": 7,
+     "o25": 71,
+     "btts": 57,
+     "gf": 1.9,
+     "gc": 1.4
+    }
+   },
+   "marcador": "3-0"
+  },
+  {
+   "id": 575381,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Atleti",
+   "visitante": "Bayern",
+   "forma_local": [
+    "G",
+    "G",
+    "E",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "G",
+    "E",
+    "E"
+   ],
+   "cruces": [
+    {
+     "mercado": "o25",
+     "titulo": "Más de 2.5 goles",
+     "nivel": "fuerte",
+     "local_pct": 86,
+     "local_n": 14,
+     "visita_pct": 87,
+     "visita_n": 15,
+     "cumplido": false
+    },
+    {
+     "mercado": "btts",
+     "titulo": "Ambos anotan",
+     "nivel": "fuerte",
+     "local_pct": 93,
+     "local_n": 14,
+     "visita_pct": 80,
+     "visita_n": 15,
+     "cumplido": false
+    }
+   ],
+   "resumen": {
+    "local": {
+     "n": 14,
+     "o25": 86,
+     "btts": 93,
+     "gf": 2.5,
+     "gc": 1.5
+    },
+    "visita": {
+     "n": 15,
+     "o25": 87,
+     "btts": 80,
+     "gf": 2.5,
+     "gc": 1.9
+    }
+   },
+   "marcador": "0-2"
+  },
+  {
+   "id": 575382,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Villarreal",
+   "visitante": "PSG",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 5,
+     "o25": 80,
+     "btts": 80,
+     "gf": 1.6,
+     "gc": 2.0
+    },
+    "visita": {
+     "n": 17,
+     "o25": 65,
+     "btts": 53,
+     "gf": 2.4,
+     "gc": 1.1
+    }
+   },
+   "marcador": "0-6"
+  },
+  {
+   "id": 575383,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Man United",
+   "visitante": "Roma",
+   "forma_local": [
+    "P",
+    "E",
+    "P",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 1,
+     "o25": 100,
+     "btts": 0,
+     "gf": 4.0,
+     "gc": 0.0
+    },
+    "visita": {
+     "n": 1,
+     "o25": 0,
+     "btts": 100,
+     "gf": 1.0,
+     "gc": 1.0
+    }
+   },
+   "marcador": "3-2"
+  },
+  {
+   "id": 575384,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "Bodø/Glimt",
+   "visitante": "Lille",
+   "forma_local": [
+    "G",
+    "P",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 7,
+     "o25": 71,
+     "btts": 57,
+     "gf": 2.0,
+     "gc": 1.1
+    },
+    "visita": {
+     "n": 6,
+     "o25": 67,
+     "btts": 67,
+     "gf": 1.2,
+     "gc": 1.7
+    }
+   },
+   "marcador": "0-0"
+  },
+  {
+   "id": 575385,
+   "liga": "CL",
+   "fecha": "2026-11-03T20:00:00Z",
+   "local": "LASK",
+   "visitante": "Sl. Bratislava",
+   "forma_local": [
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 1,
+     "o25": 100,
+     "btts": 100,
+     "gf": 3.0,
+     "gc": 6.0
+    },
+    "visita": {
+     "n": 6,
+     "o25": 83,
+     "btts": 67,
+     "gf": 0.7,
+     "gc": 3.8
+    }
+   },
+   "marcador": "4-0"
+  },
+  {
+   "id": 575377,
+   "liga": "CL",
+   "fecha": "2026-11-03T17:45:00Z",
+   "local": "Shaktar",
+   "visitante": "Sporting CP",
+   "forma_local": [
+    "G",
+    "P",
+    "E",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "G",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 5,
+     "o25": 80,
+     "btts": 60,
+     "gf": 1.6,
+     "gc": 2.0
+    },
+    "visita": {
+     "n": 12,
+     "o25": 50,
+     "btts": 58,
+     "gf": 1.1,
+     "gc": 1.3
+    }
+   },
+   "marcador": "0-1"
+  },
+  {
+   "id": 575378,
+   "liga": "CL",
+   "fecha": "2026-11-03T17:45:00Z",
+   "local": "Galatasaray",
+   "visitante": "Stuttgart",
+   "forma_local": [
+    "G",
+    "P",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "G",
+    "G",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 7,
+     "o25": 43,
+     "btts": 57,
+     "gf": 1.7,
+     "gc": 1.3
+    },
+    "visita": {
+     "n": 5,
+     "o25": 80,
+     "btts": 60,
+     "gf": 1.8,
+     "gc": 1.8
+    }
+   },
+   "marcador": "2-0"
+  },
   {
    "id": 560622,
    "liga": "PL",
