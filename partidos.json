@@ -1,111 +1,11 @@
 {
- "generado": "2026-11-04T02:59+00:00",
+ "generado": "2026-11-04T18:29+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 575386,
-   "liga": "CL",
-   "fecha": "2026-11-04T17:45:00Z",
-   "local": "PAE AEK",
-   "visitante": "Real Madrid",
-   "forma_local": [
-    "G",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 1,
-     "o25": 0,
-     "btts": 0,
-     "gf": 1.0,
-     "gc": 0.0
-    },
-    "visita": {
-     "n": 15,
-     "o25": 73,
-     "btts": 53,
-     "gf": 2.3,
-     "gc": 1.9
-    }
-   },
-   "modelo": {
-    "lam_l": 1.87,
-    "lam_v": 1.78,
-    "p1": 41,
-    "px": 22,
-    "p2": 37,
-    "o15": 88,
-    "o25": 71,
-    "o35": 49,
-    "btts": 70,
-    "pc0_l": 17,
-    "pc0_v": 15
-   },
-   "h2h": null
-  },
-  {
-   "id": 575387,
-   "liga": "CL",
-   "fecha": "2026-11-04T17:45:00Z",
-   "local": "Fenerbahçe",
-   "visitante": "Liverpool",
-   "forma_local": [
-    "E",
-    "P",
-    "E"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 2,
-     "o25": 50,
-     "btts": 100,
-     "gf": 1.5,
-     "gc": 1.5
-    },
-    "visita": {
-     "n": 12,
-     "o25": 42,
-     "btts": 33,
-     "gf": 1.9,
-     "gc": 1.0
-    }
-   },
-   "modelo": {
-    "lam_l": 1.39,
-    "lam_v": 1.72,
-    "p1": 31,
-    "px": 24,
-    "p2": 45,
-    "o15": 82,
-    "o25": 60,
-    "o35": 38,
-    "btts": 62,
-    "pc0_l": 18,
-    "pc0_v": 25
-   },
-   "h2h": null
-  },
   {
    "id": 575388,
    "liga": "CL",
