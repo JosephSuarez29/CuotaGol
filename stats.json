@@ -33,6 +33,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Real Racing Club de Santander",
+   "partidos": 12,
+   "pct_over25": 83,
+   "pct_btts": 67,
+   "racha_over25": 3,
+   "racha_btts": 1
+  },
+  {
    "equipo": "Getafe CF",
    "partidos": 87,
    "pct_over25": 31,
@@ -49,12 +57,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Real Racing Club de Santander",
-   "partidos": 11,
-   "pct_over25": 82,
-   "pct_btts": 64,
+   "equipo": "Málaga CF",
+   "partidos": 12,
+   "pct_over25": 42,
+   "pct_btts": 67,
    "racha_over25": 2,
-   "racha_btts": 0
+   "racha_btts": 5
   },
   {
    "equipo": "Real Betis Balompié",
@@ -119,14 +127,6 @@
    "pct_btts": 82,
    "racha_over25": 1,
    "racha_btts": 1
-  },
-  {
-   "equipo": "Málaga CF",
-   "partidos": 11,
-   "pct_over25": 36,
-   "pct_btts": 64,
-   "racha_over25": 1,
-   "racha_btts": 4
   },
   {
    "equipo": "Girona FC",
@@ -388,9 +388,9 @@
   },
   {
    "equipo": "Tottenham Hotspur FC",
-   "partidos": 85,
-   "pct_over25": 60,
-   "pct_btts": 58,
+   "partidos": 86,
+   "pct_over25": 59,
+   "pct_btts": 57,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -404,9 +404,9 @@
   },
   {
    "equipo": "Leeds United FC",
-   "partidos": 47,
-   "pct_over25": 49,
-   "pct_btts": 57,
+   "partidos": 48,
+   "pct_over25": 48,
+   "pct_btts": 56,
    "racha_over25": 0,
    "racha_btts": 0
   }
