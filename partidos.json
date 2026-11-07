@@ -1,192 +1,11 @@
 {
- "generado": "2026-11-06T17:50+00:00",
+ "generado": "2026-11-07T02:40+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 560634,
-   "liga": "PL",
-   "fecha": "2026-11-06T20:00:00Z",
-   "local": "Everton",
-   "visitante": "Coventry City",
-   "forma_local": [
-    "G",
-    "E",
-    "P",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "P",
-    "P",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 42,
-     "o25": 48,
-     "btts": 48,
-     "gf": 1.4,
-     "gc": 1.3,
-     "rem": 12.0,
-     "rem_c": 11.5,
-     "pta": 4.2,
-     "pta_c": 4.2,
-     "esq": 4.6,
-     "esq_c": 4.9,
-     "fal": 10.4,
-     "fal_c": 11.0,
-     "tar": 2.0,
-     "tar_c": 1.6,
-     "esq_t": 9.5,
-     "n_x": 42
-    },
-    "visita": {
-     "n": 4,
-     "o25": 50,
-     "btts": 25,
-     "gf": 0.5,
-     "gc": 1.8,
-     "rem": 9.5,
-     "rem_c": 18.8,
-     "pta": 2.0,
-     "pta_c": 4.5,
-     "esq": 3.2,
-     "esq_c": 5.5,
-     "fal": 13.5,
-     "fal_c": 11.0,
-     "tar": 1.5,
-     "tar_c": 1.2,
-     "esq_t": 8.8,
-     "n_x": 4
-    }
-   },
-   "modelo": {
-    "lam_l": 1.45,
-    "lam_v": 1.06,
-    "p1": 46,
-    "px": 26,
-    "p2": 28,
-    "o15": 71,
-    "o25": 46,
-    "o35": 24,
-    "btts": 50,
-    "pc0_l": 35,
-    "pc0_v": 23
-   },
-   "h2h": null
-  },
-  {
-   "id": 564740,
-   "liga": "PD",
-   "fecha": "2026-11-06T20:00:00Z",
-   "local": "Sevilla FC",
-   "visitante": "Alavés",
-   "forma_local": [
-    "P",
-    "E",
-    "P",
-    "G",
-    "P"
-   ],
-   "forma_visita": [
-    "E",
-    "P",
-    "P",
-    "E",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 42,
-     "btts": 56,
-     "gf": 1.1,
-     "gc": 1.3,
-     "rem": 12.9,
-     "rem_c": 10.1,
-     "pta": 4.1,
-     "pta_c": 3.4,
-     "esq": 4.8,
-     "esq_c": 3.7,
-     "fal": 14.2,
-     "fal_c": 13.0,
-     "tar": 2.9,
-     "tar_c": 2.7,
-     "esq_t": 8.5,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 43,
-     "o25": 51,
-     "btts": 60,
-     "gf": 1.1,
-     "gc": 1.7,
-     "rem": 11.2,
-     "rem_c": 12.4,
-     "pta": 3.7,
-     "pta_c": 4.3,
-     "esq": 4.0,
-     "esq_c": 5.0,
-     "fal": 15.9,
-     "fal_c": 13.4,
-     "tar": 2.8,
-     "tar_c": 2.1,
-     "esq_t": 8.9,
-     "n_x": 43
-    }
-   },
-   "modelo": {
-    "lam_l": 1.3,
-    "lam_v": 1.2,
-    "p1": 39,
-    "px": 27,
-    "p2": 34,
-    "o15": 71,
-    "o25": 45,
-    "o35": 24,
-    "btts": 51,
-    "pc0_l": 30,
-    "pc0_v": 27
-   },
-   "h2h": {
-    "todos": {
-     "vl": 6,
-     "e": 6,
-     "vv": 4,
-     "gl": 21,
-     "gv": 18,
-     "o15": 11,
-     "o25": 6,
-     "o35": 3,
-     "btts": 10,
-     "pc0_l": 5,
-     "pc0_v": 2,
-     "n": 16
-    },
-    "ult5": {
-     "vl": 1,
-     "e": 2,
-     "vv": 2,
-     "gl": 7,
-     "gv": 8,
-     "o15": 5,
-     "o25": 3,
-     "o35": 1,
-     "btts": 5,
-     "pc0_l": 0,
-     "pc0_v": 0,
-     "n": 5
-    }
-   }
-  },
   {
    "id": 560632,
    "liga": "PL",
@@ -259,7 +78,7 @@
     "o35": 27,
     "btts": 53,
     "pc0_l": 31,
-    "pc0_v": 23
+    "pc0_v": 24
    },
    "h2h": {
     "todos": {
@@ -1569,8 +1388,8 @@
     "lam_l": 1.4,
     "lam_v": 1.1,
     "p1": 44,
-    "px": 27,
-    "p2": 29,
+    "px": 26,
+    "p2": 30,
     "o15": 71,
     "o25": 46,
     "o35": 24,
@@ -2031,6 +1850,132 @@
   }
  ],
  "recientes": [
+  {
+   "id": 560634,
+   "liga": "PL",
+   "fecha": "2026-11-06T20:00:00Z",
+   "local": "Everton",
+   "visitante": "Coventry City",
+   "forma_local": [
+    "G",
+    "E",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 48,
+     "btts": 48,
+     "gf": 1.4,
+     "gc": 1.3,
+     "rem": 12.0,
+     "rem_c": 11.5,
+     "pta": 4.2,
+     "pta_c": 4.2,
+     "esq": 4.6,
+     "esq_c": 4.9,
+     "fal": 10.4,
+     "fal_c": 11.0,
+     "tar": 2.0,
+     "tar_c": 1.6,
+     "esq_t": 9.5,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 4,
+     "o25": 50,
+     "btts": 25,
+     "gf": 0.5,
+     "gc": 1.8,
+     "rem": 9.5,
+     "rem_c": 18.8,
+     "pta": 2.0,
+     "pta_c": 4.5,
+     "esq": 3.2,
+     "esq_c": 5.5,
+     "fal": 13.5,
+     "fal_c": 11.0,
+     "tar": 1.5,
+     "tar_c": 1.2,
+     "esq_t": 8.8,
+     "n_x": 4
+    }
+   },
+   "marcador": "3-1"
+  },
+  {
+   "id": 564740,
+   "liga": "PD",
+   "fecha": "2026-11-06T20:00:00Z",
+   "local": "Sevilla FC",
+   "visitante": "Alavés",
+   "forma_local": [
+    "P",
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "P",
+    "E",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 42,
+     "btts": 56,
+     "gf": 1.1,
+     "gc": 1.3,
+     "rem": 12.9,
+     "rem_c": 10.1,
+     "pta": 4.1,
+     "pta_c": 3.4,
+     "esq": 4.8,
+     "esq_c": 3.7,
+     "fal": 14.2,
+     "fal_c": 13.0,
+     "tar": 2.9,
+     "tar_c": 2.7,
+     "esq_t": 8.5,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 43,
+     "o25": 51,
+     "btts": 60,
+     "gf": 1.1,
+     "gc": 1.7,
+     "rem": 11.2,
+     "rem_c": 12.4,
+     "pta": 3.7,
+     "pta_c": 4.3,
+     "esq": 4.0,
+     "esq_c": 5.0,
+     "fal": 15.9,
+     "fal_c": 13.4,
+     "tar": 2.8,
+     "tar_c": 2.1,
+     "esq_t": 8.9,
+     "n_x": 43
+    }
+   },
+   "marcador": "0-0"
+  },
   {
    "id": 575388,
    "liga": "CL",
@@ -3986,69 +3931,6 @@
     }
    },
    "marcador": "2-0"
-  },
-  {
-   "id": 564737,
-   "liga": "PD",
-   "fecha": "2026-10-30T20:00:00Z",
-   "local": "Villarreal",
-   "visitante": "Espanyol",
-   "forma_local": [
-    "P",
-    "G",
-    "E",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "E",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 42,
-     "o25": 74,
-     "btts": 69,
-     "gf": 2.3,
-     "gc": 1.2,
-     "rem": 15.1,
-     "rem_c": 11.6,
-     "pta": 5.7,
-     "pta_c": 3.9,
-     "esq": 5.6,
-     "esq_c": 4.5,
-     "fal": 11.5,
-     "fal_c": 11.8,
-     "tar": 2.0,
-     "tar_c": 2.1,
-     "esq_t": 10.0,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 43,
-     "o25": 51,
-     "btts": 58,
-     "gf": 1.0,
-     "gc": 1.6,
-     "rem": 10.3,
-     "rem_c": 16.0,
-     "pta": 3.0,
-     "pta_c": 6.0,
-     "esq": 3.8,
-     "esq_c": 5.8,
-     "fal": 14.0,
-     "fal_c": 11.8,
-     "tar": 2.6,
-     "tar_c": 2.1,
-     "esq_t": 9.6,
-     "n_x": 44
-    }
-   },
-   "marcador": "0-1"
   }
  ]
 }

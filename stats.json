@@ -73,22 +73,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Deportivo Alavés",
-   "partidos": 87,
-   "pct_over25": 45,
-   "pct_btts": 56,
-   "racha_over25": 1,
-   "racha_btts": 4
-  },
-  {
-   "equipo": "Sevilla FC",
-   "partidos": 87,
-   "pct_over25": 49,
-   "pct_btts": 59,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
    "equipo": "CA Osasuna",
    "partidos": 87,
    "pct_over25": 47,
@@ -153,10 +137,26 @@
    "racha_btts": 1
   },
   {
+   "equipo": "Deportivo Alavés",
+   "partidos": 88,
+   "pct_over25": 44,
+   "pct_btts": 56,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "UD Las Palmas",
    "partidos": 38,
    "pct_over25": 50,
    "pct_btts": 63,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Sevilla FC",
+   "partidos": 88,
+   "pct_over25": 49,
+   "pct_btts": 58,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -219,12 +219,28 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Coventry City FC",
+   "partidos": 10,
+   "pct_over25": 60,
+   "pct_btts": 40,
+   "racha_over25": 2,
+   "racha_btts": 2
+  },
+  {
    "equipo": "Ipswich Town FC",
    "partidos": 47,
    "pct_over25": 60,
    "pct_btts": 64,
    "racha_over25": 1,
    "racha_btts": 4
+  },
+  {
+   "equipo": "Everton FC",
+   "partidos": 86,
+   "pct_over25": 40,
+   "pct_btts": 45,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "Southampton FC",
@@ -239,14 +255,6 @@
    "partidos": 47,
    "pct_over25": 43,
    "pct_btts": 47,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
-   "equipo": "Coventry City FC",
-   "partidos": 9,
-   "pct_over25": 56,
-   "pct_btts": 33,
    "racha_over25": 1,
    "racha_btts": 1
   },
@@ -297,14 +305,6 @@
    "pct_btts": 53,
    "racha_over25": 0,
    "racha_btts": 2
-  },
-  {
-   "equipo": "Everton FC",
-   "partidos": 85,
-   "pct_over25": 39,
-   "pct_btts": 45,
-   "racha_over25": 0,
-   "racha_btts": 0
   },
   {
    "equipo": "Brighton & Hove Albion FC",
