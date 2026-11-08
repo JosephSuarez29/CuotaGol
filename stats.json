@@ -17,19 +17,11 @@
    "racha_btts": 5
   },
   {
-   "equipo": "Athletic Club",
-   "partidos": 86,
-   "pct_over25": 43,
-   "pct_btts": 50,
-   "racha_over25": 3,
-   "racha_btts": 1
-  },
-  {
    "equipo": "Real Madrid CF",
-   "partidos": 87,
+   "partidos": 88,
    "pct_over25": 60,
    "pct_btts": 56,
-   "racha_over25": 3,
+   "racha_over25": 4,
    "racha_btts": 0
   },
   {
@@ -81,18 +73,18 @@
    "racha_btts": 0
   },
   {
-   "equipo": "CA Osasuna",
-   "partidos": 87,
-   "pct_over25": 47,
-   "pct_btts": 57,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
    "equipo": "CD Leganés",
    "partidos": 38,
    "pct_over25": 42,
    "pct_btts": 45,
+   "racha_over25": 1,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Valencia CF",
+   "partidos": 88,
+   "pct_over25": 44,
+   "pct_btts": 53,
    "racha_over25": 1,
    "racha_btts": 0
   },
@@ -121,12 +113,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "RC Deportivo La Coruña",
-   "partidos": 11,
-   "pct_over25": 36,
-   "pct_btts": 82,
-   "racha_over25": 1,
-   "racha_btts": 1
+   "equipo": "Athletic Club",
+   "partidos": 87,
+   "pct_over25": 43,
+   "pct_btts": 51,
+   "racha_over25": 0,
+   "racha_btts": 2
   },
   {
    "equipo": "Girona FC",
@@ -161,17 +153,17 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Valencia CF",
-   "partidos": 87,
-   "pct_over25": 44,
-   "pct_btts": 54,
+   "equipo": "CA Osasuna",
+   "partidos": 88,
+   "pct_over25": 47,
+   "pct_btts": 58,
    "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 2
   },
   {
    "equipo": "RCD Espanyol de Barcelona",
-   "partidos": 87,
-   "pct_over25": 46,
+   "partidos": 88,
+   "pct_over25": 45,
    "pct_btts": 57,
    "racha_over25": 0,
    "racha_btts": 0
@@ -205,6 +197,14 @@
    "partidos": 49,
    "pct_over25": 57,
    "pct_btts": 67,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "RC Deportivo La Coruña",
+   "partidos": 12,
+   "pct_over25": 33,
+   "pct_btts": 75,
    "racha_over25": 0,
    "racha_btts": 0
   }
@@ -251,20 +251,28 @@
    "racha_btts": 1
   },
   {
+   "equipo": "Nottingham Forest FC",
+   "partidos": 86,
+   "pct_over25": 50,
+   "pct_btts": 48,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
+   "equipo": "Manchester City FC",
+   "partidos": 86,
+   "pct_over25": 63,
+   "pct_btts": 53,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
    "equipo": "Sunderland AFC",
    "partidos": 47,
    "pct_over25": 43,
    "pct_btts": 47,
    "racha_over25": 1,
    "racha_btts": 1
-  },
-  {
-   "equipo": "Hull City AFC",
-   "partidos": 9,
-   "pct_over25": 44,
-   "pct_btts": 56,
-   "racha_over25": 1,
-   "racha_btts": 2
   },
   {
    "equipo": "Manchester United FC",
@@ -276,11 +284,11 @@
   },
   {
    "equipo": "Fulham FC",
-   "partidos": 85,
-   "pct_over25": 52,
-   "pct_btts": 61,
+   "partidos": 86,
+   "pct_over25": 51,
+   "pct_btts": 62,
    "racha_over25": 0,
-   "racha_btts": 1
+   "racha_btts": 2
   },
   {
    "equipo": "Liverpool FC",
@@ -292,7 +300,7 @@
   },
   {
    "equipo": "Arsenal FC",
-   "partidos": 85,
+   "partidos": 86,
    "pct_over25": 48,
    "pct_btts": 49,
    "racha_over25": 0,
@@ -316,19 +324,11 @@
   },
   {
    "equipo": "Newcastle United FC",
-   "partidos": 85,
-   "pct_over25": 61,
+   "partidos": 86,
+   "pct_over25": 60,
    "pct_btts": 58,
    "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Nottingham Forest FC",
-   "partidos": 85,
-   "pct_over25": 49,
-   "pct_btts": 47,
-   "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 1
   },
   {
    "equipo": "AFC Bournemouth",
@@ -371,14 +371,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Manchester City FC",
-   "partidos": 85,
-   "pct_over25": 62,
-   "pct_btts": 53,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Leicester City FC",
    "partidos": 38,
    "pct_over25": 61,
@@ -407,6 +399,14 @@
    "partidos": 48,
    "pct_over25": 48,
    "pct_btts": 56,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Hull City AFC",
+   "partidos": 10,
+   "pct_over25": 40,
+   "pct_btts": 50,
    "racha_over25": 0,
    "racha_btts": 0
   }
