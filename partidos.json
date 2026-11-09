@@ -1,11 +1,75 @@
 {
- "generado": "2026-11-08T16:56+00:00",
+ "generado": "2026-11-09T02:32+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
- "proximos": [
+ "proximos": [],
+ "recientes": [
+  {
+   "id": 564746,
+   "liga": "PD",
+   "fecha": "2026-11-08T20:00:00Z",
+   "local": "Atleti",
+   "visitante": "Barça",
+   "forma_local": [
+    "G",
+    "E",
+    "G",
+    "G",
+    "P"
+   ],
+   "forma_visita": [
+    "G",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 53,
+     "btts": 47,
+     "gf": 2.1,
+     "gc": 0.8,
+     "rem": 15.6,
+     "rem_c": 9.1,
+     "pta": 6.2,
+     "pta_c": 2.8,
+     "esq": 6.6,
+     "esq_c": 3.4,
+     "fal": 10.6,
+     "fal_c": 10.7,
+     "tar": 2.0,
+     "tar_c": 2.0,
+     "esq_t": 10.0,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 43,
+     "o25": 74,
+     "btts": 65,
+     "gf": 2.6,
+     "gc": 1.2,
+     "rem": 16.7,
+     "rem_c": 9.7,
+     "pta": 6.1,
+     "pta_c": 4.0,
+     "esq": 5.8,
+     "esq_c": 4.6,
+     "fal": 9.4,
+     "fal_c": 12.4,
+     "tar": 2.0,
+     "tar_c": 2.6,
+     "esq_t": 10.3,
+     "n_x": 43
+    }
+   },
+   "marcador": "1-2"
+  },
   {
    "id": 564742,
    "liga": "PD",
@@ -67,49 +131,7 @@
      "n_x": 25
     }
    },
-   "modelo": {
-    "lam_l": 1.69,
-    "lam_v": 1.08,
-    "p1": 52,
-    "px": 24,
-    "p2": 24,
-    "o15": 76,
-    "o25": 52,
-    "o35": 30,
-    "btts": 54,
-    "pc0_l": 34,
-    "pc0_v": 18
-   },
-   "h2h": {
-    "todos": {
-     "vl": 6,
-     "e": 2,
-     "vv": 4,
-     "gl": 21,
-     "gv": 19,
-     "o15": 11,
-     "o25": 7,
-     "o35": 5,
-     "btts": 9,
-     "pc0_l": 3,
-     "pc0_v": 0,
-     "n": 12
-    },
-    "ult5": {
-     "vl": 3,
-     "e": 1,
-     "vv": 1,
-     "gl": 9,
-     "gv": 5,
-     "o15": 5,
-     "o25": 2,
-     "o35": 1,
-     "btts": 3,
-     "pc0_l": 2,
-     "pc0_v": 0,
-     "n": 5
-    }
-   }
+   "marcador": "0-0"
   },
   {
    "id": 564747,
@@ -172,157 +194,134 @@
      "n_x": 43
     }
    },
-   "modelo": {
-    "lam_l": 1.81,
-    "lam_v": 0.88,
-    "p1": 59,
-    "px": 23,
-    "p2": 18,
-    "o15": 75,
-    "o25": 50,
-    "o35": 28,
-    "btts": 49,
-    "pc0_l": 41,
-    "pc0_v": 16
-   },
-   "h2h": {
-    "todos": {
-     "vl": 10,
-     "e": 5,
-     "vv": 3,
-     "gl": 24,
-     "gv": 17,
-     "o15": 12,
-     "o25": 9,
-     "o35": 4,
-     "btts": 10,
-     "pc0_l": 7,
-     "pc0_v": 3,
-     "n": 18
-    },
-    "ult5": {
-     "vl": 2,
-     "e": 2,
-     "vv": 1,
-     "gl": 7,
-     "gv": 5,
-     "o15": 5,
-     "o25": 2,
-     "o35": 0,
-     "btts": 4,
-     "pc0_l": 1,
-     "pc0_v": 0,
-     "n": 5
-    }
-   }
+   "marcador": "2-0"
   },
   {
-   "id": 564746,
-   "liga": "PD",
-   "fecha": "2026-11-08T20:00:00Z",
-   "local": "Atleti",
-   "visitante": "Barça",
+   "id": 560639,
+   "liga": "PL",
+   "fecha": "2026-11-08T16:30:00Z",
+   "local": "Man United",
+   "visitante": "Aston Villa",
    "forma_local": [
+    "E",
+    "P",
+    "P",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
     "G",
     "E",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 42,
+     "o25": 55,
+     "btts": 52,
+     "gf": 1.6,
+     "gc": 1.4,
+     "rem": 16.6,
+     "rem_c": 10.3,
+     "pta": 5.8,
+     "pta_c": 3.6,
+     "esq": 5.5,
+     "esq_c": 4.2,
+     "fal": 10.9,
+     "fal_c": 11.1,
+     "tar": 2.0,
+     "tar_c": 2.3,
+     "esq_t": 9.6,
+     "n_x": 42
+    },
+    "visita": {
+     "n": 42,
+     "o25": 57,
+     "btts": 52,
+     "gf": 1.2,
+     "gc": 1.5,
+     "rem": 11.0,
+     "rem_c": 14.5,
+     "pta": 3.6,
+     "pta_c": 4.8,
+     "esq": 4.7,
+     "esq_c": 5.3,
+     "fal": 10.5,
+     "fal_c": 13.1,
+     "tar": 1.9,
+     "tar_c": 2.2,
+     "esq_t": 10.0,
+     "n_x": 42
+    }
+   },
+   "marcador": "4-4"
+  },
+  {
+   "id": 564743,
+   "liga": "PD",
+   "fecha": "2026-11-08T15:15:00Z",
+   "local": "Real Sociedad",
+   "visitante": "Rayo Vallecano",
+   "forma_local": [
+    "G",
+    "G",
     "G",
     "G",
     "P"
    ],
    "forma_visita": [
     "G",
+    "E",
+    "E",
     "P",
-    "P",
-    "G",
     "G"
    ],
    "cruces": [],
    "resumen": {
     "local": {
      "n": 43,
-     "o25": 53,
-     "btts": 47,
-     "gf": 2.1,
-     "gc": 0.8,
-     "rem": 15.6,
-     "rem_c": 9.1,
-     "pta": 6.2,
-     "pta_c": 2.8,
-     "esq": 6.6,
-     "esq_c": 3.4,
-     "fal": 10.6,
-     "fal_c": 10.7,
-     "tar": 2.0,
-     "tar_c": 2.0,
-     "esq_t": 10.0,
+     "o25": 60,
+     "btts": 56,
+     "gf": 1.5,
+     "gc": 1.3,
+     "rem": 12.7,
+     "rem_c": 10.7,
+     "pta": 4.7,
+     "pta_c": 3.7,
+     "esq": 6.4,
+     "esq_c": 4.1,
+     "fal": 14.3,
+     "fal_c": 12.4,
+     "tar": 2.2,
+     "tar_c": 2.5,
+     "esq_t": 10.6,
      "n_x": 43
     },
     "visita": {
      "n": 43,
-     "o25": 74,
-     "btts": 65,
-     "gf": 2.6,
-     "gc": 1.2,
-     "rem": 16.7,
-     "rem_c": 9.7,
-     "pta": 6.1,
-     "pta_c": 4.0,
-     "esq": 5.8,
-     "esq_c": 4.6,
-     "fal": 9.4,
-     "fal_c": 12.4,
-     "tar": 2.0,
-     "tar_c": 2.6,
-     "esq_t": 10.3,
+     "o25": 44,
+     "btts": 49,
+     "gf": 0.9,
+     "gc": 1.4,
+     "rem": 11.8,
+     "rem_c": 13.3,
+     "pta": 3.6,
+     "pta_c": 4.5,
+     "esq": 4.8,
+     "esq_c": 6.0,
+     "fal": 14.5,
+     "fal_c": 11.0,
+     "tar": 3.0,
+     "tar_c": 2.2,
+     "esq_t": 10.8,
      "n_x": 43
     }
    },
-   "modelo": {
-    "lam_l": 1.63,
-    "lam_v": 1.73,
-    "p1": 36,
-    "px": 23,
-    "p2": 41,
-    "o15": 85,
-    "o25": 65,
-    "o35": 43,
-    "btts": 66,
-    "pc0_l": 18,
-    "pc0_v": 20
-   },
-   "h2h": {
-    "todos": {
-     "vl": 3,
-     "e": 4,
-     "vv": 11,
-     "gl": 15,
-     "gv": 28,
-     "o15": 11,
-     "o25": 7,
-     "o35": 4,
-     "btts": 8,
-     "pc0_l": 3,
-     "pc0_v": 8,
-     "n": 18
-    },
-    "ult5": {
-     "vl": 1,
-     "e": 0,
-     "vv": 4,
-     "gl": 6,
-     "gv": 13,
-     "o15": 5,
-     "o25": 5,
-     "o35": 2,
-     "btts": 4,
-     "pc0_l": 0,
-     "pc0_v": 1,
-     "n": 5
-    }
-   }
-  }
- ],
- "recientes": [
+   "marcador": "1-0"
+  },
   {
    "id": 560635,
    "liga": "PL",
@@ -2130,132 +2129,6 @@
     }
    },
    "marcador": "2-1"
-  },
-  {
-   "id": 564729,
-   "liga": "PD",
-   "fecha": "2026-11-01T20:00:00Z",
-   "local": "Athletic",
-   "visitante": "Real Sociedad",
-   "forma_local": [
-    "E",
-    "E",
-    "E",
-    "P",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 42,
-     "btts": 49,
-     "gf": 1.5,
-     "gc": 0.9,
-     "rem": 14.5,
-     "rem_c": 7.7,
-     "pta": 4.8,
-     "pta_c": 2.9,
-     "esq": 5.7,
-     "esq_c": 3.7,
-     "fal": 13.0,
-     "fal_c": 10.8,
-     "tar": 1.9,
-     "tar_c": 2.2,
-     "esq_t": 9.4,
-     "n_x": 44
-    },
-    "visita": {
-     "n": 43,
-     "o25": 47,
-     "btts": 53,
-     "gf": 1.1,
-     "gc": 1.6,
-     "rem": 10.7,
-     "rem_c": 15.3,
-     "pta": 3.7,
-     "pta_c": 4.9,
-     "esq": 5.1,
-     "esq_c": 5.1,
-     "fal": 12.9,
-     "fal_c": 11.2,
-     "tar": 2.3,
-     "tar_c": 2.2,
-     "esq_t": 10.2,
-     "n_x": 44
-    }
-   },
-   "marcador": "2-1"
-  },
-  {
-   "id": 564728,
-   "liga": "PD",
-   "fecha": "2026-11-01T17:30:00Z",
-   "local": "Elche",
-   "visitante": "Valencia",
-   "forma_local": [
-    "P",
-    "G",
-    "E",
-    "E",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "P",
-    "E",
-    "E",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 23,
-     "o25": 57,
-     "btts": 57,
-     "gf": 1.5,
-     "gc": 1.3,
-     "rem": 13.4,
-     "rem_c": 12.5,
-     "pta": 4.6,
-     "pta_c": 4.2,
-     "esq": 4.7,
-     "esq_c": 3.5,
-     "fal": 13.5,
-     "fal_c": 14.1,
-     "tar": 2.1,
-     "tar_c": 2.3,
-     "esq_t": 8.2,
-     "n_x": 24
-    },
-    "visita": {
-     "n": 42,
-     "o25": 45,
-     "btts": 57,
-     "gf": 1.0,
-     "gc": 1.7,
-     "rem": 9.2,
-     "rem_c": 13.4,
-     "pta": 2.7,
-     "pta_c": 4.8,
-     "esq": 4.0,
-     "esq_c": 5.6,
-     "fal": 11.3,
-     "fal_c": 11.5,
-     "tar": 2.0,
-     "tar_c": 1.7,
-     "esq_t": 9.6,
-     "n_x": 43
-    }
-   },
-   "marcador": "0-1"
   }
  ]
 }
