@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-11T02:40+00:00",
+ "generado": "2026-11-11T18:25+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
@@ -1561,80 +1561,6 @@
     }
    },
    "marcador": "4-1"
-  },
-  {
-   "id": 575386,
-   "liga": "CL",
-   "fecha": "2026-11-04T17:45:00Z",
-   "local": "PAE AEK",
-   "visitante": "Real Madrid",
-   "forma_local": [
-    "G",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 1,
-     "o25": 0,
-     "btts": 0,
-     "gf": 1.0,
-     "gc": 0.0
-    },
-    "visita": {
-     "n": 15,
-     "o25": 73,
-     "btts": 53,
-     "gf": 2.3,
-     "gc": 1.9
-    }
-   },
-   "marcador": "2-3"
-  },
-  {
-   "id": 575387,
-   "liga": "CL",
-   "fecha": "2026-11-04T17:45:00Z",
-   "local": "Fenerbahçe",
-   "visitante": "Liverpool",
-   "forma_local": [
-    "E",
-    "P",
-    "E"
-   ],
-   "forma_visita": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 2,
-     "o25": 50,
-     "btts": 100,
-     "gf": 1.5,
-     "gc": 1.5
-    },
-    "visita": {
-     "n": 12,
-     "o25": 42,
-     "btts": 33,
-     "gf": 1.9,
-     "gc": 1.0
-    }
-   },
-   "marcador": "3-2"
   }
  ]
 }
