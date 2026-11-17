@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T05:01+00:00",
+ "generado": "2026-11-17T19:39+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
@@ -2018,6 +2018,109 @@
      "n": 5
     }
    }
+  },
+  {
+   "id": 575395,
+   "liga": "CL",
+   "fecha": "2026-11-24T17:45:00Z",
+   "local": "Galatasaray",
+   "visitante": "Aston Villa",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "E",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 8,
+     "o25": 38,
+     "btts": 50,
+     "gf": 1.8,
+     "gc": 1.1
+    },
+    "visita": {
+     "n": 8,
+     "o25": 75,
+     "btts": 50,
+     "gf": 1.6,
+     "gc": 1.6
+    }
+   },
+   "modelo": {
+    "lam_l": 1.73,
+    "lam_v": 1.38,
+    "p1": 46,
+    "px": 23,
+    "p2": 31,
+    "o15": 82,
+    "o25": 60,
+    "o35": 38,
+    "btts": 62,
+    "pc0_l": 25,
+    "pc0_v": 18
+   },
+   "h2h": null
+  },
+  {
+   "id": 575396,
+   "liga": "CL",
+   "fecha": "2026-11-24T17:45:00Z",
+   "local": "Bodø/Glimt",
+   "visitante": "LASK",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 8,
+     "o25": 62,
+     "btts": 50,
+     "gf": 1.8,
+     "gc": 1.0
+    },
+    "visita": {
+     "n": 2,
+     "o25": 50,
+     "btts": 50,
+     "gf": 1.5,
+     "gc": 1.5
+    }
+   },
+   "modelo": {
+    "lam_l": 1.81,
+    "lam_v": 1.28,
+    "p1": 50,
+    "px": 23,
+    "p2": 27,
+    "o15": 81,
+    "o25": 60,
+    "o35": 37,
+    "btts": 60,
+    "pc0_l": 28,
+    "pc0_v": 16
+   },
+   "h2h": null
   }
  ],
  "recientes": []
