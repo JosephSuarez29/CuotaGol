@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-18T19:15+00:00",
+ "generado": "2026-11-19T04:04+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
@@ -2592,6 +2592,367 @@
     "btts": 66,
     "pc0_l": 22,
     "pc0_v": 15
+   },
+   "h2h": null
+  },
+  {
+   "id": 575406,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Inter",
+   "visitante": "Stuttgart",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "G",
+    "G",
+    "E",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 14,
+     "o25": 71,
+     "btts": 50,
+     "gf": 2.0,
+     "gc": 1.2
+    },
+    "visita": {
+     "n": 6,
+     "o25": 67,
+     "btts": 50,
+     "gf": 1.5,
+     "gc": 1.8
+    }
+   },
+   "modelo": {
+    "lam_l": 1.94,
+    "lam_v": 1.33,
+    "p1": 52,
+    "px": 22,
+    "p2": 26,
+    "o15": 84,
+    "o25": 63,
+    "o35": 41,
+    "btts": 63,
+    "pc0_l": 26,
+    "pc0_v": 14
+   },
+   "h2h": null
+  },
+  {
+   "id": 575407,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Atleti",
+   "visitante": "Viking",
+   "forma_local": [
+    "E",
+    "G",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 15,
+     "o25": 80,
+     "btts": 87,
+     "gf": 2.3,
+     "gc": 1.5
+    },
+    "visita": {
+     "n": 2,
+     "o25": 100,
+     "btts": 100,
+     "gf": 1.0,
+     "gc": 3.0
+    }
+   },
+   "modelo": {
+    "lam_l": 2.38,
+    "lam_v": 1.44,
+    "p1": 58,
+    "px": 20,
+    "p2": 22,
+    "o15": 89,
+    "o25": 73,
+    "o35": 53,
+    "btts": 69,
+    "pc0_l": 24,
+    "pc0_v": 9
+   },
+   "h2h": null
+  },
+  {
+   "id": 575408,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "PSG",
+   "visitante": "Roma",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "G",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 20,
+     "o25": 75,
+     "btts": 70,
+     "gf": 3.2,
+     "gc": 1.4
+    },
+    "visita": {
+     "n": 2,
+     "o25": 50,
+     "btts": 100,
+     "gf": 1.5,
+     "gc": 2.0
+    }
+   },
+   "modelo": {
+    "lam_l": 2.8,
+    "lam_v": 1.47,
+    "p1": 65,
+    "px": 17,
+    "p2": 18,
+    "o15": 93,
+    "o25": 80,
+    "o35": 62,
+    "btts": 72,
+    "pc0_l": 23,
+    "pc0_v": 6
+   },
+   "h2h": null
+  },
+  {
+   "id": 575409,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Club Brugge",
+   "visitante": "Liverpool",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "G",
+    "P",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 13,
+     "o25": 85,
+     "btts": 54,
+     "gf": 1.8,
+     "gc": 1.6
+    },
+    "visita": {
+     "n": 13,
+     "o25": 46,
+     "btts": 38,
+     "gf": 1.9,
+     "gc": 1.2
+    }
+   },
+   "modelo": {
+    "lam_l": 1.46,
+    "lam_v": 1.81,
+    "p1": 31,
+    "px": 23,
+    "p2": 46,
+    "o15": 84,
+    "o25": 63,
+    "o35": 41,
+    "btts": 64,
+    "pc0_l": 16,
+    "pc0_v": 23
+   },
+   "h2h": null
+  },
+  {
+   "id": 575410,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Lille",
+   "visitante": "Bayern",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "E",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 7,
+     "o25": 71,
+     "btts": 86,
+     "gf": 2.3,
+     "gc": 1.9
+    },
+    "visita": {
+     "n": 16,
+     "o25": 81,
+     "btts": 75,
+     "gf": 2.4,
+     "gc": 1.8
+    }
+   },
+   "modelo": {
+    "lam_l": 1.95,
+    "lam_v": 2.28,
+    "p1": 34,
+    "px": 20,
+    "p2": 46,
+    "o15": 92,
+    "o25": 79,
+    "o35": 61,
+    "btts": 77,
+    "pc0_l": 10,
+    "pc0_v": 14
+   },
+   "h2h": null
+  },
+  {
+   "id": 575411,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Sporting CP",
+   "visitante": "Man United",
+   "forma_local": [
+    "E",
+    "G",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 13,
+     "o25": 77,
+     "btts": 62,
+     "gf": 2.2,
+     "gc": 1.4
+    },
+    "visita": {
+     "n": 2,
+     "o25": 50,
+     "btts": 50,
+     "gf": 0.5,
+     "gc": 3.0
+    }
+   },
+   "modelo": {
+    "lam_l": 2.31,
+    "lam_v": 1.28,
+    "p1": 60,
+    "px": 20,
+    "p2": 20,
+    "o15": 87,
+    "o25": 70,
+    "o35": 48,
+    "btts": 65,
+    "pc0_l": 28,
+    "pc0_v": 10
+   },
+   "h2h": null
+  },
+  {
+   "id": 575412,
+   "liga": "CL",
+   "fecha": "2026-11-25T20:00:00Z",
+   "local": "Shaktar",
+   "visitante": "Fenerbahçe",
+   "forma_local": [
+    "P",
+    "E",
+    "G",
+    "P",
+    "P"
+   ],
+   "forma_visita": [
+    "E",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 6,
+     "o25": 67,
+     "btts": 50,
+     "gf": 1.3,
+     "gc": 1.8
+    },
+    "visita": {
+     "n": 1,
+     "o25": 100,
+     "btts": 0,
+     "gf": 0.0,
+     "gc": 6.0
+    }
+   },
+   "modelo": {
+    "lam_l": 2.07,
+    "lam_v": 1.48,
+    "p1": 51,
+    "px": 21,
+    "p2": 28,
+    "o15": 87,
+    "o25": 69,
+    "o35": 47,
+    "btts": 68,
+    "pc0_l": 23,
+    "pc0_v": 13
    },
    "h2h": null
   }
