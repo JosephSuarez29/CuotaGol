@@ -82,11 +82,11 @@
   },
   {
    "equipo": "Athletic Club",
-   "partidos": 87,
-   "pct_over25": 43,
-   "pct_btts": 51,
+   "partidos": 88,
+   "pct_over25": 42,
+   "pct_btts": 50,
    "racha_over25": 0,
-   "racha_btts": 2
+   "racha_btts": 0
   },
   {
    "equipo": "Getafe CF",
@@ -170,9 +170,9 @@
   },
   {
    "equipo": "RCD Espanyol de Barcelona",
-   "partidos": 88,
+   "partidos": 89,
    "pct_over25": 45,
-   "pct_btts": 57,
+   "pct_btts": 56,
    "racha_over25": 0,
    "racha_btts": 0
   },
