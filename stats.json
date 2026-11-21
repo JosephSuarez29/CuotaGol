@@ -33,18 +33,18 @@
    "racha_btts": 5
   },
   {
+   "equipo": "Deportivo Alavés",
+   "partidos": 89,
+   "pct_over25": 45,
+   "pct_btts": 56,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
    "equipo": "CD Leganés",
    "partidos": 38,
    "pct_over25": 42,
    "pct_btts": 45,
-   "racha_over25": 1,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Valencia CF",
-   "partidos": 88,
-   "pct_over25": 44,
-   "pct_btts": 53,
    "racha_over25": 1,
    "racha_btts": 0
   },
@@ -79,6 +79,14 @@
    "pct_btts": 32,
    "racha_over25": 1,
    "racha_btts": 0
+  },
+  {
+   "equipo": "RC Deportivo La Coruña",
+   "partidos": 13,
+   "pct_over25": 38,
+   "pct_btts": 77,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "Athletic Club",
@@ -121,14 +129,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Deportivo Alavés",
-   "partidos": 88,
-   "pct_over25": 44,
-   "pct_btts": 56,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "UD Las Palmas",
    "partidos": 38,
    "pct_over25": 50,
@@ -153,6 +153,14 @@
    "racha_btts": 2
   },
   {
+   "equipo": "Valencia CF",
+   "partidos": 89,
+   "pct_over25": 44,
+   "pct_btts": 53,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "Real Sociedad de Fútbol",
    "partidos": 88,
    "pct_over25": 53,
@@ -162,9 +170,9 @@
   },
   {
    "equipo": "Rayo Vallecano de Madrid",
-   "partidos": 87,
-   "pct_over25": 44,
-   "pct_btts": 54,
+   "partidos": 88,
+   "pct_over25": 43,
+   "pct_btts": 53,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -199,24 +207,16 @@
    "pct_btts": 66,
    "racha_over25": 0,
    "racha_btts": 0
-  },
-  {
-   "equipo": "RC Deportivo La Coruña",
-   "partidos": 12,
-   "pct_over25": 33,
-   "pct_btts": 75,
-   "racha_over25": 0,
-   "racha_btts": 0
   }
  ],
  "PL": [
   {
-   "equipo": "Ipswich Town FC",
-   "partidos": 48,
-   "pct_over25": 60,
-   "pct_btts": 65,
-   "racha_over25": 2,
-   "racha_btts": 5
+   "equipo": "Coventry City FC",
+   "partidos": 11,
+   "pct_over25": 64,
+   "pct_btts": 45,
+   "racha_over25": 3,
+   "racha_btts": 3
   },
   {
    "equipo": "West Ham United FC",
@@ -227,10 +227,10 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Coventry City FC",
-   "partidos": 10,
-   "pct_over25": 60,
-   "pct_btts": 40,
+   "equipo": "Crystal Palace FC",
+   "partidos": 87,
+   "pct_over25": 52,
+   "pct_btts": 55,
    "racha_over25": 2,
    "racha_btts": 2
   },
@@ -267,52 +267,36 @@
    "racha_btts": 1
   },
   {
-   "equipo": "Nottingham Forest FC",
-   "partidos": 86,
-   "pct_over25": 50,
-   "pct_btts": 48,
+   "equipo": "Chelsea FC",
+   "partidos": 87,
+   "pct_over25": 61,
+   "pct_btts": 60,
    "racha_over25": 1,
    "racha_btts": 1
   },
   {
-   "equipo": "AFC Bournemouth",
-   "partidos": 86,
-   "pct_over25": 56,
-   "pct_btts": 63,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
-   "equipo": "Aston Villa FC",
-   "partidos": 86,
-   "pct_over25": 58,
-   "pct_btts": 59,
-   "racha_over25": 1,
-   "racha_btts": 3
-  },
-  {
-   "equipo": "Crystal Palace FC",
-   "partidos": 86,
-   "pct_over25": 51,
-   "pct_btts": 55,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
-   "equipo": "Manchester City FC",
-   "partidos": 86,
-   "pct_over25": 63,
-   "pct_btts": 53,
+   "equipo": "Leeds United FC",
+   "partidos": 49,
+   "pct_over25": 49,
+   "pct_btts": 57,
    "racha_over25": 1,
    "racha_btts": 1
   },
   {
    "equipo": "Fulham FC",
-   "partidos": 86,
+   "partidos": 87,
    "pct_over25": 51,
    "pct_btts": 62,
    "racha_over25": 0,
-   "racha_btts": 2
+   "racha_btts": 3
+  },
+  {
+   "equipo": "Ipswich Town FC",
+   "partidos": 49,
+   "pct_over25": 59,
+   "pct_btts": 63,
+   "racha_over25": 0,
+   "racha_btts": 0
   },
   {
    "equipo": "Arsenal FC",
@@ -347,6 +331,30 @@
    "racha_btts": 1
   },
   {
+   "equipo": "Nottingham Forest FC",
+   "partidos": 87,
+   "pct_over25": 49,
+   "pct_btts": 47,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "AFC Bournemouth",
+   "partidos": 87,
+   "pct_over25": 55,
+   "pct_btts": 62,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Aston Villa FC",
+   "partidos": 87,
+   "pct_over25": 57,
+   "pct_btts": 59,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "Brentford FC",
    "partidos": 86,
    "pct_over25": 56,
@@ -355,12 +363,12 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Chelsea FC",
-   "partidos": 86,
-   "pct_over25": 60,
-   "pct_btts": 59,
+   "equipo": "Manchester City FC",
+   "partidos": 87,
+   "pct_over25": 62,
+   "pct_btts": 54,
    "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 2
   },
   {
    "equipo": "Leicester City FC",
@@ -372,17 +380,17 @@
   },
   {
    "equipo": "Tottenham Hotspur FC",
-   "partidos": 86,
+   "partidos": 87,
    "pct_over25": 59,
-   "pct_btts": 57,
+   "pct_btts": 56,
    "racha_over25": 0,
    "racha_btts": 0
   },
   {
    "equipo": "Sunderland AFC",
-   "partidos": 48,
-   "pct_over25": 42,
-   "pct_btts": 46,
+   "partidos": 49,
+   "pct_over25": 41,
+   "pct_btts": 45,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -393,14 +401,6 @@
    "pct_btts": 58,
    "racha_over25": 0,
    "racha_btts": 1
-  },
-  {
-   "equipo": "Leeds United FC",
-   "partidos": 48,
-   "pct_over25": 48,
-   "pct_btts": 56,
-   "racha_over25": 0,
-   "racha_btts": 0
   },
   {
    "equipo": "Hull City AFC",
