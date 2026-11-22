@@ -2,11 +2,11 @@
  "PD": [
   {
    "equipo": "FC Barcelona",
-   "partidos": 88,
+   "partidos": 89,
    "pct_over25": 75,
-   "pct_btts": 60,
-   "racha_over25": 10,
-   "racha_btts": 4
+   "pct_btts": 61,
+   "racha_over25": 11,
+   "racha_btts": 5
   },
   {
    "equipo": "Real Madrid CF",
@@ -18,11 +18,11 @@
   },
   {
    "equipo": "Real Racing Club de Santander",
-   "partidos": 12,
-   "pct_over25": 83,
-   "pct_btts": 67,
-   "racha_over25": 3,
-   "racha_btts": 1
+   "partidos": 13,
+   "pct_over25": 85,
+   "pct_btts": 69,
+   "racha_over25": 4,
+   "racha_btts": 2
   },
   {
    "equipo": "Málaga CF",
@@ -57,6 +57,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Real Sociedad de Fútbol",
+   "partidos": 89,
+   "pct_over25": 54,
+   "pct_btts": 55,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
    "equipo": "RCD Mallorca",
    "partidos": 76,
    "pct_over25": 51,
@@ -71,6 +79,14 @@
    "pct_btts": 50,
    "racha_over25": 1,
    "racha_btts": 0
+  },
+  {
+   "equipo": "Villarreal CF",
+   "partidos": 89,
+   "pct_over25": 62,
+   "pct_btts": 65,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "Club Atlético de Madrid",
@@ -161,14 +177,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Real Sociedad de Fútbol",
-   "partidos": 88,
-   "pct_over25": 53,
-   "pct_btts": 55,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Rayo Vallecano de Madrid",
    "partidos": 88,
    "pct_over25": 43,
@@ -181,14 +189,6 @@
    "partidos": 89,
    "pct_over25": 45,
    "pct_btts": 56,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Villarreal CF",
-   "partidos": 88,
-   "pct_over25": 61,
-   "pct_btts": 65,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -324,9 +324,9 @@
   },
   {
    "equipo": "Brighton & Hove Albion FC",
-   "partidos": 86,
+   "partidos": 87,
    "pct_over25": 59,
-   "pct_btts": 58,
+   "pct_btts": 57,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -404,9 +404,9 @@
   },
   {
    "equipo": "Hull City AFC",
-   "partidos": 10,
-   "pct_over25": 40,
-   "pct_btts": 50,
+   "partidos": 11,
+   "pct_over25": 36,
+   "pct_btts": 45,
    "racha_over25": 0,
    "racha_btts": 0
   }
