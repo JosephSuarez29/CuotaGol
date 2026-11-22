@@ -10,11 +10,11 @@
   },
   {
    "equipo": "Real Madrid CF",
-   "partidos": 88,
-   "pct_over25": 60,
+   "partidos": 89,
+   "pct_over25": 61,
    "pct_btts": 56,
-   "racha_over25": 4,
-   "racha_btts": 0
+   "racha_over25": 5,
+   "racha_btts": 1
   },
   {
    "equipo": "Real Racing Club de Santander",
@@ -31,6 +31,14 @@
    "pct_btts": 67,
    "racha_over25": 2,
    "racha_btts": 5
+  },
+  {
+   "equipo": "RC Celta de Vigo",
+   "partidos": 89,
+   "pct_over25": 52,
+   "pct_btts": 62,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "Deportivo Alavés",
@@ -106,11 +114,11 @@
   },
   {
    "equipo": "Real Betis Balompié",
-   "partidos": 88,
+   "partidos": 89,
    "pct_over25": 52,
    "pct_btts": 67,
    "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 1
   },
   {
    "equipo": "Girona FC",
@@ -119,14 +127,6 @@
    "pct_btts": 57,
    "racha_over25": 0,
    "racha_btts": 1
-  },
-  {
-   "equipo": "RC Celta de Vigo",
-   "partidos": 88,
-   "pct_over25": 51,
-   "pct_btts": 61,
-   "racha_over25": 0,
-   "racha_btts": 0
   },
   {
    "equipo": "UD Las Palmas",
@@ -138,11 +138,11 @@
   },
   {
    "equipo": "Sevilla FC",
-   "partidos": 88,
-   "pct_over25": 49,
+   "partidos": 89,
+   "pct_over25": 48,
    "pct_btts": 58,
    "racha_over25": 0,
-   "racha_btts": 0
+   "racha_btts": 1
   },
   {
    "equipo": "CA Osasuna",
@@ -251,12 +251,28 @@
    "racha_btts": 1
   },
   {
+   "equipo": "Arsenal FC",
+   "partidos": 87,
+   "pct_over25": 48,
+   "pct_btts": 49,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
    "equipo": "Everton FC",
    "partidos": 86,
    "pct_over25": 40,
    "pct_btts": 45,
    "racha_over25": 1,
    "racha_btts": 1
+  },
+  {
+   "equipo": "Newcastle United FC",
+   "partidos": 87,
+   "pct_over25": 61,
+   "pct_btts": 59,
+   "racha_over25": 1,
+   "racha_btts": 2
   },
   {
    "equipo": "Southampton FC",
@@ -299,14 +315,6 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Arsenal FC",
-   "partidos": 86,
-   "pct_over25": 48,
-   "pct_btts": 49,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Wolverhampton Wanderers FC",
    "partidos": 76,
    "pct_over25": 55,
@@ -321,14 +329,6 @@
    "pct_btts": 58,
    "racha_over25": 0,
    "racha_btts": 0
-  },
-  {
-   "equipo": "Newcastle United FC",
-   "partidos": 86,
-   "pct_over25": 60,
-   "pct_btts": 58,
-   "racha_over25": 0,
-   "racha_btts": 1
   },
   {
    "equipo": "Nottingham Forest FC",

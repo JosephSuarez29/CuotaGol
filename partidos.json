@@ -1,116 +1,11 @@
 {
- "generado": "2026-11-21T17:53+00:00",
+ "generado": "2026-11-22T02:57+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 564754,
-   "liga": "PD",
-   "fecha": "2026-11-21T20:00:00Z",
-   "local": "Real Madrid",
-   "visitante": "Celta",
-   "forma_local": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "E",
-    "G",
-    "E",
-    "P",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 43,
-     "o25": 63,
-     "btts": 56,
-     "gf": 2.5,
-     "gc": 0.9,
-     "rem": 19.0,
-     "rem_c": 10.3,
-     "pta": 7.8,
-     "pta_c": 3.0,
-     "esq": 7.4,
-     "esq_c": 3.4,
-     "fal": 8.9,
-     "fal_c": 13.4,
-     "tar": 1.7,
-     "tar_c": 2.2,
-     "esq_t": 10.8,
-     "n_x": 43
-    },
-    "visita": {
-     "n": 43,
-     "o25": 51,
-     "btts": 63,
-     "gf": 1.2,
-     "gc": 1.4,
-     "rem": 9.9,
-     "rem_c": 12.4,
-     "pta": 3.6,
-     "pta_c": 4.4,
-     "esq": 3.2,
-     "esq_c": 4.9,
-     "fal": 12.8,
-     "fal_c": 12.1,
-     "tar": 2.3,
-     "tar_c": 2.3,
-     "esq_t": 8.1,
-     "n_x": 43
-    }
-   },
-   "modelo": {
-    "lam_l": 2.15,
-    "lam_v": 0.97,
-    "p1": 64,
-    "px": 20,
-    "p2": 16,
-    "o15": 82,
-    "o25": 60,
-    "o35": 38,
-    "btts": 55,
-    "pc0_l": 38,
-    "pc0_v": 12
-   },
-   "h2h": {
-    "todos": {
-     "vl": 15,
-     "e": 2,
-     "vv": 1,
-     "gl": 49,
-     "gv": 18,
-     "o15": 17,
-     "o25": 13,
-     "o35": 10,
-     "btts": 11,
-     "pc0_l": 6,
-     "pc0_v": 1,
-     "n": 18
-    },
-    "ult5": {
-     "vl": 4,
-     "e": 0,
-     "vv": 1,
-     "gl": 11,
-     "gv": 6,
-     "o15": 5,
-     "o25": 4,
-     "o35": 2,
-     "btts": 3,
-     "pc0_l": 1,
-     "pc0_v": 1,
-     "n": 5
-    }
-   }
-  },
   {
    "id": 564749,
    "liga": "PD",
@@ -1098,11 +993,11 @@
    "local": "Arsenal",
    "visitante": "Dortmund",
    "forma_local": [
-    "E",
     "G",
     "G",
     "G",
-    "G"
+    "G",
+    "E"
    ],
    "forma_visita": [
     "P",
@@ -1208,11 +1103,11 @@
     "P"
    ],
    "forma_visita": [
-    "G",
     "E",
     "G",
     "P",
-    "G"
+    "G",
+    "E"
    ],
    "cruces": [],
    "resumen": {
@@ -1999,11 +1894,11 @@
    "local": "Real Betis",
    "visitante": "Rayo Vallecano",
    "forma_local": [
-    "G",
     "E",
     "G",
     "P",
-    "G"
+    "G",
+    "E"
    ],
    "forma_visita": [
     "E",
@@ -2451,7 +2346,7 @@
     "px": 23,
     "p2": 56,
     "o15": 79,
-    "o25": 57,
+    "o25": 56,
     "o35": 34,
     "btts": 56,
     "pc0_l": 15,
@@ -2592,9 +2487,303 @@
      "n": 5
     }
    }
+  },
+  {
+   "id": 564762,
+   "liga": "PD",
+   "fecha": "2026-11-28T20:00:00Z",
+   "local": "Real Madrid",
+   "visitante": "Alavés",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "P",
+    "E",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 44,
+     "o25": 64,
+     "btts": 57,
+     "gf": 2.5,
+     "gc": 0.9,
+     "rem": 19.0,
+     "rem_c": 10.3,
+     "pta": 7.8,
+     "pta_c": 3.0,
+     "esq": 7.4,
+     "esq_c": 3.4,
+     "fal": 8.9,
+     "fal_c": 13.4,
+     "tar": 1.7,
+     "tar_c": 2.2,
+     "esq_t": 10.8,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 44,
+     "o25": 50,
+     "btts": 59,
+     "gf": 1.1,
+     "gc": 1.7,
+     "rem": 11.2,
+     "rem_c": 12.4,
+     "pta": 3.6,
+     "pta_c": 4.2,
+     "esq": 4.0,
+     "esq_c": 5.0,
+     "fal": 15.9,
+     "fal_c": 13.4,
+     "tar": 2.8,
+     "tar_c": 2.1,
+     "esq_t": 8.9,
+     "n_x": 44
+    }
+   },
+   "modelo": {
+    "lam_l": 2.47,
+    "lam_v": 0.88,
+    "p1": 72,
+    "px": 17,
+    "p2": 11,
+    "o15": 85,
+    "o25": 65,
+    "o35": 43,
+    "btts": 53,
+    "pc0_l": 42,
+    "pc0_v": 8
+   },
+   "h2h": {
+    "todos": {
+     "vl": 14,
+     "e": 0,
+     "vv": 2,
+     "gl": 39,
+     "gv": 11,
+     "o15": 13,
+     "o25": 12,
+     "o35": 5,
+     "btts": 8,
+     "pc0_l": 7,
+     "pc0_v": 1,
+     "n": 16
+    },
+    "ult5": {
+     "vl": 5,
+     "e": 0,
+     "vv": 0,
+     "gl": 13,
+     "gv": 4,
+     "o15": 4,
+     "o25": 4,
+     "o35": 2,
+     "btts": 3,
+     "pc0_l": 2,
+     "pc0_v": 0,
+     "n": 5
+    }
+   }
   }
  ],
  "recientes": [
+  {
+   "id": 564754,
+   "liga": "PD",
+   "fecha": "2026-11-21T20:00:00Z",
+   "local": "Real Madrid",
+   "visitante": "Celta",
+   "forma_local": [
+    "G",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "E",
+    "P",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 63,
+     "btts": 56,
+     "gf": 2.5,
+     "gc": 0.9,
+     "rem": 19.0,
+     "rem_c": 10.3,
+     "pta": 7.8,
+     "pta_c": 3.0,
+     "esq": 7.4,
+     "esq_c": 3.4,
+     "fal": 8.9,
+     "fal_c": 13.4,
+     "tar": 1.7,
+     "tar_c": 2.2,
+     "esq_t": 10.8,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 43,
+     "o25": 51,
+     "btts": 63,
+     "gf": 1.2,
+     "gc": 1.4,
+     "rem": 9.9,
+     "rem_c": 12.4,
+     "pta": 3.6,
+     "pta_c": 4.4,
+     "esq": 3.2,
+     "esq_c": 4.9,
+     "fal": 12.8,
+     "fal_c": 12.1,
+     "tar": 2.3,
+     "tar_c": 2.3,
+     "esq_t": 8.1,
+     "n_x": 43
+    }
+   },
+   "marcador": "2-1"
+  },
+  {
+   "id": 560651,
+   "liga": "PL",
+   "fecha": "2026-11-21T17:30:00Z",
+   "local": "Newcastle",
+   "visitante": "Arsenal",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "E",
+    "G",
+    "G",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 43,
+     "o25": 70,
+     "btts": 60,
+     "gf": 1.9,
+     "gc": 1.3,
+     "rem": 14.7,
+     "rem_c": 13.1,
+     "pta": 5.0,
+     "pta_c": 4.5,
+     "esq": 6.2,
+     "esq_c": 5.2,
+     "fal": 11.2,
+     "fal_c": 12.9,
+     "tar": 2.0,
+     "tar_c": 3.0,
+     "esq_t": 11.3,
+     "n_x": 43
+    },
+    "visita": {
+     "n": 43,
+     "o25": 40,
+     "btts": 49,
+     "gf": 1.6,
+     "gc": 0.8,
+     "rem": 12.5,
+     "rem_c": 10.4,
+     "pta": 4.3,
+     "pta_c": 3.2,
+     "esq": 5.5,
+     "esq_c": 3.8,
+     "fal": 10.7,
+     "fal_c": 11.3,
+     "tar": 1.8,
+     "tar_c": 2.1,
+     "esq_t": 9.3,
+     "n_x": 43
+    }
+   },
+   "marcador": "2-2"
+  },
+  {
+   "id": 564756,
+   "liga": "PD",
+   "fecha": "2026-11-21T17:30:00Z",
+   "local": "Sevilla FC",
+   "visitante": "Real Betis",
+   "forma_local": [
+    "E",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "G",
+    "P",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 44,
+     "o25": 41,
+     "btts": 55,
+     "gf": 1.1,
+     "gc": 1.2,
+     "rem": 12.9,
+     "rem_c": 10.1,
+     "pta": 4.1,
+     "pta_c": 3.4,
+     "esq": 4.8,
+     "esq_c": 3.7,
+     "fal": 14.2,
+     "fal_c": 13.1,
+     "tar": 2.9,
+     "tar_c": 2.7,
+     "esq_t": 8.5,
+     "n_x": 44
+    },
+    "visita": {
+     "n": 44,
+     "o25": 50,
+     "btts": 70,
+     "gf": 1.3,
+     "gc": 1.5,
+     "rem": 12.9,
+     "rem_c": 13.3,
+     "pta": 4.7,
+     "pta_c": 4.9,
+     "esq": 4.7,
+     "esq_c": 5.5,
+     "fal": 10.8,
+     "fal_c": 13.3,
+     "tar": 1.8,
+     "tar_c": 2.2,
+     "esq_t": 10.2,
+     "n_x": 44
+    }
+   },
+   "marcador": "1-1"
+  },
   {
    "id": 564751,
    "liga": "PD",
