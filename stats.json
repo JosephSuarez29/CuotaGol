@@ -25,12 +25,20 @@
    "racha_btts": 2
   },
   {
-   "equipo": "Málaga CF",
-   "partidos": 12,
-   "pct_over25": 42,
-   "pct_btts": 67,
+   "equipo": "Club Atlético de Madrid",
+   "partidos": 89,
+   "pct_over25": 51,
+   "pct_btts": 47,
    "racha_over25": 2,
-   "racha_btts": 5
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Getafe CF",
+   "partidos": 89,
+   "pct_over25": 31,
+   "pct_btts": 35,
+   "racha_over25": 1,
+   "racha_btts": 0
   },
   {
    "equipo": "RC Celta de Vigo",
@@ -89,14 +97,6 @@
    "racha_btts": 1
   },
   {
-   "equipo": "Club Atlético de Madrid",
-   "partidos": 88,
-   "pct_over25": 50,
-   "pct_btts": 48,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
    "equipo": "Real Oviedo",
    "partidos": 38,
    "pct_over25": 39,
@@ -117,14 +117,6 @@
    "partidos": 88,
    "pct_over25": 42,
    "pct_btts": 50,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Getafe CF",
-   "partidos": 88,
-   "pct_over25": 31,
-   "pct_btts": 35,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -162,11 +154,11 @@
   },
   {
    "equipo": "CA Osasuna",
-   "partidos": 88,
-   "pct_over25": 47,
-   "pct_btts": 58,
+   "partidos": 89,
+   "pct_over25": 46,
+   "pct_btts": 57,
    "racha_over25": 0,
-   "racha_btts": 2
+   "racha_btts": 0
   },
   {
    "equipo": "Valencia CF",
@@ -207,6 +199,14 @@
    "pct_btts": 66,
    "racha_over25": 0,
    "racha_btts": 0
+  },
+  {
+   "equipo": "Málaga CF",
+   "partidos": 13,
+   "pct_over25": 38,
+   "pct_btts": 62,
+   "racha_over25": 0,
+   "racha_btts": 0
   }
  ],
  "PL": [
@@ -217,6 +217,22 @@
    "pct_btts": 45,
    "racha_over25": 3,
    "racha_btts": 3
+  },
+  {
+   "equipo": "Manchester United FC",
+   "partidos": 87,
+   "pct_over25": 55,
+   "pct_btts": 56,
+   "racha_over25": 2,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Liverpool FC",
+   "partidos": 87,
+   "pct_over25": 61,
+   "pct_btts": 61,
+   "racha_over25": 2,
+   "racha_btts": 0
   },
   {
    "equipo": "West Ham United FC",
@@ -233,22 +249,6 @@
    "pct_btts": 55,
    "racha_over25": 2,
    "racha_btts": 2
-  },
-  {
-   "equipo": "Manchester United FC",
-   "partidos": 86,
-   "pct_over25": 55,
-   "pct_btts": 57,
-   "racha_over25": 1,
-   "racha_btts": 1
-  },
-  {
-   "equipo": "Liverpool FC",
-   "partidos": 86,
-   "pct_over25": 60,
-   "pct_btts": 62,
-   "racha_over25": 1,
-   "racha_btts": 1
   },
   {
    "equipo": "Arsenal FC",
