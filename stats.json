@@ -421,14 +421,6 @@
    "racha_btts": 1
   },
   {
-   "equipo": "Aston Villa FC",
-   "partidos": 16,
-   "pct_over25": 69,
-   "pct_btts": 44,
-   "racha_over25": 9,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Real Madrid CF",
    "partidos": 32,
    "pct_over25": 84,
@@ -579,14 +571,6 @@
    "pct_btts": 75,
    "racha_over25": 3,
    "racha_btts": 3
-  },
-  {
-   "equipo": "LASK Linz",
-   "partidos": 4,
-   "pct_over25": 75,
-   "pct_btts": 50,
-   "racha_over25": 3,
-   "racha_btts": 0
   },
   {
    "equipo": "Fenerbahçe SK",
@@ -789,6 +773,14 @@
    "racha_btts": 0
   },
   {
+   "equipo": "Aston Villa FC",
+   "partidos": 17,
+   "pct_over25": 65,
+   "pct_btts": 41,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
    "equipo": "Sporting Clube de Portugal",
    "partidos": 26,
    "pct_over25": 62,
@@ -902,9 +894,9 @@
   },
   {
    "equipo": "FK Bodø/Glimt",
-   "partidos": 16,
-   "pct_over25": 81,
-   "pct_btts": 62,
+   "partidos": 17,
+   "pct_over25": 76,
+   "pct_btts": 59,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -926,9 +918,17 @@
   },
   {
    "equipo": "Galatasaray SK",
-   "partidos": 16,
-   "pct_over25": 56,
-   "pct_btts": 50,
+   "partidos": 17,
+   "pct_over25": 53,
+   "pct_btts": 47,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "LASK Linz",
+   "partidos": 5,
+   "pct_over25": 60,
+   "pct_btts": 40,
    "racha_over25": 0,
    "racha_btts": 0
   }

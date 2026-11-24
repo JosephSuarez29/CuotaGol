@@ -1,484 +1,11 @@
 {
- "generado": "2026-11-24T06:53+00:00",
+ "generado": "2026-11-24T21:00+00:00",
  "ligas": {
   "PL": "Premier League",
   "PD": "La Liga",
   "CL": "Champions League"
  },
  "proximos": [
-  {
-   "id": 575395,
-   "liga": "CL",
-   "fecha": "2026-11-24T17:45:00Z",
-   "local": "Galatasaray",
-   "visitante": "Aston Villa",
-   "forma_local": [
-    "P",
-    "P",
-    "P",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "E",
-    "P",
-    "E",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 8,
-     "o25": 38,
-     "btts": 50,
-     "gf": 1.8,
-     "gc": 1.1
-    },
-    "visita": {
-     "n": 8,
-     "o25": 75,
-     "btts": 50,
-     "gf": 1.6,
-     "gc": 1.6
-    }
-   },
-   "modelo": {
-    "lam_l": 1.73,
-    "lam_v": 1.38,
-    "p1": 46,
-    "px": 23,
-    "p2": 31,
-    "o15": 82,
-    "o25": 60,
-    "o35": 38,
-    "btts": 62,
-    "pc0_l": 25,
-    "pc0_v": 18
-   },
-   "h2h": null
-  },
-  {
-   "id": 575396,
-   "liga": "CL",
-   "fecha": "2026-11-24T17:45:00Z",
-   "local": "Bodø/Glimt",
-   "visitante": "LASK",
-   "forma_local": [
-    "P",
-    "P",
-    "G",
-    "P",
-    "E"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 8,
-     "o25": 62,
-     "btts": 50,
-     "gf": 1.8,
-     "gc": 1.0
-    },
-    "visita": {
-     "n": 2,
-     "o25": 50,
-     "btts": 50,
-     "gf": 1.5,
-     "gc": 1.5
-    }
-   },
-   "modelo": {
-    "lam_l": 1.81,
-    "lam_v": 1.28,
-    "p1": 50,
-    "px": 23,
-    "p2": 27,
-    "o15": 81,
-    "o25": 60,
-    "o35": 37,
-    "btts": 60,
-    "pc0_l": 28,
-    "pc0_v": 16
-   },
-   "h2h": null
-  },
-  {
-   "id": 575397,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Real Madrid",
-   "visitante": "PSV",
-   "forma_local": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "P",
-    "E",
-    "P",
-    "G",
-    "P"
-   ],
-   "cruces": [
-    {
-     "mercado": "btts",
-     "titulo": "Ambos anotan",
-     "nivel": "moderado",
-     "local_pct": 88,
-     "local_n": 16,
-     "visita_pct": 67,
-     "visita_n": 12
-    }
-   ],
-   "resumen": {
-    "local": {
-     "n": 16,
-     "o25": 94,
-     "btts": 88,
-     "gf": 2.6,
-     "gc": 1.2
-    },
-    "visita": {
-     "n": 12,
-     "o25": 50,
-     "btts": 67,
-     "gf": 1.2,
-     "gc": 1.5
-    }
-   },
-   "modelo": {
-    "lam_l": 2.06,
-    "lam_v": 1.22,
-    "p1": 57,
-    "px": 21,
-    "p2": 22,
-    "o15": 84,
-    "o25": 64,
-    "o35": 42,
-    "btts": 62,
-    "pc0_l": 29,
-    "pc0_v": 13
-   },
-   "h2h": null
-  },
-  {
-   "id": 575398,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Man City",
-   "visitante": "Napoli",
-   "forma_local": [
-    "P",
-    "P",
-    "G",
-    "P",
-    "E"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "P",
-    "G",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 12,
-     "o25": 67,
-     "btts": 58,
-     "gf": 2.4,
-     "gc": 1.4
-    },
-    "visita": {
-     "n": 6,
-     "o25": 50,
-     "btts": 67,
-     "gf": 0.8,
-     "gc": 3.0
-    }
-   },
-   "modelo": {
-    "lam_l": 2.64,
-    "lam_v": 1.21,
-    "p1": 68,
-    "px": 17,
-    "p2": 15,
-    "o15": 90,
-    "o25": 74,
-    "o35": 54,
-    "btts": 65,
-    "pc0_l": 30,
-    "pc0_v": 7
-   },
-   "h2h": null
-  },
-  {
-   "id": 575399,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Arsenal",
-   "visitante": "Dortmund",
-   "forma_local": [
-    "G",
-    "G",
-    "G",
-    "G",
-    "E"
-   ],
-   "forma_visita": [
-    "P",
-    "G",
-    "P",
-    "G",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 15,
-     "o25": 53,
-     "btts": 20,
-     "gf": 2.1,
-     "gc": 0.4
-    },
-    "visita": {
-     "n": 14,
-     "o25": 86,
-     "btts": 57,
-     "gf": 1.9,
-     "gc": 2.1
-    }
-   },
-   "modelo": {
-    "lam_l": 2.17,
-    "lam_v": 0.96,
-    "p1": 65,
-    "px": 19,
-    "p2": 16,
-    "o15": 82,
-    "o25": 60,
-    "o35": 38,
-    "btts": 55,
-    "pc0_l": 38,
-    "pc0_v": 11
-   },
-   "h2h": null
-  },
-  {
-   "id": 575400,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Feyenoord",
-   "visitante": "Porto",
-   "forma_local": [
-    "P",
-    "P",
-    "G",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "P",
-    "P",
-    "P",
-    "G"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 8,
-     "o25": 75,
-     "btts": 38,
-     "gf": 1.5,
-     "gc": 2.0
-    },
-    "visita": {
-     "n": 1,
-     "o25": 100,
-     "btts": 100,
-     "gf": 2.0,
-     "gc": 3.0
-    }
-   },
-   "modelo": {
-    "lam_l": 1.86,
-    "lam_v": 1.78,
-    "p1": 41,
-    "px": 21,
-    "p2": 38,
-    "o15": 88,
-    "o25": 70,
-    "o35": 49,
-    "btts": 70,
-    "pc0_l": 17,
-    "pc0_v": 16
-   },
-   "h2h": null
-  },
-  {
-   "id": 575401,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Sl. Bratislava",
-   "visitante": "Real Betis",
-   "forma_local": [
-    "P",
-    "P",
-    "P",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "E",
-    "G",
-    "P",
-    "G",
-    "E"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 5,
-     "o25": 100,
-     "btts": 60,
-     "gf": 0.8,
-     "gc": 3.4
-    },
-    "visita": {
-     "n": 2,
-     "o25": 100,
-     "btts": 100,
-     "gf": 2.0,
-     "gc": 2.0
-    }
-   },
-   "modelo": {
-    "lam_l": 1.6,
-    "lam_v": 2.26,
-    "p1": 27,
-    "px": 20,
-    "p2": 53,
-    "o15": 90,
-    "o25": 74,
-    "o35": 54,
-    "btts": 71,
-    "pc0_l": 10,
-    "pc0_v": 20
-   },
-   "h2h": null
-  },
-  {
-   "id": 575402,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "RB Leipzig",
-   "visitante": "RC Lens",
-   "forma_local": [
-    "P",
-    "P",
-    "G",
-    "P",
-    "P"
-   ],
-   "forma_visita": [
-    "G",
-    "P",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 6,
-     "o25": 67,
-     "btts": 67,
-     "gf": 1.5,
-     "gc": 1.8
-    },
-    "visita": {
-     "n": 2,
-     "o25": 100,
-     "btts": 50,
-     "gf": 1.5,
-     "gc": 2.5
-    }
-   },
-   "modelo": {
-    "lam_l": 1.89,
-    "lam_v": 1.63,
-    "p1": 44,
-    "px": 22,
-    "p2": 34,
-    "o15": 87,
-    "o25": 68,
-    "o35": 47,
-    "btts": 68,
-    "pc0_l": 20,
-    "pc0_v": 15
-   },
-   "h2h": null
-  },
-  {
-   "id": 575403,
-   "liga": "CL",
-   "fecha": "2026-11-24T20:00:00Z",
-   "local": "Como 1907",
-   "visitante": "PAE AEK",
-   "forma_local": [
-    "G",
-    "P",
-    "G",
-    "G"
-   ],
-   "forma_visita": [
-    "G",
-    "P",
-    "P",
-    "P"
-   ],
-   "cruces": [],
-   "resumen": {
-    "local": {
-     "n": 2,
-     "o25": 100,
-     "btts": 100,
-     "gf": 4.0,
-     "gc": 1.0
-    },
-    "visita": {
-     "n": 2,
-     "o25": 100,
-     "btts": 100,
-     "gf": 1.0,
-     "gc": 4.0
-    }
-   },
-   "modelo": {
-    "lam_l": 2.72,
-    "lam_v": 1.35,
-    "p1": 66,
-    "px": 17,
-    "p2": 17,
-    "o15": 91,
-    "o25": 77,
-    "o35": 58,
-    "btts": 69,
-    "pc0_l": 26,
-    "pc0_v": 7
-   },
-   "h2h": null
-  },
   {
    "id": 575404,
    "liga": "CL",
@@ -884,7 +411,7 @@
     "px": 20,
     "p2": 20,
     "o15": 87,
-    "o25": 70,
+    "o25": 69,
     "o35": 48,
     "btts": 65,
     "pc0_l": 28,
@@ -937,7 +464,7 @@
     "o15": 87,
     "o25": 69,
     "o35": 47,
-    "btts": 68,
+    "btts": 67,
     "pc0_l": 23,
     "pc0_v": 13
    },
@@ -1529,11 +1056,11 @@
     "P"
    ],
    "forma_visita": [
-    "G",
     "E",
     "P",
     "E",
-    "E"
+    "E",
+    "P"
    ],
    "cruces": [],
    "resumen": {
@@ -2975,9 +2502,162 @@
      "n": 5
     }
    }
+  },
+  {
+   "id": 560668,
+   "liga": "PL",
+   "fecha": "2026-12-01T20:00:00Z",
+   "local": "Coventry City",
+   "visitante": "Ipswich Town",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "G"
+   ],
+   "forma_visita": [
+    "P",
+    "E",
+    "E",
+    "P",
+    "P"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 6,
+     "o25": 67,
+     "btts": 50,
+     "gf": 1.7,
+     "gc": 1.8,
+     "rem": 11.7,
+     "rem_c": 15.0,
+     "pta": 4.7,
+     "pta_c": 4.2,
+     "esq": 4.2,
+     "esq_c": 4.5,
+     "fal": 10.0,
+     "fal_c": 11.2,
+     "tar": 0.8,
+     "tar_c": 1.8,
+     "esq_t": 8.7,
+     "n_x": 6
+    },
+    "visita": {
+     "n": 25,
+     "o25": 64,
+     "btts": 68,
+     "gf": 1.2,
+     "gc": 2.1,
+     "rem": 9.4,
+     "rem_c": 17.7,
+     "pta": 3.3,
+     "pta_c": 5.8,
+     "esq": 3.6,
+     "esq_c": 7.0,
+     "fal": 12.8,
+     "fal_c": 10.0,
+     "tar": 2.5,
+     "tar_c": 1.7,
+     "esq_t": 10.6,
+     "n_x": 25
+    }
+   },
+   "modelo": {
+    "lam_l": 2.02,
+    "lam_v": 1.45,
+    "p1": 51,
+    "px": 21,
+    "p2": 28,
+    "o15": 86,
+    "o25": 67,
+    "o35": 46,
+    "btts": 66,
+    "pc0_l": 23,
+    "pc0_v": 13
+   },
+   "h2h": null
   }
  ],
  "recientes": [
+  {
+   "id": 575395,
+   "liga": "CL",
+   "fecha": "2026-11-24T17:45:00Z",
+   "local": "Galatasaray",
+   "visitante": "Aston Villa",
+   "forma_local": [
+    "P",
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "forma_visita": [
+    "G",
+    "E",
+    "P",
+    "E",
+    "E"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 8,
+     "o25": 38,
+     "btts": 50,
+     "gf": 1.8,
+     "gc": 1.1
+    },
+    "visita": {
+     "n": 8,
+     "o25": 75,
+     "btts": 50,
+     "gf": 1.6,
+     "gc": 1.6
+    }
+   },
+   "marcador": "1-0"
+  },
+  {
+   "id": 575396,
+   "liga": "CL",
+   "fecha": "2026-11-24T17:45:00Z",
+   "local": "Bodø/Glimt",
+   "visitante": "LASK",
+   "forma_local": [
+    "P",
+    "P",
+    "G",
+    "P",
+    "E"
+   ],
+   "forma_visita": [
+    "P",
+    "P",
+    "G",
+    "G"
+   ],
+   "cruces": [],
+   "resumen": {
+    "local": {
+     "n": 8,
+     "o25": 62,
+     "btts": 50,
+     "gf": 1.8,
+     "gc": 1.0
+    },
+    "visita": {
+     "n": 2,
+     "o25": 50,
+     "btts": 50,
+     "gf": 1.5,
+     "gc": 1.5
+    }
+   },
+   "marcador": "1-0"
+  },
   {
    "id": 560649,
    "liga": "PL",
