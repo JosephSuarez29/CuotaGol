@@ -414,11 +414,11 @@
  "CL": [
   {
    "equipo": "Club Brugge KV",
-   "partidos": 26,
+   "partidos": 27,
    "pct_over25": 85,
-   "pct_btts": 62,
-   "racha_over25": 19,
-   "racha_btts": 1
+   "pct_btts": 59,
+   "racha_over25": 20,
+   "racha_btts": 0
   },
   {
    "equipo": "Real Madrid CF",
@@ -429,11 +429,27 @@
    "racha_btts": 8
   },
   {
-   "equipo": "Villarreal CF",
-   "partidos": 12,
-   "pct_over25": 75,
-   "pct_btts": 50,
-   "racha_over25": 8,
+   "equipo": "Paris Saint-Germain FC",
+   "partidos": 39,
+   "pct_over25": 72,
+   "pct_btts": 62,
+   "racha_over25": 6,
+   "racha_btts": 1
+  },
+  {
+   "equipo": "FC Barcelona",
+   "partidos": 31,
+   "pct_over25": 90,
+   "pct_btts": 77,
+   "racha_over25": 6,
+   "racha_btts": 1
+  },
+  {
+   "equipo": "Liverpool FC",
+   "partidos": 27,
+   "pct_over25": 59,
+   "pct_btts": 41,
+   "racha_over25": 5,
    "racha_btts": 0
   },
   {
@@ -445,36 +461,12 @@
    "racha_btts": 2
   },
   {
-   "equipo": "Paris Saint-Germain FC",
-   "partidos": 38,
-   "pct_over25": 71,
-   "pct_btts": 61,
-   "racha_over25": 5,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "FC Barcelona",
-   "partidos": 30,
-   "pct_over25": 90,
-   "pct_btts": 77,
-   "racha_over25": 5,
-   "racha_btts": 0
-  },
-  {
    "equipo": "Qarabağ Ağdam FK",
    "partidos": 10,
    "pct_over25": 80,
    "pct_btts": 70,
    "racha_over25": 5,
    "racha_btts": 2
-  },
-  {
-   "equipo": "Liverpool FC",
-   "partidos": 26,
-   "pct_over25": 58,
-   "pct_btts": 42,
-   "racha_over25": 4,
-   "racha_btts": 4
   },
   {
    "equipo": "Manchester City FC",
@@ -501,12 +493,12 @@
    "racha_btts": 4
   },
   {
-   "equipo": "Viking FK",
-   "partidos": 4,
-   "pct_over25": 100,
-   "pct_btts": 100,
+   "equipo": "AS Roma",
+   "partidos": 5,
+   "pct_over25": 80,
+   "pct_btts": 80,
    "racha_over25": 4,
-   "racha_btts": 4
+   "racha_btts": 2
   },
   {
    "equipo": "Stade Brestois 29",
@@ -549,20 +541,20 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Fenerbahçe SK",
-   "partidos": 4,
-   "pct_over25": 75,
-   "pct_btts": 75,
+   "equipo": "Manchester United FC",
+   "partidos": 5,
+   "pct_over25": 80,
+   "pct_btts": 60,
    "racha_over25": 3,
-   "racha_btts": 2
+   "racha_btts": 3
   },
   {
-   "equipo": "AS Roma",
-   "partidos": 4,
-   "pct_over25": 75,
-   "pct_btts": 75,
+   "equipo": "Sabah FK",
+   "partidos": 5,
+   "pct_over25": 80,
+   "pct_btts": 60,
    "racha_over25": 3,
-   "racha_btts": 1
+   "racha_btts": 3
   },
   {
    "equipo": "Racing Club de Lens",
@@ -621,14 +613,6 @@
    "racha_btts": 2
   },
   {
-   "equipo": "SK Slavia Praha",
-   "partidos": 12,
-   "pct_over25": 75,
-   "pct_btts": 50,
-   "racha_over25": 2,
-   "racha_btts": 2
-  },
-  {
    "equipo": "FK Kairat",
    "partidos": 8,
    "pct_over25": 75,
@@ -637,28 +621,28 @@
    "racha_btts": 2
   },
   {
-   "equipo": "Manchester United FC",
-   "partidos": 4,
-   "pct_over25": 75,
-   "pct_btts": 50,
-   "racha_over25": 2,
-   "racha_btts": 2
-  },
-  {
-   "equipo": "Sabah FK",
-   "partidos": 4,
-   "pct_over25": 75,
-   "pct_btts": 50,
-   "racha_over25": 2,
-   "racha_btts": 2
-  },
-  {
-   "equipo": "FC Internazionale Milano",
-   "partidos": 29,
-   "pct_over25": 62,
-   "pct_btts": 41,
+   "equipo": "Sporting Clube de Portugal",
+   "partidos": 27,
+   "pct_over25": 63,
+   "pct_btts": 59,
    "racha_over25": 1,
-   "racha_btts": 0
+   "racha_btts": 1
+  },
+  {
+   "equipo": "Lille OSC",
+   "partidos": 15,
+   "pct_over25": 67,
+   "pct_btts": 73,
+   "racha_over25": 1,
+   "racha_btts": 1
+  },
+  {
+   "equipo": "FC Bayern München",
+   "partidos": 33,
+   "pct_over25": 76,
+   "pct_btts": 70,
+   "racha_over25": 1,
+   "racha_btts": 1
   },
   {
    "equipo": "Girona FC",
@@ -717,34 +701,10 @@
    "racha_btts": 0
   },
   {
-   "equipo": "Sporting Clube de Portugal",
-   "partidos": 26,
-   "pct_over25": 62,
-   "pct_btts": 58,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "Lille OSC",
-   "partidos": 14,
-   "pct_over25": 64,
-   "pct_btts": 71,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
-   "equipo": "FC Bayern München",
-   "partidos": 32,
-   "pct_over25": 75,
-   "pct_btts": 69,
-   "racha_over25": 0,
-   "racha_btts": 0
-  },
-  {
    "equipo": "VfB Stuttgart",
-   "partidos": 12,
-   "pct_over25": 58,
-   "pct_btts": 67,
+   "partidos": 13,
+   "pct_over25": 54,
+   "pct_btts": 62,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -766,9 +726,9 @@
   },
   {
    "equipo": "FK Shakhtar Donetsk",
-   "partidos": 12,
-   "pct_over25": 50,
-   "pct_btts": 50,
+   "partidos": 13,
+   "pct_over25": 46,
+   "pct_btts": 46,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -777,6 +737,14 @@
    "partidos": 8,
    "pct_over25": 62,
    "pct_btts": 38,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "FC Internazionale Milano",
+   "partidos": 30,
+   "pct_over25": 60,
+   "pct_btts": 40,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -846,9 +814,9 @@
   },
   {
    "equipo": "Club Atlético de Madrid",
-   "partidos": 30,
-   "pct_over25": 77,
-   "pct_btts": 77,
+   "partidos": 31,
+   "pct_over25": 74,
+   "pct_btts": 74,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -857,6 +825,22 @@
    "partidos": 8,
    "pct_over25": 62,
    "pct_btts": 38,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Villarreal CF",
+   "partidos": 13,
+   "pct_over25": 69,
+   "pct_btts": 46,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "SK Slavia Praha",
+   "partidos": 13,
+   "pct_over25": 69,
+   "pct_btts": 46,
    "racha_over25": 0,
    "racha_btts": 0
   },
@@ -918,6 +902,22 @@
   },
   {
    "equipo": "Real Betis Balompié",
+   "partidos": 5,
+   "pct_over25": 60,
+   "pct_btts": 60,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Viking FK",
+   "partidos": 5,
+   "pct_over25": 80,
+   "pct_btts": 80,
+   "racha_over25": 0,
+   "racha_btts": 0
+  },
+  {
+   "equipo": "Fenerbahçe SK",
    "partidos": 5,
    "pct_over25": 60,
    "pct_btts": 60,
